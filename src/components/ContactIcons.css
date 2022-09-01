@@ -6,4 +6,9 @@
 .social-media-icons-white a {
     color: white;
     font-size: 3.5rem;
-}
+    -webkit-transition: all 0.2s ease;
+ }
+ 
+ .social-media-icons-white a:hover {
+    color: #F44336;
+ }
