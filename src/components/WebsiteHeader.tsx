@@ -11,8 +11,9 @@ const WebsiteHeader = () => {
         <Container>
           <NavbarBrand href="#/">vincent langlois</NavbarBrand>
           <Nav className="ml-auto">
-            <NavLink href="#/about">about</NavLink>
-            <NavLink href="#/contact">contact</NavLink>
+            <NavLink href="#/about">📖about</NavLink>
+            <NavLink href="#/work">📁work</NavLink>
+            <NavLink href="#/contact">✉️contact</NavLink>
           </Nav>
         </Container>
       </Navbar>
