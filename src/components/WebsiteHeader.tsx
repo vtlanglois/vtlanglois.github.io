@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavLink } from "reactstrap";
+import { SelectEmoji } from "./EmojiSelector";
 import "./WebsiteHeader.css"
 
 const WebsiteHeader = () => {
@@ -7,11 +8,8 @@ const WebsiteHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-  
-  const emoji = "🧠";
 
-  const currentDateTime = new Date().getDate();
-
+  const emoji = SelectEmoji();
     return (
         <div>
         <Navbar dark color="dark" container="lg" expand="sm">
