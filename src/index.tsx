@@ -1,7 +1,7 @@
 import reportWebVitals from './reportWebVitals';
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./Home";
+import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 import Contact from './Contact';
@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/home" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />}/>
       </Routes>

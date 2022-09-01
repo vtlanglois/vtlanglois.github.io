@@ -9,7 +9,7 @@ const WebsiteHeader = () => {
         <div>
         <Navbar bg="dark" variant="dark">
         <Container>
-          <NavbarBrand href="#/home">vincent langlois</NavbarBrand>
+          <NavbarBrand href="#/">vincent langlois</NavbarBrand>
           <Nav className="ml-auto">
             <NavLink href="#/about">about</NavLink>
             <NavLink href="#/contact">contact</NavLink>
