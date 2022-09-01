@@ -13,7 +13,7 @@ const WebsiteHeader = () => {
     return (
         <div>
         <Navbar dark color="dark" container="lg" expand="sm">
-          <NavbarBrand href="#/">{emoji}vincent langlois</NavbarBrand>
+          <NavbarBrand className="brand-name" href="#/"><b>{emoji}vincent langlois</b></NavbarBrand>
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
