@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavLink } from "reactstrap";
-//import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./WebsiteHeader.css"
 
 const WebsiteHeader = () => {
@@ -10,13 +8,17 @@ const WebsiteHeader = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   
+  const emoji = "🧠";
+
+  const currentDateTime = new Date().getDate();
+
     return (
         <div>
-        <Navbar dark color="dark" container="md" expand="md">
-          <NavbarBrand href="#/">vincent langlois</NavbarBrand>
+        <Navbar dark color="dark" container="lg" expand="sm">
+          <NavbarBrand href="#/">{emoji}vincent langlois</NavbarBrand>
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ms-auto" navbar>
             <NavLink href="#/about">📖about</NavLink>
             <NavLink href="#/work">📁work</NavLink>
             <NavLink href="#/contact">✉️contact</NavLink>

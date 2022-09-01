@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
 import WebsiteHeader from "./components/WebsiteHeader";
 import './App.css';
-import ContactIcons from "./components/ContactIcons";
 
-const Home = () => {
+const Work = () => {
     return (
 
         <div>
@@ -14,4 +12,4 @@ const Home = () => {
         </div>
     );
 }
-export default Home;
+export default Work;

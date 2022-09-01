@@ -1,5 +1,4 @@
 import { Container} from "reactstrap";
-import {Image} from "react-bootstrap"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

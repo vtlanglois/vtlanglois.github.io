@@ -8,7 +8,7 @@ import WebsiteHeader from './components/WebsiteHeader';
 
 function App() {
   return (
-    <div className="App">
+    <div> {/**? having classname="App" here changed the formatting overall */}
 
       <header className='App-header'>
       <WebsiteHeader/>
