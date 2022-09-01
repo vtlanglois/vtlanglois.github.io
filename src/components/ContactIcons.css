@@ -9,10 +9,12 @@
     -webkit-transition: all 0.2s ease;
  }
  
- .fa-linkedin:hover {
-    color: #0072b1;
- }
 
  .fa-github:hover {
     color:#6e5494;
  }
+ 
+ .fa-linkedin:hover {
+    color: #0072b1;
+ }
+

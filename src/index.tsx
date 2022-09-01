@@ -5,6 +5,7 @@ import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 import Contact from './Contact';
+import Work from './Work';
 
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />}/>
+        <Route path="/work" element={<Work />}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>,
