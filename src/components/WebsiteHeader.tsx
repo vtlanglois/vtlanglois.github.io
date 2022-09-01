@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Collapse, NavbarBrand, NavbarToggler, NavLink } from "reactstrap";
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavLink } from "reactstrap";
 //import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./WebsiteHeader.css"
 
@@ -13,8 +12,7 @@ const WebsiteHeader = () => {
   
     return (
         <div>
-        <Navbar bg="dark" variant="dark">
-        <Container>
+        <Navbar dark color="dark" container="md" expand="md">
           <NavbarBrand href="#/">vincent langlois</NavbarBrand>
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
@@ -24,7 +22,6 @@ const WebsiteHeader = () => {
             <NavLink href="#/contact">✉️contact</NavLink>
           </Nav>
         </Collapse>
-        </Container>
       </Navbar>
       </div>
     );
