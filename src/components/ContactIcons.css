@@ -3,12 +3,16 @@
     margin: 0 auto
 }
 
-.social-media-icons-white a {
+.social-media-icons-white {
     color: white;
     font-size: 3.5rem;
     -webkit-transition: all 0.2s ease;
  }
  
- .social-media-icons-white a:hover {
-    color: #F44336;
+ .fa-linkedin:hover {
+    color: #0072b1;
+ }
+
+ .fa-github:hover {
+    color:#6e5494;
  }

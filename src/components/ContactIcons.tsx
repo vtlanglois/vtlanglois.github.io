@@ -8,11 +8,11 @@ import "../components/ContactIcons.css"
 const ContactIcons = () => {
     return (
         <Container>
-            <div className = "singleCol social-media-icons-white d-flex justify-content-evenly">
-                <a href="https://www.linkedin.com/in/vtlanglois">
+            <div className = "singleCol d-flex justify-content-evenly">
+                <a className="social-media-icons-white fa-linkedin" href="https://www.linkedin.com/in/vtlanglois">
                     <FontAwesomeIcon icon={faLinkedinIn}/>
                 </a>
-                <a href="https://github.com/vtlanglois">
+                <a className="social-media-icons-white fa-github" href="https://github.com/vtlanglois">
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
             </div>
