@@ -3,15 +3,15 @@ import WebsiteHeader from "./components/WebsiteHeader";
 import './App.css';
 import ContactIcons from "./components/ContactIcons";
 
-const About = () => {
+const Contact = () => {
     return (
 
         <div>
             <header className='App-header'>
                 <WebsiteHeader />
-                <h2>About Page</h2>
+                <ContactIcons/>
             </header>
         </div>
     );
 }
-export default About;
+export default Contact;

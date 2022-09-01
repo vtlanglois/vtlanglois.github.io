@@ -1,17 +1,18 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { NavbarBrand, NavLink } from "reactstrap";
+//import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./WebsiteHeader.css"
 
 const WebsiteHeader = () => {
     return (
         <div>
         <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#/about">Navbar</Navbar.Brand>
+          <NavbarBrand href="#/home">vincent langlois</NavbarBrand>
           <Nav className="ml-auto">
-            <Nav.Link href="#/home">Home</Nav.Link>
-            <Nav.Link href="#/features">Features</Nav.Link>
-            <Nav.Link href="#/pricing">Pricing</Nav.Link>
+            <NavLink href="#/about">about</NavLink>
+            <NavLink href="#/contact">contact</NavLink>
           </Nav>
         </Container>
       </Navbar>
