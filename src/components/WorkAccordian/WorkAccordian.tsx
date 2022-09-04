@@ -49,7 +49,7 @@ const WorkAccordian = () => {
                     <li><b>Languages: </b> Java, C/C++, PHP, Python, C#, R</li>
                     <li><b>Web &#38; Database: </b>TypeScript, React, XML, JSON, PostgresSQL, MySQL</li>
                     <li><b>Frameworks: </b>Android, Spring Boot</li>
-                    <li><b>Misc: </b>Unix, Unity, Godot</li>
+                    <li><b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Unity, Godot</li>
                 </ul>
                 </AccordionBody>
             </AccordionItem>
