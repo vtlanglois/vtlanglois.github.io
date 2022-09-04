@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import WebsiteHeader from "./components/WebsiteHeader";
 import './App.css';
-import ContactIcons from "./components/ContactIcons";
+import ContactIcons from "./components/ContactIcons/ContactIcons";
+import { Button } from "reactstrap";
+import {Document, Page, } from 'react-pdf';
+import pdf from "/resume.pdf"
 
 const About = () => {
     return (

@@ -1,0 +1,24 @@
+.text-test{
+    background-color:red;
+    color:purple;
+}
+
+.accordion-button.collapsed {
+    color: white;
+    background-color: grey;
+    font-size: calc(10px + 2vmin);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: grey;
+    font-size: calc(10px + 2vmin);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-body{
+    color: white;
+    font-size: calc(8px + 2vmin);
+    background-color: #282c34;
+}

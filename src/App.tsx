@@ -12,7 +12,7 @@ function App() {
 
       <header className='App-header'>
       <WebsiteHeader/>
-      <h2>Under Construction!</h2>
+      <h2>This entire site is under development. The goal of this project is for me to learn more about React, Typescript, CSS, and HTML. Please refer to my LinkedIN for now.</h2>
       </header>
     </div>
   );
