@@ -3,6 +3,10 @@
     color:purple;
 }
 
+
+.accordion-header {
+    padding: auto;
+}
 .accordion-button.collapsed {
     color: white;
     background-color: grey;

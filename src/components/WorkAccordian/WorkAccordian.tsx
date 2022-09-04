@@ -29,7 +29,14 @@ const WorkAccordian = () => {
                     Leadership &#38; Work Experience 
                 </AccordionHeader>
                 <AccordionBody accordionId="2">
-
+                    <h4><b>BCForward</b>, Carmel, IN</h4>
+                    <h5><i>May 2022-August 2022</i></h5>
+                    <h5><i>Software Engineering Intern</i></h5>
+                    <ul>
+                    <li>Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System</li>
+                    <li>Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds</li>
+                    <li>Developed features using a React frontend, PHP backend, and MySQL databases</li>
+                    </ul>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
@@ -37,7 +44,14 @@ const WorkAccordian = () => {
                     Projects
                 </AccordionHeader>
                 <AccordionBody accordionId="3">
-
+                    <h4><b>Brainstorm</b></h4>
+                    <h5><i>September 2021-December 2021</i></h5>
+                    <h5><i>Fullstack Software Engineer</i></h5>
+                    <ul>
+                    <li>Created a learning management system web application focused on increasing K-8th grade student engagement through gamified learning</li>
+                    <li>Collaborated with 4-person team using Agile software development methodology over 5 two-week sprints </li>
+                    <li>Developed using Java Spring Boot, React, and PostgreSQL</li>
+                    </ul>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
