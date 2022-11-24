@@ -1,6 +1,7 @@
 import { SetStateAction, useState } from "react";
 import { UncontrolledAccordion, AccordionItem, AccordionHeader, AccordionBody, Accordion } from "reactstrap";
 import { text } from "stream/consumers";
+import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import "./WorkAccordian.css"
 const WorkAccordian = () => {
 
@@ -16,7 +17,6 @@ const WorkAccordian = () => {
                 <h5><i>August 2019-May 2023</i></h5>
                 <i>Bachelor of Science in Computer Science</i>
                 <ul>
-                    <li><b>Major: </b>Computer Science</li>
                     <li><b>Specialization: </b>Software Engineering</li>
                     <li><b>Minor: </b>Game Design</li>
                     <li><b>GPA: </b>3.84/4.00</li>
@@ -29,14 +29,10 @@ const WorkAccordian = () => {
                     Leadership &#38; Work Experience 
                 </AccordionHeader>
                 <AccordionBody accordionId="2">
-                    <h4><b>BCForward</b>, Carmel, IN</h4>
-                    <h5><i>May 2022-August 2022</i></h5>
-                    <h5><i>Software Engineering Intern</i></h5>
-                    <ul>
-                    <li>Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System</li>
-                    <li>Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds</li>
-                    <li>Developed features using a React frontend, PHP backend, and MySQL databases</li>
-                    </ul>
+                    <ExperienceItem title='BCForward,' location='Carmel, IN' job='Software Engineering Intern' startMonth="May 2022" endMonth="August 2022" 
+                    details = {["Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System", 
+                    "Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds", 
+                    "Developed features using a React frontend, PHP backend, and MySQL databases"]}/>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
@@ -44,14 +40,13 @@ const WorkAccordian = () => {
                     Projects
                 </AccordionHeader>
                 <AccordionBody accordionId="3">
-                    <h4><b>Brainstorm</b></h4>
-                    <h5><i>September 2021-December 2021</i></h5>
-                    <h5><i>Fullstack Software Engineer</i></h5>
-                    <ul>
-                    <li>Created a learning management system web application focused on increasing K-8th grade student engagement through gamified learning</li>
-                    <li>Collaborated with 4-person team using Agile software development methodology over 5 two-week sprints </li>
-                    <li>Developed using Java Spring Boot, React, and PostgreSQL</li>
-                    </ul>
+                    <ExperienceItem title = "Personal Website" startMonth="September 2022" endMonth="Ongoing"
+                    details={["Working on a personal website to provide more information about myself and to learn web development",
+                    "Developing using React and Typescript, hosted on Github Pages"]}/>
+                    <ExperienceItem title = 'Brainstorm' startMonth="September 2021" endMonth="December 2021" job='Fullstack Software Engineer'
+                    details={["Created a learning management system web application focused on increasing K-8th grade student engagement through gamified learning",
+                    "Collaborated with 4-person team using Agile software development methodology over 5 two-week sprints",
+                    "Developed using Java Spring Boot, React, and PostgreSQL"]}/>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
