@@ -6,15 +6,17 @@
 .social-media-icons-white {
     color: white;
     font-size: 3.5rem;
-    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
  }
  
 
  .fa-github:hover {
     color:#6e5494;
+    transform: scale(1.1); 
  }
  
  .fa-linkedin:hover {
     color: #0072b1;
+    transform: scale(1.1); 
  }
 
