@@ -26,6 +26,16 @@ const About = () => {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </body>
             <footer className='App-header'><ContactIcons/></footer>
         </div>

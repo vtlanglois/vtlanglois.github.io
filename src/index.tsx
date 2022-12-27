@@ -6,19 +6,14 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import About from './pages/About';
 import Work from './pages/Work';
 import WebsiteHeader from './components/WebsiteHeader';
+import './App.css';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
-      <WebsiteHeader />
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Contact />}/> */}
-        <Route path="/work" element={<Work />}/>
-      </Routes>
+    <HashRouter >
+      <App />
     </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
