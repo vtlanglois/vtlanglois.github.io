@@ -18,9 +18,9 @@ const ExperienceItem = ({title, location, startMonth, endMonth, job, details}: E
 
     return (
         <div>
-            <h4><b>{title}</b> {location}</h4>
-                    <h5><i>{startMonth}-{endMonth}</i></h5>
-                    <h5><i>{job}</i></h5>
+            <h5><b>{title}</b> {location}</h5>
+                    <h6><i>{startMonth}-{endMonth}</i></h6>
+                    <h6><i>{job}</i></h6>
                     <ul>
                         {details.map(detail => {
                             return (

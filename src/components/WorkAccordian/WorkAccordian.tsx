@@ -8,24 +8,24 @@ const WorkAccordian = () => {
     return (
 
         <div className = "body">
-        <h3><FontAwesomeIcon icon={faGraduationCap} className="icon"/><b>Education</b></h3>
+        <h4><FontAwesomeIcon icon={faGraduationCap} className="icon"/><b>Education</b></h4>
         <hr></hr>
-        <h4><b>Indiana University</b>, Bloomington, IN</h4>
-                <h5><i>August 2019-May 2023</i></h5>
+        <h5><b>Indiana University</b>, Bloomington, IN</h5>
+                <h6><i>August 2019-May 2023</i></h6>
                 <i>Bachelor of Science in Computer Science</i>
                 <ul>
                     <li><b>Specialization: </b>Software Engineering</li>
                     <li><b>Minor: </b>Game Design</li>
                     <li><b>GPA: </b>3.84/4.00</li>
                 </ul>
-        <h3><FontAwesomeIcon icon={faSuitcase} className="icon"/><b>Work &#38; Leadership Experience</b></h3>
+        <h4><FontAwesomeIcon icon={faSuitcase} className="icon"/><b>Work &#38; Leadership Experience</b></h4>
         <hr></hr>
         
             <ExperienceItem title='BCForward,' location='Carmel, IN' job='Software Engineering Intern' startMonth="May 2022" endMonth="August 2022" 
                 details = {["Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System", 
                 "Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds", 
                 "Developed features using a React frontend, PHP backend, and MySQL databases"]}/>
-        <h3><FontAwesomeIcon icon={faPalette} className="icon"/><b>Projects</b></h3>
+        <h4><FontAwesomeIcon icon={faPalette} className="icon"/><b>Projects</b></h4>
         <hr></hr>
             <ExperienceItem title = "Personal Website" startMonth="September 2022" endMonth="Ongoing"
                 details={["Working on a personal website to provide more information about myself and to learn web development",
@@ -35,7 +35,7 @@ const WorkAccordian = () => {
                 "Collaborated with 4-person team using Agile software development methodology over 5 two-week sprints",
                 "Developed using Java Spring Boot, React, and PostgreSQL"]}/>
                 
-        <h3><FontAwesomeIcon icon={faMicrochip} className="icon"/><b>Technical Skills</b></h3>
+        <h4><FontAwesomeIcon icon={faMicrochip} className="icon"/><b>Technical Skills</b></h4>
         <hr></hr>
                 <ul>
                     <li><b>Languages: </b> Java, C/C++, PHP, Python, C#, R</li>

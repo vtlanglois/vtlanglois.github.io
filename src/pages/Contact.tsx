@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import WebsiteHeader from "./components/WebsiteHeader";
-import './App.css';
-import ContactIcons from "./components/ContactIcons/ContactIcons";
+import ContactIcons from "../components/ContactIcons/ContactIcons";
+import WebsiteHeader from "../components/WebsiteHeader";
+import '../App.css';
+
 
 const Contact = () => {
     return (
@@ -9,8 +10,9 @@ const Contact = () => {
         <div>
             <header className='App-header'>
                 <WebsiteHeader />
-                <ContactIcons/>
+                <ContactIcons/> 
             </header>
+            
         </div>
     );
 }

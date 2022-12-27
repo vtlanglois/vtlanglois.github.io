@@ -3,18 +3,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import About from "./About";
-import Contact from './Contact';
-import Work from './Work';
+import About from './pages/About';
+import Work from './pages/Work';
+import WebsiteHeader from './components/WebsiteHeader';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
+      <WebsiteHeader />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />}/>
+        {/* <Route path="/contact" element={<Contact />}/> */}
         <Route path="/work" element={<Work />}/>
       </Routes>
     </HashRouter>

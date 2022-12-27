@@ -1,22 +1,27 @@
 .singleCol {
-    max-width: 750px;
-    margin: 0 auto
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 .social-media-icons-white {
     color: white;
-    font-size: 3.5rem;
+    font-size: 2rem;
     transition: all 0.2s ease-in-out;
  }
  
 
  .fa-github:hover {
     color:#6e5494;
-    transform: scale(1.1); 
+    /* transform: scale(1.001);  */
  }
  
  .fa-linkedin:hover {
     color: #0072b1;
-    transform: scale(1.1); 
+    /* transform: scale(1.001);  */
  }
+
+ .fa-email:hover {
+   color: #E18984;
+   /* transform: scale(1.001);  */
+}
 
