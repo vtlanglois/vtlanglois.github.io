@@ -13,13 +13,9 @@ const Work = () => {
     return (
 
         <div>
-            <header className='App-header'>
-                <WebsiteHeader />
-            </header>
             <body className = 'App-body'>
             <WorkAccordian/>
             </body>
-            <footer className='App-header'><ContactIcons/></footer>
         </div>
     );
 }

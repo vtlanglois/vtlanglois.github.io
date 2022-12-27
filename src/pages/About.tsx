@@ -9,9 +9,6 @@ const About = () => {
     return (
 
         <div className="red">
-            <header className='App-header'>
-                <WebsiteHeader />
-            </header>
             <body className="App-body">
             <p>Hello! My name is Vincent Langlois. </p>
                 <p>I am a senior studying computer science at Indiana University.</p>
@@ -37,7 +34,6 @@ const About = () => {
                 <br />
                 <br />
             </body>
-            <footer className='App-header'><ContactIcons/></footer>
         </div>
     );
 }
