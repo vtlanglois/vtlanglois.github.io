@@ -5,6 +5,8 @@ import {
   ReactPortal,
 } from "react";
 import { Col, Container, Row } from "reactstrap";
+import { start } from "repl";
+import ExperienceHeader from "./ExperienceHeader";
 import "./ExperienceItem.css";
 
 interface ExperienceItemProps {
@@ -26,26 +28,7 @@ const ExperienceItem = ({
 }: ExperienceItemProps) => {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col>
-            <h5>
-              <b>{title}</b> {location}
-            </h5>
-            <h6>
-              <i>{job}</i>
-            </h6>
-          </Col>
-          <Col className="date">
-            <h6>
-              <i>
-                {startMonth}-{endMonth}
-              </i>
-            </h6>
-          </Col>
-        </Row>
-      </Container>
-
+        <ExperienceHeader title={title} location={location} job={job} startMonth={startMonth} endMonth={endMonth}/>
       <ul>
         {details.map((detail) => {
           return <li>{detail}</li>;

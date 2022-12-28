@@ -4,6 +4,11 @@
     
 }
 
+.bottom-text {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
 .social-media-icons-white {
     color: white;
     font-size: 2rem;

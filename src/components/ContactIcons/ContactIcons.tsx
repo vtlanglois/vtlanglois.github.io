@@ -3,8 +3,12 @@ import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import "./ContactIcons.css"
+import { GetDate, SelectSplash } from "../EmojiSelector";
 
 const ContactIcons = () => {
+
+    const splashText = SelectSplash();
+    const currentYear = GetDate();
     return (
         <div>
         <Container>
@@ -20,9 +24,10 @@ const ContactIcons = () => {
                 </a>
             </div>
         </Container >
-            <div className = "singleCol d-flex justify-content-evenly">
-                vincent langlois
+            <div className = "bottom-text d-flex justify-content-evenly">
+                vincent langlois - {splashText} - {currentYear}
             </div>
+            <br />
         </div>
     );
 }
