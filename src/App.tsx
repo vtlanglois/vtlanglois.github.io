@@ -1,10 +1,10 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import WebsiteHeader from "./components/WebsiteHeader";
 import ContactIcons from "./components/ContactIcons/ContactIcons";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import WebsiteHeader from "./components/WebsiteHeader/WebsiteHeader";
 
 function App() {
   return (

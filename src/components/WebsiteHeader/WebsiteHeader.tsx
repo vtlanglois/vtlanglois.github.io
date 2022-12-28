@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavLink } from "reactstrap";
-import { SelectEmoji } from "./EmojiSelector";
-import "./WebsiteHeader.css"
+import { SelectEmoji } from "../EmojiSelector";
+import "./WebsiteHeader.css";
 
 const WebsiteHeader = () => {
 
@@ -20,8 +20,8 @@ const WebsiteHeader = () => {
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
-            <NavLink href="#/about">📖about</NavLink>
-            <NavLink href="#/work">📁work</NavLink>
+            {/*<NavLink className="brand-name" href="#/about">📖about</NavLink>*/}
+            {/*<NavLink className="brand-name" href="#/work">📁work</NavLink>*/}
             {/* <NavLink href="#/contact">✉️contact</NavLink> */}
           </Nav>
         </Collapse>

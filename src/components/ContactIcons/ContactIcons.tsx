@@ -6,7 +6,7 @@ import "./ContactIcons.css"
 
 const ContactIcons = () => {
     return (
-        
+        <div>
         <Container>
             <div className = "singleCol d-flex justify-content-evenly">
                 <a className="social-media-icons-white fa-linkedin" href="https://www.linkedin.com/in/vtlanglois" target='_blank' rel='noopener noreferrer'>
@@ -20,6 +20,10 @@ const ContactIcons = () => {
                 </a>
             </div>
         </Container >
+            <div className = "singleCol d-flex justify-content-evenly">
+                vincent langlois
+            </div>
+        </div>
     );
 }
 

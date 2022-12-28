@@ -4,7 +4,6 @@ import './Work.css';
 import { useState } from "react";
 import { Card, CardBody, CardGroup, CardTitle } from "reactstrap";
 import ContactIcons from '../components/ContactIcons/ContactIcons';
-import WebsiteHeader from '../components/WebsiteHeader';
 import WorkAccordian from '../components/WorkAccordian/WorkAccordian';
 
 

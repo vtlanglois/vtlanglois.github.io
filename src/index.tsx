@@ -2,10 +2,7 @@ import reportWebVitals from './reportWebVitals';
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import About from './pages/About';
-import Work from './pages/Work';
-import WebsiteHeader from './components/WebsiteHeader';
+import { HashRouter } from "react-router-dom";
 import './App.css';
 
 
