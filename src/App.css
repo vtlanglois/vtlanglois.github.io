@@ -9,7 +9,7 @@
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0A2647;
   /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
   display: flex;
   flex-direction: column;
@@ -22,11 +22,8 @@
 
 
 .App-body {
-  padding-top: 75px;
-  padding-bottom: 25px;
-  padding-left: 150px;
-  padding-right: 150px;
-  background-color: #282c34;
+  padding: 100px;
+  background-color: #103863;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -35,6 +32,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.red {
+  margin: auto;
+  text-align: left;
+  width: 100%;
+  
 }
 
 

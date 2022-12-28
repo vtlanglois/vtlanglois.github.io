@@ -1,5 +1,10 @@
 .brand-name {
     font-size: calc(10px + 2vmin);
+    color: white;
     
 }
 
+.banner {
+    background-color: #0A2647;
+
+}

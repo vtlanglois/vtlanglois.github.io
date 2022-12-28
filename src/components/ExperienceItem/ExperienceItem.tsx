@@ -28,7 +28,13 @@ const ExperienceItem = ({
 }: ExperienceItemProps) => {
   return (
     <div>
-        <ExperienceHeader title={title} location={location} job={job} startMonth={startMonth} endMonth={endMonth}/>
+      <ExperienceHeader
+        title={title}
+        location={location}
+        job={job}
+        startMonth={startMonth}
+        endMonth={endMonth}
+      />
       <ul>
         {details.map((detail) => {
           return <li>{detail}</li>;

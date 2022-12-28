@@ -1,4 +1,3 @@
-import { SetStateAction, useState } from "react";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import "./WorkAccordian.css";
 import {
@@ -7,7 +6,6 @@ import {
   faPalette,
   faMicrochip,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
 import TabHeader from "../ExperienceItem/TabHeader";
 const WorkAccordian = () => {
@@ -15,7 +13,7 @@ const WorkAccordian = () => {
     <div className="body">
       <TabHeader icon={faGraduationCap} title="Education" />
       <ExperienceHeader
-        title="Indiana University"
+        title="Indiana University,"
         location="Bloomington, IN"
         job="Bachelor of Science in Computer Science"
         startMonth="August 2019"
@@ -56,6 +54,16 @@ const WorkAccordian = () => {
         ]}
       />
       <ExperienceItem
+        title="ATLAS M-1"
+        startMonth="March 2022"
+        endMonth="May 2022"
+        details={[
+          "Designed a short, immersive video game experience about being stuck on the ocean floor inside a submarine with monsters approaching the vessel",
+          "Mixed audio to create an eerie atmosphere, sampling old radios, monster screams, and groaning metal",
+          "Programmed neccessary systems to allow for eerie atmosphere to engage players, including submarine controls and audio systems",
+        ]}
+      />
+      <ExperienceItem
         title="Brainstorm"
         startMonth="September 2021"
         endMonth="December 2021"
@@ -70,7 +78,7 @@ const WorkAccordian = () => {
       <TabHeader icon={faMicrochip} title="Technical Skills" />
       <ul>
         <li>
-          <b>Languages: </b> Java, C/C++, PHP, Python, C#, R
+          <b>Languages: </b>Java, C/C++, PHP, Python, C#, R
         </li>
         <li>
           <b>Web &#38; Database: </b>TypeScript, React, XML, JSON, PostgresSQL,

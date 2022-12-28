@@ -17,7 +17,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
       </Routes>
-      <footer className='App-header'><ContactIcons/></footer>
+      <footer className="App-header">
+        <ContactIcons />
+      </footer>
     </div>
   );
 }

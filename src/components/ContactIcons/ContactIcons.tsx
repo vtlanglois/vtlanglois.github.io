@@ -27,7 +27,6 @@ const ContactIcons = () => {
             <div className = "bottom-text d-flex justify-content-evenly">
                 vincent langlois - {splashText} - {currentYear}
             </div>
-            <br />
         </div>
     );
 }
