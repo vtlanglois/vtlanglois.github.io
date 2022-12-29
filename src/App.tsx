@@ -3,8 +3,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import ContactIcons from "./components/ContactIcons/ContactIcons";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-import Work from "./pages/Work";
 import WebsiteHeader from "./components/WebsiteHeader/WebsiteHeader";
+import Education from "./pages/education/Education";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
-        <Route path="/work" element={<Work />} />
+        <Route path="/education" element={<Education />} />
       </Routes>
       <footer className="App-header">
         <ContactIcons />

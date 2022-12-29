@@ -32,6 +32,21 @@ const WorkAccordian = () => {
       </ul>
       <TabHeader icon={faSuitcase} title="Work & Leadership Experience" />
       <ExperienceItem
+        title="Luddy Hall,"
+        location="IU, Bloomington, IN"
+        job="Student Engagement & Outreach Intern"
+        startMonth="September 2020"
+        endMonth="Ongoing"
+        details={[
+            "Collaborate with student-led committee to promote student engagement and success throughout Luddy by creating events and opportunities for students to network and get involved",
+            "Coordinate and administer events with 200+ students and participating faculty in attendance",
+            "Assist with student organizations for event planning and promotion",
+            "Leads student outreach division of the Luddy Student Engagement Committee",
+            "Design and develop educational and entertaining computer science lesson plans using block-based programming, virtual worlds, and physical robots",
+            "Train and guide volunteers on lesson materials and educational tools to ensure excellent performance at our events"
+        ]}
+       />
+      <ExperienceItem
         title="BCForward,"
         location="Carmel, IN"
         job="Software Engineering Intern"
@@ -43,14 +58,16 @@ const WorkAccordian = () => {
           "Developed features using a React frontend, PHP backend, and MySQL databases",
         ]}
       />
+
       <TabHeader icon={faPalette} title="Selected Projects" />
       <ExperienceItem
         title="Personal Website"
         startMonth="September 2022"
         endMonth="Ongoing"
         details={[
-          "Working on a personal website to provide more information about myself and to learn web development",
-          "Developing using React and Typescript, hosted on Github Pages",
+          "Working on a personal website to provide more information about myself beyond my LinkedIN profile",
+          "Serving as a way to learn more about web development and front-end programming",
+          "Developing using React, Typescript, and Reactstrap, hosted on Github Pages",
         ]}
       />
       <ExperienceItem

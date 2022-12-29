@@ -13,9 +13,9 @@
   /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
   display: flex;
   flex-direction: column;
-  /*align-items: center
-  justify-content: center;*/
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
   color: white;
   
 }
@@ -23,7 +23,7 @@
 
 .App-body {
   padding: 100px;
-  background-color: #103863;
+  background-color: #0e3153;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);

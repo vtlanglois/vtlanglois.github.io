@@ -21,14 +21,14 @@ const WebsiteHeader = () => {
          */
   return (
     <div>
-      <Navbar className="banner" container="lg" expand="sm" fixed="top">
-        <NavbarBrand className="brand-name">
+      <Navbar className="banner" dark container="lg" expand="sm" fixed="top">
+        <NavbarBrand className="brand-name" href="#/">
           <b>{emoji}vincent langlois</b>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
-            {/*<NavLink className="brand-name" href="#/about">📖about</NavLink>*/}
+            {<NavLink className="brand-name" href="#/education">🎓education</NavLink>}
             {/*<NavLink className="brand-name" href="#/work">📁work</NavLink>*/}
             {/* <NavLink href="#/contact">✉️contact</NavLink> */}
           </Nav>
