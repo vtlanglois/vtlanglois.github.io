@@ -1,21 +1,24 @@
+import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
+
 export interface Year {
-    name: string;
+    title: string;
+    icon: IconDefinition;
     fallSemester: Semester;
     springSemester: Semester;
 }
 
 export interface Semester {
-    name: string;
-    classes: Class[];
+    title: string;
+    classes: CollegeClass[];
 }
 
-export interface Class {
-    name: string;
-    code: string;
+export interface CollegeClass {
+    title: string;
+    number: string;
     topics?: string[];
     learned?: string[];
-    credits: number;
-    grade: Grade;
+    credits?: number;
+    grade?: Grade;
 }
 
 type Grade = 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'B-' | 'S' | 'In Progress'

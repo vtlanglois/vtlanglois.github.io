@@ -4,50 +4,23 @@ import { Col, Container, ListGroup, ListGroupItem, Row } from "reactstrap";
 import "./Education.css";
 import TabHeader from "../../components/ExperienceItem/TabHeader";
 import { faEgg } from "@fortawesome/free-solid-svg-icons";
+import SemesterItem from "../../components/academics/SemesterItem";
+import AcademicYear from "../../components/academics/AcademicYear";
+import { Semester } from "../../components/academics/DegreeInfo";
+
+const fall2019Semester : Semester = {title: "Fall 2019", classes: [{ title: "AAA", number: "AAA", grade: "A" }]}
 
 function Education() {
   return (
     <div>
       <body className="App-body">
-        <ListGroup flush className="listgroup">
-          <ListGroupItem className="listgroup nopadding">
-            <Container>
-              <Row>
-                <TabHeader icon={faEgg} title="Freshman Year" />
-              </Row>
-              <Row>
-                <Col>
-                  <b>Hi</b>
-                </Col>
-                <Col>
-                  <b>Hi</b>
-                </Col>
-                <Col>
-                  <b>Hi</b>
-                </Col>
-              </Row>
-            </Container>
-          </ListGroupItem>
-          <ListGroupItem className="listgroup nopadding">
-            <Container>
-              <Row>
-                <Col>Hi</Col>
-                <Col>Hi</Col>
-                <Col>Hi</Col>
-              </Row>
-            </Container>
-          </ListGroupItem>
-          <ListGroupItem className="listgroup">
-            Dapibus ac facilisis in
-          </ListGroupItem>
-          <ListGroupItem className="listgroup">Morbi leo risus</ListGroupItem>
-          <ListGroupItem className="listgroup">
-            Porta ac consectetur ac
-          </ListGroupItem>
-          <ListGroupItem className="listgroup">
-            Vestibulum at eros
-          </ListGroupItem>
-        </ListGroup>
+        <AcademicYear title = "Freshman Year" icon = {faEgg} fallSemester = {fall2019Semester} springSemester = {fall2019Semester}/>
+        <br />
+        <AcademicYear title = "Sophmore Year" icon = {faEgg} fallSemester = {fall2019Semester} springSemester = {fall2019Semester}/>
+        <br />
+        <AcademicYear title = "Freshman Year" icon = {faEgg} fallSemester = {fall2019Semester} springSemester = {fall2019Semester}/>
+        <br />
+        <AcademicYear title = "Freshman Year" icon = {faEgg} fallSemester = {fall2019Semester} springSemester = {fall2019Semester}/>
       </body>
     </div>
   );
