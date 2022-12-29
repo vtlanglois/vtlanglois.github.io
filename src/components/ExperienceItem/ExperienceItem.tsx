@@ -35,11 +35,13 @@ const ExperienceItem = ({
         startMonth={startMonth}
         endMonth={endMonth}
       />
+      <Container>
       <ul>
         {details.map((detail) => {
           return <li>{detail}</li>;
         })}
       </ul>
+      </Container>
     </div>
   );
 };
