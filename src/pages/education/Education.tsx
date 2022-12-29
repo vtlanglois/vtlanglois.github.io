@@ -28,6 +28,7 @@ function Education() {
   return (
     <div>
       <body className="App-body">
+        <Container>
         <AcademicYear
           title="Freshman Year"
           icon={faEgg}
@@ -55,6 +56,7 @@ function Education() {
           fallSemester={fall2022Semester}
           springSemester={spring2023Semester}
         />
+        </Container>
       </body>
     </div>
   );

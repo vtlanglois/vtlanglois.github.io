@@ -6,8 +6,7 @@ import { Semester } from "./DegreeInfo";
 function SemesterItem({ title, classes }: Semester) {
   return (
     <div>
-    <Container>
-    <TabHeader title={title} />
+    <TabHeader title={title} removeUnderline={true}/>
     <ListGroup className="listgroup">
       <ListGroupItem className="listgroup nopadding">
         <Container>
@@ -38,7 +37,6 @@ function SemesterItem({ title, classes }: Semester) {
         );
       })}
     </ListGroup>
-    </Container>
     </div>
   );
 }

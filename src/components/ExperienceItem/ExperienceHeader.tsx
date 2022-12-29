@@ -4,7 +4,6 @@ import { Container, Row, Col } from "reactstrap";
 
 function ExperienceHeader(props: any) {
     return (
-        <Container>
         <Row>
           <Col>
             <h5>
@@ -22,7 +21,6 @@ function ExperienceHeader(props: any) {
             </h6>
           </Col>
         </Row>
-      </Container>
     );
 }
 

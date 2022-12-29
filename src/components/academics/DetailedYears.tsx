@@ -58,7 +58,7 @@ export const fall2022Semester: Semester = {
   classes: [{ title: "Computer Structures", number: "CSCI-C 335", grade: "B+" },
   { title: "Database Concepts", number: "CSCI-C 335", grade: "B" },
   { title: "Narrative Design", number: "MSCH-G 366", grade: "A-" },
-  { title: "Experiments and Models in Cognition", number: "COGS-Q 370", grade: "A-" }]
+  { title: "Experiments and Models in Cognition", number: "COGS-Q 370", grade: "B" }]
 }
 
 export const spring2023Semester: Semester = {
