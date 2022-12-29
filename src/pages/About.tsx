@@ -9,7 +9,6 @@ const About = () => {
       <body className="App-body">
         <Container>
         <Row md="auto">
-        <p>This website is NOT mobile-friendly. That'll be added later!</p>
         <h1>
           Hello! I'm{" "}
           <b>
