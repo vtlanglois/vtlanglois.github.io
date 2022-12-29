@@ -5,21 +5,15 @@ import SemesterItem from "./SemesterItem";
 function AcademicYear(props: Year) {
     return (
         <div>
-        <TabHeader icon={props.icon} title="Freshman Year" />
+        <TabHeader icon={props.icon} title={props.title} />
         <SemesterItem
-          title="Fall 2019"
-          classes={[
-            { title: "AAA", number: "AAA", grade: "A" },
-            { title: "AAA", number: "AAA", grade: "A" },
-          ]}
+          title={props.fallSemester.title}
+          classes={props.fallSemester.classes}
         />
         <br />
         <SemesterItem
-          title="Spring 2020"
-          classes={[
-            { title: "AAA", number: "AAA", grade: "A" },
-            { title: "AAA", number: "AAA", grade: "A" },
-          ]}
+          title={props.springSemester.title}
+          classes={props.springSemester.classes}
         />
         </div>
     );
