@@ -15,8 +15,12 @@ import { Semester } from "../../components/academics/DegreeInfo";
 import {
   fall2019Semester,
   fall2020Semester,
+  fall2021Semester,
+  fall2022Semester,
   spring2020Semester,
   spring2021Semester,
+  spring2022Semester,
+  spring2023Semester,
 } from "../../components/academics/DetailedYears";
 
 
@@ -41,15 +45,15 @@ function Education() {
         <AcademicYear
           title="Junior Year"
           icon={faCrow}
-          fallSemester={fall2019Semester}
-          springSemester={fall2019Semester}
+          fallSemester={fall2021Semester}
+          springSemester={spring2022Semester}
         />
         <br />
         <AcademicYear
           title="Senior Year"
           icon={faDove}
-          fallSemester={fall2019Semester}
-          springSemester={fall2019Semester}
+          fallSemester={fall2022Semester}
+          springSemester={spring2023Semester}
         />
       </body>
     </div>

@@ -5,7 +5,7 @@ export const fall2019Semester: Semester = {
   classes: [{ title: "Intro to CS Honors", number: "CSCI-H 211", grade: "A" },
   { title: "Tech Leadership and Innovation", number: "INFO-Y 101", grade: "A-" },
   { title: "Intro to Folklore", number: "FOLK-F 101", grade: "A" },
-  { title: "Intro To Psyschology", number: "PSY-P 155", grade: "A" },
+  { title: "Intro To Psychology", number: "PSY-P 155", grade: "A" },
   { title: "Foundations for Undergrad Success", number: "EDUC-U 215", grade: "A+" }]
 };
 export const spring2020Semester: Semester = {
@@ -34,6 +34,42 @@ export const spring2021Semester: Semester = {
   { title: "Undergraduate Independent Study", number: "CSCI-Y 390", grade: "A" },
   { title: "Search for Life in the Universe", number: "AST-A 103", grade: "A" }]
 }
+
+export const fall2021Semester: Semester = {
+  title: "Fall 2021",
+  classes: [{ title: "Software Engineering I", number: "CSCI-P 465", grade: "A" },
+  { title: "Intro to Algorithms", number: "CSCI-B 403", grade: "B" },
+  { title: "Intro to Game Programming", number: "CSCI-C 292", grade: "A" },
+  { title: "Game Design I", number: "MSCH-G 310", grade: "A" },
+  { title: "Game Technology", number: "MSCH-C 220", grade: "A+" }]
+}
+
+export const spring2022Semester: Semester = {
+  title: "Spring 2022",
+  classes: [{ title: "Game Development", number: "CSCI-B 453", grade: "A" },
+  { title: "Use and Usability", number: "INFO-I 246", grade: "A-" },
+  { title: "Game Production I", number: "MSCH-G 300", grade: "A" },
+  { title: "Game Art and Sound", number: "MSCH-G 320", grade: "A" },
+  { title: "History of Video Games", number: "MSCH-C 215", grade: "A+" }]
+}
+
+export const fall2022Semester: Semester = {
+  title: "Fall 2022",
+  classes: [{ title: "Computer Structures", number: "CSCI-C 335", grade: "B+" },
+  { title: "Database Concepts", number: "CSCI-C 335", grade: "B" },
+  { title: "Narrative Design", number: "MSCH-G 366", grade: "A-" },
+  { title: "Experiments and Models in Cognition", number: "COGS-Q 370", grade: "A-" }]
+}
+
+export const spring2023Semester: Semester = {
+  title: "Spring 2023",
+  classes: [{ title: "Intro to Operating Systems", number: "CSCI-P 436", grade: "In Progress" },
+  { title: "Intro to AI", number: "CSCI-B 351", grade: "In Progress" },
+  { title: "Prototyping with Arduino Tools", number: "INFO-I 341", grade: "In Progress" },
+  { title: "Mastering the World Wide Web", number: "CSCI-A", grade: "In Progress" }]
+}
+
+
 
 export const baseSemester: Semester = {
   title: "",
