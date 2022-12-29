@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="red">
       <body className="App-body">
-        <Container fluid >
+        <Container>
         <Row md="auto">
         <p>This website is NOT mobile-friendly. That'll be added later!</p>
         <h1>
@@ -19,7 +19,7 @@ const About = () => {
         </h1>
         </Row >
         <br />
-        <Row className="my-auto">
+        <Row>
         <TabHeader icon={faUser} title="About Me" />
         <p>
           I am a senior at <b>Indiana University</b> pursuing a{" "}

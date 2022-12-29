@@ -22,7 +22,8 @@
 
 
 .App-body {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 25px;
   background-color: #0e3153;
   display: flex;
   flex-direction: column;
