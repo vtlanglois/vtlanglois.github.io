@@ -31,11 +31,15 @@ const About = () => {
               systems that can make the world better in any way possible.
             </p>
             <p>
+              In my free time, I enjoy playing video games, painting, cooking,
+              and building Lego models. I also enjoy learning about any topic
+              that interests me, from Foley sound design to mythology.
+            </p>
+            <p>
               I want to learn more about web design, so I decided to make my own
               website on Github Pages! This allows me to practice with
-              Typescript and React through practice, experimentation, and
-              learning from my mistakes. If you want a better idea of who I am,
-              please go to my{" "}
+              Typescript and React through experimentation and learning from my
+              mistakes. If you want a better idea of who I am, please go to my{" "}
               <a href="https://www.linkedin.com/in/vtlanglois/">LinkedIn</a>{" "}
               page.
             </p>
