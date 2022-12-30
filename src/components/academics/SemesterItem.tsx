@@ -2,6 +2,7 @@ import { faEgg } from "@fortawesome/free-solid-svg-icons";
 import { ListGroup, ListGroupItem, Container, Row, Col } from "reactstrap";
 import TabHeader from "../ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";
+import "./SemesterItem.css"
 
 function SemesterItem({ title, classes }: Semester) {
   return (
@@ -17,7 +18,7 @@ function SemesterItem({ title, classes }: Semester) {
             <Col>
               <b>Title</b>
             </Col>
-            <Col>
+            <Col className="align-right">
               <b>Grade</b>
             </Col>
           </Row>
@@ -30,7 +31,7 @@ function SemesterItem({ title, classes }: Semester) {
               <Row>
                 <Col>{c.number}</Col>
                 <Col>{c.title}</Col>
-                <Col>{c.grade}</Col>
+                <Col className="align-right">{c.grade}</Col>
               </Row>
             </Container>
           </ListGroupItem>

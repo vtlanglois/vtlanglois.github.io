@@ -37,7 +37,7 @@ function Education() {
         />
         <br />
         <AcademicYear
-          title="Sophmore Year"
+          title="Sophomore Year"
           icon={faKiwiBird}
           fallSemester={fall2020Semester}
           springSemester={spring2021Semester}

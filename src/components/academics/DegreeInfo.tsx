@@ -16,9 +16,7 @@ export interface CollegeClass {
     title: string;
     number: string;
     topics?: string[];
-    learned?: string[];
-    credits?: number;
-    grade?: Grade;
+    grade: Grade;
 }
 
 type Grade = 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'B-' | 'S' | 'In Progress'
