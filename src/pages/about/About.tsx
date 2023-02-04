@@ -1,8 +1,8 @@
-import "../App.css";
-import WorkAccordian from "../components/WorkAccordian/WorkAccordian";
-import TabHeader from "../components/ExperienceItem/TabHeader";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { Container, Fade, Row } from "reactstrap";
+import TabHeader from "../../components/ExperienceItem/TabHeader";
+import WorkAccordian from "../../components/WorkAccordian/WorkAccordian";
+import "../../App.css";
 const About = () => {
   return (
     <div className="red">
@@ -28,7 +28,7 @@ const About = () => {
               <b>Software Engineering</b>. I plan on building upon my love for
               learning, my interest in technology, and my education to develop a
               long-lasting software engineering career focused on building
-              systems that can make the world better in any way possible.
+              software that can make the world better in any way possible.
             </p>
             <p>
               In my free time, I enjoy playing video games, painting, cooking,

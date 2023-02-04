@@ -77,7 +77,17 @@ const WorkAccordian = () => {
         details={[
           "Designed a short, immersive video game experience about being stuck on the ocean floor inside a submarine with monsters approaching the vessel",
           "Mixed audio to create an eerie atmosphere, sampling old radios, monster screams, and groaning metal",
-          "Programmed neccessary systems to allow for eerie atmosphere to engage players, including submarine controls and audio systems",
+          "Programmed necessary systems to allow for eerie atmosphere to engage players, including submarine controls and audio systems",
+        ]}
+      />
+      <ExperienceItem 
+        title="Cordiall.gg"
+        startMonth="February 2022"
+        endMonth="May 2022"
+        details={[
+          "Created a framework for a website focused on providing information about accessibility options present in certain videos to aid disabled and competitive gamers and their needs",
+          "Led a 4-person team in designing the Figma prototype and ensuring the projects accessibility goals and deadlines were met",
+          "Conducted interviews and usability tests to understand the needs of our customers and test our design decisions"
         ]}
       />
       <ExperienceItem

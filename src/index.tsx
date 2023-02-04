@@ -9,7 +9,7 @@ import './App.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter >
+    <HashRouter  >
       <App />
     </HashRouter>
   </React.StrictMode>,

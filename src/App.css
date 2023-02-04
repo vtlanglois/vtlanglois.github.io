@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: column;
   font-size: calc(6px + 2vmin);
+  background-image: radial-gradient(circle, #123b64, #10375f, #0e3153);
   color: white;
 }
 
