@@ -16,21 +16,32 @@ const WorkAccordian = () => {
       <ExperienceHeader
         title="Indiana University,"
         location="Bloomington, IN"
-        job="Bachelor of Science in Computer Science"
+        job="Bachelors of Science in Computer Science"
         startMonth="August 2019"
         endMonth="May 2023"
       />
-      <ul>
-        <li>
-          <b>Specialization: </b>Software Engineering
-        </li>
-        <li>
-          <b>Minor: </b>Game Design
-        </li>
-        <li>
-          <b>GPA: </b>3.84/4.00
-        </li>
-      </ul>
+      <Row>
+        <Col>
+          <ul>
+            <li>
+              <b>Specialization: </b>Software Engineering
+            </li>
+            <li>
+              <b>Studied Topics: </b>Game Development, Computer Systems, UI/UX Design
+            </li>
+          </ul>
+        </Col>
+        <Col>
+          <ul>
+            <li>
+              <b>Minor: </b>Game Design
+            </li>
+            <li>
+              <b>GPA: </b>3.84/4.00
+            </li>
+          </ul>
+        </Col>
+      </Row>
       <TabHeader icon={faSuitcase} title="Work & Leadership Experience" />
       <ExperienceItem
         title="Luddy School of Informatics, Computing, and Engineering,"
