@@ -7,7 +7,7 @@ function ExperienceHeader(props: any) {
         <Row>
           <Col>
             <h5>
-              <b>{props.title}</b> {props.location}
+              <u><b>{props.title}</b></u> {props.location}
             </h5>
             <h6>
               <i>{props.job}</i>

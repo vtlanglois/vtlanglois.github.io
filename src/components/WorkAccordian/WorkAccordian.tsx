@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
 import TabHeader from "../ExperienceItem/TabHeader";
+import { Col, Row } from "reactstrap";
 const WorkAccordian = () => {
   return (
     <div className="body">
@@ -32,20 +33,20 @@ const WorkAccordian = () => {
       </ul>
       <TabHeader icon={faSuitcase} title="Work & Leadership Experience" />
       <ExperienceItem
-        title="Luddy Hall,"
+        title="Luddy School of Informatics, Computing, and Engineering,"
         location="IU, Bloomington, IN"
         job="Student Engagement & Outreach Intern"
         startMonth="September 2020"
         endMonth="Ongoing"
         details={[
-            "Collaborate with student-led committee to promote student engagement and success throughout Luddy by creating events and opportunities for students to network and get involved",
-            "Coordinate and administer events with 200+ students and participating faculty in attendance",
-            "Assist with student organizations for event planning and promotion",
-            "Leads student outreach division of the Luddy Student Engagement Committee",
-            "Design and develop educational and entertaining computer science lesson plans using block-based programming, virtual worlds, and physical robots",
-            "Train and guide volunteers on lesson materials and educational tools to ensure excellent performance at our events"
+          "Collaborate with student-led committee to promote student engagement and success throughout Luddy by creating events and opportunities for students to network and get involved",
+          "Coordinate and administer events with 200+ students and participating faculty in attendance",
+          "Assist with student organizations for event planning and promotion",
+          "Leads student outreach division of the Luddy Student Engagement Committee",
+          "Design and develop educational and entertaining computer science lesson plans using block-based programming, virtual worlds, and physical robots",
+          "Train and guide volunteers on lesson materials and educational tools to ensure excellent performance at our events",
         ]}
-       />
+      />
       <ExperienceItem
         title="BCForward,"
         location="Carmel, IN"
@@ -80,14 +81,14 @@ const WorkAccordian = () => {
           "Programmed necessary systems to allow for eerie atmosphere to engage players, including submarine controls and audio systems",
         ]}
       />
-      <ExperienceItem 
+      <ExperienceItem
         title="Cordiall.gg"
         startMonth="February 2022"
         endMonth="May 2022"
         details={[
           "Created a framework for a website focused on providing information about accessibility options present in certain videos to aid disabled and competitive gamers and their needs",
           "Led a 4-person team in designing the Figma prototype and ensuring the projects accessibility goals and deadlines were met",
-          "Conducted interviews and usability tests to understand the needs of our customers and test our design decisions"
+          "Conducted interviews and usability tests to understand the needs of our customers and test our design decisions",
         ]}
       />
       <ExperienceItem
@@ -103,7 +104,7 @@ const WorkAccordian = () => {
       />
 
       <TabHeader icon={faMicrochip} title="Technical Skills" />
-      <ul>
+      {/* <ul>
         <li>
           <b>Languages: </b>Java, C/C++, PHP, Python, C#, R
         </li>
@@ -117,7 +118,30 @@ const WorkAccordian = () => {
         <li>
           <b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Unity, Godot
         </li>
-      </ul>
+      </ul> */}
+      <Row>
+        <Col>
+          <ul>
+            <li>
+              <b>Languages: </b>Java, C/C++, PHP, Python, C#, R
+            </li>
+            <li>
+              <b>Web &#38; Database: </b>TypeScript, React, XML, JSON,
+              PostgresSQL, MySQL
+            </li>
+          </ul>
+        </Col>
+        <Col>
+          <ul>
+            <li>
+              <b>Frameworks: </b>Android, Spring Boot
+            </li>
+            <li>
+              <b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Unity, Godot
+            </li>
+          </ul>
+        </Col>
+      </Row>
     </div>
   );
 };
