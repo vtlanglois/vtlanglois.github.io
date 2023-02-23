@@ -1,4 +1,3 @@
-import { faEgg } from "@fortawesome/free-solid-svg-icons";
 import { ListGroup, ListGroupItem, Container, Row, Col } from "reactstrap";
 import TabHeader from "../ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";

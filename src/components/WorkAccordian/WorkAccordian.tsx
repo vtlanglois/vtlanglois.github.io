@@ -27,7 +27,7 @@ const WorkAccordian = () => {
               <b>Specialization: </b>Software Engineering
             </li>
             <li>
-              <b>Studied Topics: </b>Game Development, Computer Systems, UI/UX Design
+              <b>Studied Topics: </b>Game Development, Computer Systems, UI/UX Design, CS Education
             </li>
           </ul>
         </Col>
