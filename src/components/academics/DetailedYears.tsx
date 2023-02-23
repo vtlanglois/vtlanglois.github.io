@@ -130,8 +130,8 @@ export const spring2023Semester: Semester = {
       grade: "In Progress",
     },
     {
-      title: "Mastering the World Wide Web",
-      number: "CSCI-A 348",
+      title: "Java Application Development",
+      number: "INFO-I 311",
       grade: "In Progress",
     },
   ],

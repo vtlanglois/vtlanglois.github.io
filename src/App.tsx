@@ -5,7 +5,7 @@ import ContactIcons from "./components/ContactIcons/ContactIcons";
 import WebsiteHeader from "./components/WebsiteHeader/WebsiteHeader";
 import About from "./pages/about/About";
 import Education from "./pages/education/Education";
-import Toybox from "./pages/projects/Toybox";
+import Projects from "./pages/projects/Projects";
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
-        <Route path="/toybox" element={<Toybox />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       <footer className="App-header">
         <ContactIcons />
