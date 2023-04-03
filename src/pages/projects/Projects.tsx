@@ -27,8 +27,9 @@ function Projects() {
           <TabHeader title="Software Engineering" icon={faCode} />
           <p>Brainstorm, My Website, Discord Bot, Xinu</p>
           <TabHeader title="UI/UX" icon={faBorderAll} />
-          <p>Cordiall.gg, Cardinal</p>
-          <ProjectCard />
+          <ProjectCard title="Cordiall.gg" desc="AAAA" topics = {["Accessability", "UI/UX Research"]}/>
+          {/* <br/>
+          <ProjectCard title="Cardinal" desc="AAAA"/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
           <p>Flock of Cats, ATLAS M-1</p>
           <TabHeader title="Arduino" icon={faGear} />
