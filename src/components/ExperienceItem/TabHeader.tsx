@@ -6,11 +6,12 @@ import { Container } from "reactstrap";
 function TabHeader(props: any) {
   return (
     <div>
+      {!props.removeUnderline && <hr />}
       <h4>
         <FontAwesomeIcon icon={props.icon} className="icon" />
         <b>{props.title}</b>
       </h4>
-      {!props.removeUnderline && <hr></hr>}
+      {!props.removeUnderline && <hr />}
     </div>
   );
 }

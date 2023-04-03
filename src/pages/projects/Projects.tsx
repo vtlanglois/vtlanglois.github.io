@@ -1,78 +1,38 @@
-import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-import "./Projects.css";
-
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  CardText,
+  CardTitle,
+  Col,
+  Container,
+  Row,
+} from "reactstrap";
+import TabHeader from "../../components/ExperienceItem/TabHeader";
+import {
+  faCode,
+  faBorderAll,
+  faGamepad,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
+import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
 function Projects() {
   return (
     <div>
       <body className="App-body">
         <Container>
-          <h1>Page under construction!</h1>
-          <hr />
-          <Row>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-          </Row>
-          <hr />
-          <h1>Game Design & Development</h1>
-          <hr />
-          <Row>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>Created as my final project for MSCH-G320, Altas M-1 is a 3-to-5 minute art and sound experience made for MSCH-G320 
-                at Indiana University Bloomington for my Spring 2022 semester. 
-                This experience was made to challenge me to make an unsettling atmosphere using SFX, ambiance, and visual effects.
-              </p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-          </Row>
-
+          <h1>Projects</h1>
+          <TabHeader title="Software Engineering" icon={faCode} />
+          <p>Brainstorm, My Website, Discord Bot, Xinu</p>
+          <TabHeader title="UI/UX" icon={faBorderAll} />
+          <p>Cordiall.gg, Cardinal</p>
+          <ProjectCard />
+          <TabHeader title="Game Design & Development" icon={faGamepad} />
+          <p>Flock of Cats, ATLAS M-1</p>
+          <TabHeader title="Arduino" icon={faGear} />
+          <p>Lego Controller, Medicine Dispenser</p>
         </Container>
       </body>
     </div>

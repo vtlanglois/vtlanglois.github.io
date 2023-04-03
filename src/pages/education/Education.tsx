@@ -29,6 +29,7 @@ function Education() {
     <div>
       <body className="App-body">
         <Container>
+        <h1>Education</h1>
         <AcademicYear
           title="Freshman Year"
           icon={faEgg}
