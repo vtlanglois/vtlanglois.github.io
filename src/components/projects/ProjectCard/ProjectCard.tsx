@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, ButtonToolbar, Card, CardBody, CardHeader, CardText, CardTitle } from "reactstrap";
+import { Button, ButtonGroup, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle } from "reactstrap";
 import "./ProjectCard.css";
 import { faFigma, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -31,7 +31,8 @@ function ProjectCard(props: ProjectCardInfo) {
           <CardText> 
           <b>Topics: </b>{printTopics(props.topics)}
           </CardText>
-          <CardText> 
+          </CardBody>
+          <CardFooter> 
           <ButtonToolbar>
             {props.links.map((link) => {
               if (link.includes("github")) {
@@ -43,8 +44,7 @@ function ProjectCard(props: ProjectCardInfo) {
               }
             })}
           </ButtonToolbar>
-          </CardText>
-        </CardBody>
+          </CardFooter>
       </Card>
     </div>
   );
