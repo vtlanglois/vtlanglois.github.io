@@ -3,4 +3,24 @@
     color: white;
     padding: 0px;
     text-align: left;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.125);
+}
+
+.link {
+    color: #61dafb;
+}
+
+.github-link {
+    background-color: #6e5494;
+    border-color: #6e5494;
+}
+
+.figma-link {
+    background-color: #1ABCFE;
+    border-color: #1ABCFE;
+}
+
+.itch-link {
+    background-color: #fa5c5c;
+    border-color: #fa5c5c;
 }

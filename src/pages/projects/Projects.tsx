@@ -18,6 +18,7 @@ import {
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
+import { ar_legocontroller, ar_medflow, gd_atlasm1, gd_flockofcats, sw_pybot, sw_website, sw_xinu, ui_cardinal, ui_cordiall } from "../../components/projects/DetailedProjects";
 function Projects() {
   return (
     <div>
@@ -25,15 +26,18 @@ function Projects() {
         <Container>
           <h1>Projects</h1>
           <TabHeader title="Software Engineering" icon={faCode} />
-          <p>Brainstorm, My Website, Discord Bot, Xinu</p>
+          {/* <ProjectCard {...sw_xinu}/><br/> */}
+          <ProjectCard {...sw_pybot}/><br/>
+          <ProjectCard {...sw_website}/>
           <TabHeader title="UI/UX" icon={faBorderAll} />
-          <ProjectCard title="Cordiall.gg" desc="AAAA" topics = {["Accessability", "UI/UX Research"]}/>
-          {/* <br/>
-          <ProjectCard title="Cardinal" desc="AAAA"/> */}
+          <ProjectCard {...ui_cordiall}/><br/>
+          {/* <ProjectCard {...ui_cardinal}/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
-          <p>Flock of Cats, ATLAS M-1</p>
+          {/* <ProjectCard {...gd_flockofcats}/><br/> */}
+          <ProjectCard {...gd_atlasm1}/>
           <TabHeader title="Arduino" icon={faGear} />
-          <p>Lego Controller, Medicine Dispenser</p>
+          <ProjectCard {...ar_medflow}/><br/>
+          <ProjectCard {...ar_legocontroller}/>
         </Container>
       </body>
     </div>
