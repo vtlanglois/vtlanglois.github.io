@@ -40,8 +40,11 @@ const About = () => {
               website on Github Pages! This allows me to practice with
               Typescript and React through experimentation and learning from my
               mistakes. If you want a better idea of who I am, please go to my{" "}
-              <a href="https://www.linkedin.com/in/vtlanglois/">LinkedIn</a>{" "}
+              <a className="App-link" href="https://www.linkedin.com/in/vtlanglois/">LinkedIn</a>{" "}
               page.
+            </p>
+            <p>
+              <b>IMPORTANT: </b> I'm planning on redoing the whole website, including it's layout and code, after I graduate from IU. Some info may be missing and some design choices may be questionable. 
             </p>
           </Row>
           <Row>

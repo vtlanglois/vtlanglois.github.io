@@ -1,78 +1,43 @@
-import { Card, CardBody, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-import "./Projects.css";
-
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  CardText,
+  CardTitle,
+  Col,
+  Container,
+  Row,
+} from "reactstrap";
+import TabHeader from "../../components/ExperienceItem/TabHeader";
+import {
+  faCode,
+  faBorderAll,
+  faGamepad,
+  faGear,
+} from "@fortawesome/free-solid-svg-icons";
+import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
+import { ar_legocontroller, ar_medflow, gd_atlasm1, gd_flockofcats, sw_pybot, sw_website, sw_xinu, ui_cardinal, ui_cordiall } from "../../components/projects/DetailedProjects";
 function Projects() {
   return (
     <div>
       <body className="App-body">
         <Container>
-          <h1>Page under construction!</h1>
-          <hr />
-          <Row>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-          </Row>
-          <hr />
-          <h1>Game Design & Development</h1>
-          <hr />
-          <Row>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>Created as my final project for MSCH-G320, Altas M-1 is a 3-to-5 minute art and sound experience made for MSCH-G320 
-                at Indiana University Bloomington for my Spring 2022 semester. 
-                This experience was made to challenge me to make an unsettling atmosphere using SFX, ambiance, and visual effects.
-              </p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-            <Col>
-            <Card body className="cardgroup text-center">
-              <CardBody>
-              <img alt="Card" src="https://picsum.photos/300/200" />
-              <CardTitle tag="h1">ATLAS M-1</CardTitle>
-              <p>AAA</p>
-              </CardBody>
-            </Card>
-            </Col>
-          </Row>
-
+          <h1>Projects</h1>
+          <TabHeader title="Software Engineering" icon={faCode} />
+          {/* <ProjectCard {...sw_xinu}/><br/> */}
+          <ProjectCard {...sw_pybot}/><br/>
+          <ProjectCard {...sw_website}/>
+          <TabHeader title="UI/UX" icon={faBorderAll} />
+          <ProjectCard {...ui_cordiall}/><br/>
+          {/* <ProjectCard {...ui_cardinal}/> */}
+          <TabHeader title="Game Design & Development" icon={faGamepad} />
+          {/* <ProjectCard {...gd_flockofcats}/><br/> */}
+          <ProjectCard {...gd_atlasm1}/>
+          <TabHeader title="Arduino" icon={faGear} />
+          <ProjectCard {...ar_medflow}/><br/>
+          <ProjectCard {...ar_legocontroller}/>
         </Container>
       </body>
     </div>

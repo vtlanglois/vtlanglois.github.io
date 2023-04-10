@@ -1,7 +1,8 @@
 .listgroup {
-    background-color: #0e3153;
+    background-color: #20456b;
     color: white;
-    border-color: #20456b;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.05); 
+    /* why is this so much darker than the project card? */
     padding: 0px;
     text-align: left;
     
