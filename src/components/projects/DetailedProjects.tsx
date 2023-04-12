@@ -77,3 +77,10 @@ export const ar_medflow = {
     links: ["https://github.com/vtlanglois/MedicineDispenser"],
     topics: ["Low-level Programming", "Electronics", "Targeted Design"]
 }
+
+export const ar_oledDemo = {
+    title: "OLED Demo",
+    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. ",
+    links: ["https://github.com/vtlanglois/OLED-Demo"],
+    topics: ["Low-level Programming", "Arts", "Targeted Design"]
+}

@@ -18,7 +18,7 @@ import {
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
-import { ar_legocontroller, ar_medflow, gd_atlasm1, gd_flockofcats, sw_pybot, sw_website, sw_xinu, ui_cardinal, ui_cordiall } from "../../components/projects/DetailedProjects";
+import { ar_legocontroller, ar_medflow, ar_oledDemo, gd_atlasm1, gd_flockofcats, sw_pybot, sw_website, sw_xinu, ui_cardinal, ui_cordiall } from "../../components/projects/DetailedProjects";
 function Projects() {
   return (
     <div>
@@ -30,12 +30,13 @@ function Projects() {
           <ProjectCard {...sw_pybot}/><br/>
           <ProjectCard {...sw_website}/>
           <TabHeader title="UI/UX" icon={faBorderAll} />
-          <ProjectCard {...ui_cordiall}/><br/>
+          <ProjectCard {...ui_cordiall}/>
           {/* <ProjectCard {...ui_cardinal}/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
           {/* <ProjectCard {...gd_flockofcats}/><br/> */}
           <ProjectCard {...gd_atlasm1}/>
           <TabHeader title="Arduino" icon={faGear} />
+          <ProjectCard {...ar_oledDemo}/><br/>
           <ProjectCard {...ar_medflow}/><br/>
           <ProjectCard {...ar_legocontroller}/>
         </Container>
