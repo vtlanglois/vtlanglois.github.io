@@ -35,6 +35,13 @@ export const ui_cordiall : ProjectCardInfo = {
     topics: ["Accessability", "UI/UX Research"],
 }
 
+export const ui_websiteredesign : ProjectCardInfo = {
+    title: "Website Redesign",
+    desc: "A potential redesign for my personal website. Focuses on a consistent theme based on cards. Work in Progress",
+    links: ["https://www.figma.com/proto/sGpntXl0XHxCtPcGOHDm4L/Personal-Website?node-id=132-99&scaling=min-zoom&page-id=0%3A1"],
+    topics: ["UI Design"]
+}
+
 export const ui_cardinal : ProjectCardInfo = {
     title: "Cardinal",
     desc: "This is a test 2",

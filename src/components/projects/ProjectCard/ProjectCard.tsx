@@ -17,15 +17,18 @@ function printTopics(topics: string[]) {
     return topicList.substring(0, topicList.length-2) //remove the last ", "
 }
 
+function handleClick() {
+  console.log("card clicked!");
+}
 
 function ProjectCard(props: ProjectCardInfo) {
   return (
     <div>
       <Card className="cardgroup">
-        <CardHeader tag="h4">
+        <CardHeader tag="h4"  onClick={handleClick}>
           <b>{props.title}</b>
         </CardHeader>
-        <CardBody>
+        <CardBody  onClick={handleClick}>
           <CardText> {props.desc}
           </CardText>
           <CardText> 

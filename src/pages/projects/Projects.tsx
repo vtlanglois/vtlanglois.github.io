@@ -30,7 +30,8 @@ function Projects() {
           <ProjectCard {...sw_pybot}/><br/>
           <ProjectCard {...sw_website}/>
           <TabHeader title="UI/UX" icon={faBorderAll} />
-          <ProjectCard {...ui_cordiall}/>
+          <ProjectCard {...ui_cordiall}/><br/>
+          <ProjectCard {...ui_websiteredesign}/><br/>
           {/* <ProjectCard {...ui_cardinal}/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
           {/* <ProjectCard {...gd_flockofcats}/><br/> */}
