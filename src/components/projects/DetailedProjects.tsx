@@ -55,9 +55,9 @@ export const ui_cardinal : ProjectCardInfo = {
 
 export const gd_flockofcats : ProjectCardInfo = {
     title: "Flock of Cats",
-    desc: "This is a test 3",
-    links: ["AA"],
-    topics: ["System Design", "Accessability"]
+    desc: "An arcade game about herding cats from going off-screen. Developed accessability systems and gameplay settings architecture.",
+    links: ["https://github.com/vtlanglois/flock-of-cats"],
+    topics: ["System Design", "Accessability", "Arts"]
 }
 
 export const gd_atlasm1 : ProjectCardInfo = {

@@ -34,7 +34,7 @@ function Projects() {
           <ProjectCard {...ui_websiteredesign}/><br/>
           {/* <ProjectCard {...ui_cardinal}/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
-          {/* <ProjectCard {...gd_flockofcats}/><br/> */}
+          <ProjectCard {...gd_flockofcats}/><br/>
           <ProjectCard {...gd_atlasm1}/>
           <TabHeader title="Arduino" icon={faGear} />
           <ProjectCard {...ar_oledDemo}/><br/>
