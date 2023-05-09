@@ -127,7 +127,7 @@ export const spring2023Semester: Semester = {
     {
       title: "Prototyping with Arduino Tools",
       number: "INFO-I 341",
-      grade: "In Progress",
+      grade: "A+",
     },
     {
       title: "Java Application Development",
