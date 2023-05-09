@@ -132,7 +132,7 @@ export const spring2023Semester: Semester = {
     {
       title: "Java Application Development",
       number: "INFO-I 311",
-      grade: "In Progress",
+      grade: "A+",
     },
   ],
 };
