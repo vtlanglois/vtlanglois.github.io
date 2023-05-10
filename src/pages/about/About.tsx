@@ -23,8 +23,8 @@ const About = () => {
           <Row>
             <TabHeader icon={faUser} title="About Me" />
             <p>
-              I am a senior at <b>Indiana University</b> pursuing a{" "}
-              <b>BS in Computer Science</b> with a specialization in{" "}
+              I am an <b>Indiana University</b> graduate with a {" "}
+              <b>Bachelor of Science in Computer Science</b> specializing in{" "}
               <b>Software Engineering</b>. I plan on building upon my love for
               learning, my interest in technology, and my education to develop a
               long-lasting software engineering career focused on building
