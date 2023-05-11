@@ -123,7 +123,7 @@ export const spring2023Semester: Semester = {
       number: "CSCI-P 436",
       grade: "B+",
     },
-    { title: "Educational Tech", number: "INFO-I 400", grade: "In Progress" },
+    { title: "Educational Tech", number: "INFO-I 400", grade: "A+" },
     {
       title: "Prototyping with Arduino Tools",
       number: "INFO-I 341",
