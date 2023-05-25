@@ -8,7 +8,7 @@ export const sw_pybot : ProjectCardInfo = {
     title: "PyBot",
     desc: "A chatbot using OpenAI text completion and image generation APIs. Built for Indiana Pacers STEM Fest 2023 to demonstrate generative A.I to local families.",
     links: ["https://github.com/vtlanglois/PyBot"],
-    topics: ["Generative A.I.", "Targeted Design", "Backend Programming"],
+    topics: ["Generative A.I.", "Educational Outreach", "Backend Programming"],
 }
 
 export const sw_website : ProjectCardInfo = {
@@ -23,6 +23,14 @@ export const sw_xinu : ProjectCardInfo = {
     desc: "This is a test 9",
     links: ["AA"],
     topics: ["Operating Systems", "Low-level Programming"],
+}
+
+export const sw_gwd : ProjectCardInfo = {
+    title: "GWD Resource Repository",
+    desc: "A repository of HTML/CSS resources for future outreach events. Built to aid volunteers and give students ideas for their website projects",
+    links: ["https://github.com/vtlanglois/GWD"],
+    topics: ["Web Design", "Educational Outreach"]
+
 }
 
 /**
