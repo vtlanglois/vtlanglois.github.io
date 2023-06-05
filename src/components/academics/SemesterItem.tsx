@@ -2,6 +2,10 @@ import { ListGroup, ListGroupItem, Container, Row, Col } from "reactstrap";
 import TabHeader from "../ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";
 
+// @TODO: #14 figure out why spacing looks off on mobile
+
+
+// @TODO: #15 change arguments to props
 function SemesterItem({ title, classes }: Semester) {
   return (
     <div>

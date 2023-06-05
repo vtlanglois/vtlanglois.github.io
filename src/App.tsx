@@ -11,6 +11,7 @@ import Projects from "./pages/projects/Projects";
 function App() {
   return (
     <div >
+      {/*@TODO: #7 figure out why header CSS is not applying to WebsiteHeader*/}
       <header className="App-header">
         <WebsiteHeader />
       </header>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
+        {/*@TODO: #8 add a 404 page*/}
       </Routes>
       <footer className="App-header">
         <ContactIcons />

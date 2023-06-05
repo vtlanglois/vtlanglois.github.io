@@ -19,4 +19,8 @@ export interface CollegeClass {
   grade: Grade;
 }
 
+// Future-Proofing: Keeping "In Progress" in-case I go get a Master's
+
 type Grade = "A+" | "A" | "A-" | "B+" | "B" | "B-" | "S" | "In Progress";
+
+

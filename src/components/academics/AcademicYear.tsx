@@ -6,6 +6,7 @@ function AcademicYear(props: Year) {
   return (
     <div>
       <TabHeader icon={props.icon} title={props.title} />
+      {/* @TODO: make `SemesterItem` use a spread operator. */}
       <SemesterItem
         title={props.fallSemester.title}
         classes={props.fallSemester.classes}

@@ -9,6 +9,11 @@ import {
 import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
 import TabHeader from "../ExperienceItem/TabHeader";
 import { Col, Row } from "reactstrap";
+
+
+// @TODO: #13 add Resume and CV
+
+//@TODO: #9 Rename WorkAccordian to something more descriptive.
 const WorkAccordian = () => {
   return (
     <div className="body">
@@ -20,6 +25,7 @@ const WorkAccordian = () => {
         startMonth="August 2019"
         endMonth="May 2023"
       />
+      {/* @TODO: #11 find a way to solve empty space in Row/Cols */}
       <Row>
         <Col>
           <ul>
