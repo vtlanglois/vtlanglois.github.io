@@ -5,7 +5,7 @@ import { Container } from "reactstrap";
 import { GetDate, SelectSplash } from "../EmojiSelector";
 import "./ContactIcons.css";
 
-const ContactIcons = () => {
+function ContactIcons() {
   const splashText = SelectSplash();
   const currentYear = GetDate();
   return (

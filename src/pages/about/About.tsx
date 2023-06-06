@@ -3,7 +3,8 @@ import { Container, Fade, Row } from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
 import "../../App.css";
-const About = () => {
+
+function About()  {
   return (
     <div className="red">
       <body className="App-body">

@@ -10,7 +10,7 @@ import {
 import { SelectEmoji } from "../EmojiSelector";
 import "./WebsiteHeader.css";
 
-const WebsiteHeader = () => {
+function WebsiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
