@@ -1,13 +1,9 @@
-import ExperienceItem from "../ExperienceItem/ExperienceItem";
-import "./ExperienceList.css";
 import {
   faGraduationCap,
-  faSuitcase,
-  faPalette,
   faMicrochip,
+  faPalette,
+  faSuitcase,
 } from "@fortawesome/free-solid-svg-icons";
-import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
-import TabHeader from "../ExperienceItem/TabHeader";
 import { Col, Row } from "reactstrap";
 import {
   pr_altas,
@@ -17,6 +13,11 @@ import {
   wl_bcf,
   wl_lsec,
 } from "../DetailedExperiences";
+import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
+import ExperienceItem from "../ExperienceItem/ExperienceItem";
+import TabHeader from "../ExperienceItem/TabHeader";
+import "./ExperienceList.css";
+
 
 // @TODO: #13 add Resume and CV
 

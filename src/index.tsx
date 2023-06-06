@@ -1,16 +1,14 @@
-import reportWebVitals from './reportWebVitals';
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import { HashRouter } from "react-router-dom";
-import './App.css';
-
-
+import App from "./App";
+import "./App.css";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     {/*@TODO: #5 move HashRouter to App*/}
-    <HashRouter  >
+    <HashRouter>
       <App />
     </HashRouter>
   </React.StrictMode>,

@@ -7,15 +7,14 @@ import About from "./pages/about/About";
 import Education from "./pages/education/Education";
 import Projects from "./pages/projects/Projects";
 
-
 function App() {
   return (
-    <div >
+    <div>
       {/*@TODO: #7 figure out why header CSS is not applying to WebsiteHeader*/}
       <header className="App-header">
         <WebsiteHeader />
       </header>
-      <Routes >
+      <Routes>
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />

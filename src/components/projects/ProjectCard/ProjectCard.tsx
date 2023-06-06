@@ -1,7 +1,7 @@
-import { Button, ButtonGroup, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle } from "reactstrap";
-import "./ProjectCard.css";
 import { faFigma, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText } from "reactstrap";
+import "./ProjectCard.css";
 
 export interface ProjectCardInfo {
     title: string,

@@ -1,9 +1,8 @@
-.icon{
-    margin-right: 10px;
+.icon {
+  margin-right: 10px;
 }
 
+.body {
+  color: white;
+  font-size: calc(10px + 2vmin);
 
-.body{
-    color: white;
-    font-size: calc(10px + 2vmin);
-}

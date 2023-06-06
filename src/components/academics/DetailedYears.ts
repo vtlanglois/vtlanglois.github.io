@@ -140,29 +140,29 @@ export const spring2023Semester: Semester = {
 
 export const freshmanYear: Year = {
   title: "Freshman",
-  icon:faEgg,
+  icon: faEgg,
   fallSemester: fall2019Semester,
   springSemester: spring2020Semester
 }
 
 export const sophomoreYear: Year = {
   title: "Sophomore",
-  icon:faKiwiBird,
+  icon: faKiwiBird,
   fallSemester: fall2020Semester,
   springSemester: spring2021Semester
 }
 
 export const juniorYear: Year = {
   title: "Junior",
-  icon:faCrow,
+  icon: faCrow,
   fallSemester: fall2021Semester,
   springSemester: spring2022Semester
 }
 
 export const seniorYear: Year = {
   title: "Senior",
-  icon:faDove,
+  icon: faDove,
   fallSemester: fall2022Semester,
-  springSemester: spring2023Semester 
+  springSemester: spring2023Semester
 }
 

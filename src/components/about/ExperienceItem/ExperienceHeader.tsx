@@ -1,4 +1,4 @@
-import { Row, Col } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import { ExperienceDetails } from "../DetailedExperiences";
 
 function ExperienceHeader(props: ExperienceDetails | any) {
