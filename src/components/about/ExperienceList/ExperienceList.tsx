@@ -1,5 +1,5 @@
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
-import "./WorkAccordian.css";
+import "./ExperienceList.css";
 import {
   faGraduationCap,
   faSuitcase,
@@ -21,7 +21,7 @@ import {
 // @TODO: #13 add Resume and CV
 
 //@TODO: #9 Rename WorkAccordian to something more descriptive.
-const WorkAccordian = () => {
+function ExperienceList() {
   return (
     <div className="body">
       <TabHeader icon={faGraduationCap} title="Education" />
@@ -95,4 +95,4 @@ const WorkAccordian = () => {
   );
 };
 
-export default WorkAccordian;
+export default ExperienceList;
