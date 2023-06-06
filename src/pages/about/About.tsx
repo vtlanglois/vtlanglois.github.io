@@ -1,5 +1,7 @@
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { Container, Fade, Row } from "reactstrap";
+import TabHeader from "../../components/about/ExperienceItem/TabHeader";
+import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
 import "../../App.css";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
