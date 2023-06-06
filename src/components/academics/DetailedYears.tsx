@@ -138,8 +138,6 @@ export const spring2023Semester: Semester = {
   ],
 };
 
-// @TODO: #16 make Year variables to reduce potential errors
-
 export const freshmanYear: Year = {
   title: "Freshman",
   icon:faEgg,

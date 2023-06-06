@@ -30,6 +30,7 @@ function Education() {
       <body className="App-body">
         <Container>
         <h1>Education</h1>
+        {/* @TODO: #18 Change `AcademicYear` to use Year type */}
         <AcademicYear
           title="Freshman Year"
           icon={faEgg}
