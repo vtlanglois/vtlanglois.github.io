@@ -25,6 +25,7 @@ const WorkAccordian = () => {
   return (
     <div className="body">
       <TabHeader icon={faGraduationCap} title="Education" />
+      {/* @TODO: #24 rework Education to something else. */}
       <ExperienceHeader
         title="Indiana University"
         location="Bloomington, IN"

@@ -1,10 +1,14 @@
+
+// @TODO: #23 refactor ExpDetails props
 export interface ExperienceDetails {
-  title: string;
-  location?: string;
-  startMonth?: string;
-  endMonth?: string;
-  job?: string;
-  details: Array<string>;
+  title: string,
+  location?: string,
+  startMonth?: string,
+  startYear?: number,
+  endMonth?: string,
+  endYear?: number,
+  job?: string,
+  details: Array<string>
 }
 
 /* 
@@ -18,7 +22,8 @@ export const wl_lsec: ExperienceDetails = {
   title: "Luddy School of Informatics, Computing, and Engineering @ IU",
   location: "Bloomington, IN",
   job: "Student Engagement & Outreach Intern",
-  startMonth: "September 2020",
+  startMonth: "September",
+  startYear: 2020,
   endMonth: "Ongoing",
   details:
     [
@@ -35,8 +40,10 @@ export const wl_bcf: ExperienceDetails = {
   title: "BCForward",
   location: "Carmel, IN",
   job: "Software Engineering Intern",
-  startMonth: "May 2022",
-  endMonth: "August 2022",
+  startMonth: "May",
+  startYear: 2022,
+  endMonth: "August",
+  endYear: 2022,
   details: [
     "Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System",
     "Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds",
@@ -52,7 +59,8 @@ Prefix: pr_
 
 export const pr_website: ExperienceDetails = {
   title: "Personal Website",
-  startMonth: "September 2022",
+  startMonth: "September",
+  startYear: 2022,
   endMonth: "Ongoing",
   details: [
     "Working on a personal website to provide more information about myself beyond my LinkedIN profile",
@@ -63,8 +71,10 @@ export const pr_website: ExperienceDetails = {
 
 export const pr_altas: ExperienceDetails = {
   title: "ATLAS M-1",
-  startMonth: "March 2022",
-  endMonth: "May 2022",
+  startMonth: "March",
+  startYear: 2022,
+  endMonth: "May",
+  endYear: 2022,
   details: [
     "Designed a short, immersive video game experience about being stuck on the ocean floor inside a submarine with monsters approaching the vessel",
     "Mixed audio to create an eerie atmosphere, sampling old radios, monster screams, and groaning metal",
@@ -74,8 +84,10 @@ export const pr_altas: ExperienceDetails = {
 
 export const pr_cordiall: ExperienceDetails = {
   title: "Cordiall.gg",
-  startMonth: "February 2022",
-  endMonth: "May 2022",
+  startMonth: "February",
+  startYear: 2022,
+  endMonth: "May",
+  endYear: 2022,
   details: [
     "Created a framework for a website focused on providing information about accessibility options present in certain videos to aid disabled and competitive gamers and their needs",
     "Led a 4-person team in designing the Figma prototype and ensuring the projects accessibility goals and deadlines were met",
@@ -85,8 +97,10 @@ export const pr_cordiall: ExperienceDetails = {
 
 export const pr_brainstorm: ExperienceDetails = {
   title: "Brainstorm",
-  startMonth: "September 2021",
-  endMonth: "December 2021",
+  startMonth: "September",
+  startYear: 2021,
+  endMonth: "December",
+  endYear: 2021,
   job: "Fullstack Software Engineer",
   details: [
     "Created a learning management system web application focused on increasing K-8th grade student engagement through gamified learning",
