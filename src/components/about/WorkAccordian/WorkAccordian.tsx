@@ -49,6 +49,7 @@ const WorkAccordian = () => {
         </Col>
       </Row>
       <TabHeader icon={faSuitcase} title="Work & Leadership Experience" />
+      {/* @TODO: #20 make ExperienceItem props into an interface, refactor EI */}
       <ExperienceItem
         title="Luddy School of Informatics, Computing, and Engineering,"
         location="IU, Bloomington, IN"

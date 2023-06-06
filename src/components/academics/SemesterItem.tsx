@@ -1,5 +1,5 @@
 import { ListGroup, ListGroupItem, Container, Row, Col } from "reactstrap";
-import TabHeader from "../ExperienceItem/TabHeader";
+import TabHeader from "../about/ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";
 
 // @TODO: #14 figure out why spacing looks off on mobile

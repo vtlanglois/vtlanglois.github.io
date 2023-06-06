@@ -1,4 +1,4 @@
-import TabHeader from "../ExperienceItem/TabHeader";
+import TabHeader from "../about/ExperienceItem/TabHeader";
 import { Year } from "./DegreeInfo";
 import SemesterItem from "./SemesterItem";
 
