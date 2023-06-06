@@ -10,7 +10,7 @@ import {
   Container,
   Row,
 } from "reactstrap";
-import TabHeader from "../../components/ExperienceItem/TabHeader";
+import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import {
   faCode,
   faBorderAll,
