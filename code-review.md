@@ -105,7 +105,7 @@ The naming for this component was future-proofing in-case I ever get a Master's.
 
 I really wonder if `interfaces` are how I should be implementing these. maybe just an object works? Further research is needed.
 
-`Year` interface is perfect, no notes. Same with `Semester`. `CollegeClass` is also future-proofing if I want to include HS classes, but honestly just calling them classes is fine.
+`Year` interface is perfect, no notes. Same with `Semester`. `CollegeClass` is also future-proofing if I want to include HS classes, but honestly just calling them classes is fine. (OH WAIT class is keyword, so nvm).
 
 I wonder if I should include all my `type`s in one class? I'll keep `In Progress` as an option, again, for future-proofing
 
@@ -120,6 +120,9 @@ Now, this is a tricky part. If I remove ReactStrap, the card infrastructure is a
 Cards take up a lot of space on mobile, and also on desktop. Maybe on desktop show 2 next to each other, and have dropdowns for mobile only?
 
 
+## File Structure
+
+It's a mess. figure out the proper way to organize this.
 
 
 

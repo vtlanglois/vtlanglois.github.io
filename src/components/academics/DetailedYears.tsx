@@ -137,6 +137,9 @@ export const spring2023Semester: Semester = {
   ],
 };
 
+// @TODO: #16 make Year variables to reduce potential errors
+// @DISCUSS 
+
 export const baseSemester: Semester = {
   title: "",
   classes: [
