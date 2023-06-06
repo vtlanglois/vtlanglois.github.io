@@ -28,8 +28,16 @@ const WebsiteHeader = () => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
-            {<NavLink className="brand-name" href="#/education">🎓education</NavLink>}
-            {<NavLink className="brand-name" href="#/projects">🎨projects</NavLink>}
+            {
+              <NavLink className="brand-name" href="#/education">
+                🎓education
+              </NavLink>
+            }
+            {
+              <NavLink className="brand-name" href="#/projects">
+                🎨projects
+              </NavLink>
+            }
             {/* <NavLink href="#/contact">✉️contact</NavLink> */}
           </Nav>
         </Collapse>

@@ -1,15 +1,13 @@
+import { Container } from "reactstrap";
 import "../../App.css";
-import {
-  Container
-} from "reactstrap";
-import "./Education.css";
 import AcademicYear from "../../components/academics/AcademicYear";
 import {
   freshmanYear,
   juniorYear,
   seniorYear,
-  sophomoreYear
+  sophomoreYear,
 } from "../../components/academics/DetailedYears";
+import "./Education.css";
 
 function Education() {
   return (
