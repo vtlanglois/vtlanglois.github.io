@@ -1,5 +1,5 @@
 import "../App.css";
-import ContactIcons from "../components/ContactIcons/ContactIcons";
+import ContactIcons from "../components/general/ContactIcons/ContactIcons";
 
 const Contact = () => {
   return (

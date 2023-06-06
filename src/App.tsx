@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import ContactIcons from "./components/ContactIcons/ContactIcons";
-import WebsiteHeader from "./components/WebsiteHeader/WebsiteHeader";
+import ContactIcons from "./components/general/ContactIcons/ContactIcons";
+import WebsiteHeader from "./components/general/WebsiteHeader/WebsiteHeader";
 import About from "./pages/about/About";
 import Education from "./pages/education/Education";
 import Projects from "./pages/projects/Projects";
