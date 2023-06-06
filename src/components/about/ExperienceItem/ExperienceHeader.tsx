@@ -12,6 +12,16 @@ function ExperienceHeader(props: ExperienceDetails | any) {
     return value;
   }
 
+  function generateDates(): string {
+    let date = "";
+    //if this prop has value
+    if (props.startMonth) date += props.startMonth;
+    if (props.startYear) date += " " + props.startYear;
+    if (props.endMonth) date += "-" + props.endMonth;
+    if (props.endYear) date += " " + props.endYear;
+    return date;
+  }
+
   return (
     <Row>
       <Col>
@@ -30,9 +40,7 @@ function ExperienceHeader(props: ExperienceDetails | any) {
       </Col>
       <Col className="date">
         <h6>
-          <i>
-            {props.startMonth}-{props.endMonth}
-          </i>
+          <i>{generateDates()}</i>
         </h6>
       </Col>
     </Row>
