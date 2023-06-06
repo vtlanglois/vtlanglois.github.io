@@ -2,15 +2,6 @@ import { ExperienceDetails } from "../DetailedExperiences";
 import ExperienceHeader from "./ExperienceHeader";
 import "./ExperienceItem.css";
 
-interface ExperienceItemProps {
-  title: string;
-  location?: string;
-  startMonth?: string;
-  endMonth?: string;
-  job?: string;
-  details: Array<string>;
-}
-
 function ExperienceItem(props: ExperienceDetails) {
   return (
     <div>
