@@ -2,7 +2,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { Container, Fade, Row } from "reactstrap";
 import "../../App.css";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
-import WorkAccordian from "../../components/about/WorkAccordian/WorkAccordian";
+import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
 const About = () => {
   return (
     <div className="red">
@@ -55,7 +55,7 @@ const About = () => {
             </p>
           </Row>
           <Row>
-            <WorkAccordian />
+            <ExperienceList />
           </Row>
         </Container>
       </body>
