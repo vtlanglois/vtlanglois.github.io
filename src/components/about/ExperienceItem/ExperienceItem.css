@@ -1,3 +1,13 @@
+.exp-card {
+  background-color: #20456b;
+  color: white;
+  padding: 0px;
+  text-align: left;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.125);
+  margin-bottom: 15px;
+  }
+
+
 .date {
   text-align: right;
 }
@@ -6,3 +16,4 @@
   max-width: 200px;
   margin: 0 auto;
 }
+
