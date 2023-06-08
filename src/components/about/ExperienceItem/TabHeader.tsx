@@ -6,7 +6,6 @@ import "./TabHeader.css"
 function TabHeader(props: any) {
   return (
     <div>
-      {props.removeUnderline && <br />}
       <Card  className="header">
       <CardBody>
       <h4>
@@ -17,7 +16,6 @@ function TabHeader(props: any) {
       </h4>
       </CardBody>
       </Card>
-      {props.removeUnderline && <br />}
     </div>
   );
 }

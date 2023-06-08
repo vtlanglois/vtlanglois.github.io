@@ -28,24 +28,18 @@ function Projects() {
           <TabHeader title="Software Engineering" icon={faCode} />
           {/* <ProjectCard {...sw_xinu}/><br/> */}
           <ProjectCard {...sw_pybot} />
-          <br />
           <ProjectCard {...sw_website} />
-          <br />
           <ProjectCard {...sw_gwd} />
           <TabHeader title="UI/UX" icon={faBorderAll} />
           <ProjectCard {...ui_cordiall} />
-          <br />
           <ProjectCard {...ui_websiteredesign} />
           {/* <ProjectCard {...ui_cardinal}/> */}
           <TabHeader title="Game Design & Development" icon={faGamepad} />
           <ProjectCard {...gd_flockofcats} />
-          <br />
           <ProjectCard {...gd_atlasm1} />
           <TabHeader title="Arduino" icon={faGear} />
           <ProjectCard {...ar_oledDemo} />
-          <br />
           <ProjectCard {...ar_medflow} />
-          <br />
           <ProjectCard {...ar_legocontroller} />
         </Container>
       </body>
