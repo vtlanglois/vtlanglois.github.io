@@ -25,7 +25,7 @@ import "./ExperienceList.css";
 function ExperienceList() {
   return (
     <div className="body">
-      <TabHeader icon={faGraduationCap} title="Education" />
+      <TabHeader icon={faGraduationCap} removeUnderline={true} title="Education" />
       {/* @TODO: #24 rework Education to something else. */}
       <ExperienceHeader
         title="Indiana University"
@@ -58,17 +58,17 @@ function ExperienceList() {
           </ul>
         </Col>
       </Row>
-      <TabHeader icon={faSuitcase} title="Work & Leadership Experience" />
+      <TabHeader icon={faSuitcase} removeUnderline={true} title="Work & Leadership Experience" />
       <ExperienceItem {...wl_lsec} />
       <ExperienceItem {...wl_bcf} />
 
-      <TabHeader icon={faPalette} title="Selected Projects" />
+      <TabHeader icon={faPalette} removeUnderline={true} title="Selected Projects" />
       <ExperienceItem {...pr_website} />
       <ExperienceItem {...pr_altas} />
       <ExperienceItem {...pr_cordiall} />
       <ExperienceItem {...pr_brainstorm} />
 
-      <TabHeader icon={faMicrochip} title="Technical Skills" />
+      <TabHeader icon={faMicrochip} removeUnderline={true} title="Technical Skills" />
       <Row>
         <Col>
           <ul>

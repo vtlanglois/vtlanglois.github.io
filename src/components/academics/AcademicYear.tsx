@@ -11,11 +11,11 @@ function AcademicYear(props: Year) {
         title={props.fallSemester.title}
         classes={props.fallSemester.classes}
       />
-      <br />
       <SemesterItem
         title={props.springSemester.title}
         classes={props.springSemester.classes}
       />
+      <br />
     </div>
   );
 }

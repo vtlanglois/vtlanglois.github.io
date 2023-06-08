@@ -16,11 +16,8 @@ function Education() {
         <Container>
           <h1>Education</h1>
           <AcademicYear {...freshmanYear} />
-          <br />
           <AcademicYear {...sophomoreYear} />
-          <br />
           <AcademicYear {...juniorYear} />
-          <br />
           <AcademicYear {...seniorYear} />
         </Container>
       </body>

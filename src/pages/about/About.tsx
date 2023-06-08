@@ -20,9 +20,8 @@ function About()  {
               </h1>
             </Fade>
           </Row>
-          <br />
           <Row>
-            <TabHeader icon={faUser} title="About Me" />
+            <TabHeader icon={faUser} removeUnderline={true} title="About Me" />
             <p>
               I am an <b>Indiana University</b> graduate with a{" "}
               <b>Bachelor of Science in Computer Science</b> specializing in{" "}
