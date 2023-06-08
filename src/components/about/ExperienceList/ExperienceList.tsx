@@ -25,39 +25,7 @@ import "./ExperienceList.css";
 function ExperienceList() {
   return (
     <div className="body">
-      <TabHeader icon={faGraduationCap} removeUnderline={true} title="Education" />
-      {/* @TODO: #24 rework Education to something else. */}
-      <ExperienceHeader
-        title="Indiana University"
-        location="Bloomington, IN"
-        job="Bachelors of Science in Computer Science"
-        startMonth="August 2019"
-        endMonth="May 2023"
-      />
-      {/* @TODO: #11 find a way to solve empty space in Row/Cols */}
-      <Row>
-        <Col>
-          <ul>
-            <li>
-              <b>Specialization: </b>Software Engineering
-            </li>
-            <li>
-              <b>Studied Topics: </b>Game Development, Computer Systems, UI/UX
-              Design, CS Education
-            </li>
-          </ul>
-        </Col>
-        <Col>
-          <ul>
-            <li>
-              <b>Minor: </b>Game Design
-            </li>
-            <li>
-              <b>GPA: </b>3.84/4.00
-            </li>
-          </ul>
-        </Col>
-      </Row>
+
       <TabHeader icon={faSuitcase} removeUnderline={true} title="Work & Leadership Experience" />
       <ExperienceItem {...wl_lsec} />
       <ExperienceItem {...wl_bcf} />

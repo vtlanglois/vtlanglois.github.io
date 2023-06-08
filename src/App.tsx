@@ -9,7 +9,7 @@ import Projects from "./pages/projects/Projects";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       {/*@TODO: #7 figure out why header CSS is not applying to WebsiteHeader*/}
       <header className="App-header">
         <WebsiteHeader />
