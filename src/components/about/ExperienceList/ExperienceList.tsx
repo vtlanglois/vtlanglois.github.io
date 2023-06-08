@@ -24,7 +24,7 @@ import "./ExperienceList.css";
 //@TODO: #9 Rename WorkAccordian to something more descriptive.
 function ExperienceList() {
   return (
-    <div className="body">
+    <div>
 
       <TabHeader icon={faSuitcase} removeUnderline={true} title="Work & Leadership Experience" />
       <ExperienceItem {...wl_lsec} />
