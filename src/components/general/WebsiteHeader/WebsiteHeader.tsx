@@ -23,19 +23,19 @@ function WebsiteHeader() {
     <div>
       <Navbar className="banner" dark container="lg" expand="sm" fixed="top">
         <NavbarBrand className="brand-name" href="#/">
-          <b>{emoji}vincent langlois</b>
+          <b>{emoji}Vincent Langlois</b>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
             {
               <NavLink className="brand-name" href="#/education">
-                🎓education
+                🎓Education
               </NavLink>
             }
             {
               <NavLink className="brand-name" href="#/projects">
-                🎨projects
+                🎨Projects
               </NavLink>
             }
             {/* <NavLink href="#/contact">✉️contact</NavLink> */}
