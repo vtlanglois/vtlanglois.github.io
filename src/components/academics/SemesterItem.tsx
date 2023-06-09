@@ -8,7 +8,7 @@ import { Semester } from "./DegreeInfo";
 function SemesterItem(props: Semester) {
   return (
     <div>
-      <TabHeader title={props.title} removeUnderline={true} />
+      <TabHeader title={props.title}/>
       <ListGroup className="listgroup">
         <ListGroupItem className="listgroup nopadding">
           <Container>
