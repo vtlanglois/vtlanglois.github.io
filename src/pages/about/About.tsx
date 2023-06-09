@@ -55,12 +55,6 @@ function About() {
                   </a>{" "}
                   page.
                 </p>
-                <p>
-                  <b>IMPORTANT: </b> I'm planning on redoing the whole website,
-                  including it's layout and code, after I graduate from IU. Some
-                  info may be missing and some design choices may be
-                  questionable.
-                </p>
               </Row>
             </CardBody>
           </Card>
