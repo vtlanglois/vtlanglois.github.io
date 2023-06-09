@@ -41,7 +41,7 @@ function WebsiteHeader() {
             }
             {
               <NavLink href="#/projects">
-                <FontAwesomeIcon className="project-icon" icon={faFileCode} />{" "}
+                <FontAwesomeIcon className="project-icon" icon={faFileCode} />
                 <b className="brand-name">Projects</b>
               </NavLink>
             }
