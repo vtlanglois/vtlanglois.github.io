@@ -1,11 +1,11 @@
-import { Container } from "reactstrap";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./ContactIcons.css";
+import { Container } from "reactstrap";
 import { GetDate, SelectSplash } from "../EmojiSelector";
+import "./ContactIcons.css";
 
-const ContactIcons = () => {
+function ContactIcons() {
   const splashText = SelectSplash();
   const currentYear = GetDate();
   return (

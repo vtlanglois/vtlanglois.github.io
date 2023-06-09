@@ -1,4 +1,5 @@
-import { Semester } from "./DegreeInfo";
+import { faCrow, faDove, faEgg, faKiwiBird } from "@fortawesome/free-solid-svg-icons";
+import { Semester, Year } from "./DegreeInfo";
 
 export const fall2019Semester: Semester = {
   title: "Fall 2019",
@@ -137,13 +138,31 @@ export const spring2023Semester: Semester = {
   ],
 };
 
-export const baseSemester: Semester = {
-  title: "",
-  classes: [
-    { title: "", number: "", grade: "A-" },
-    { title: "", number: "", grade: "S" },
-    { title: "", number: "", grade: "A+" },
-    { title: "", number: "", grade: "A" },
-    { title: "", number: "", grade: "A" },
-  ],
-};
+export const freshmanYear: Year = {
+  title: "Freshman",
+  icon: faEgg,
+  fallSemester: fall2019Semester,
+  springSemester: spring2020Semester
+}
+
+export const sophomoreYear: Year = {
+  title: "Sophomore",
+  icon: faKiwiBird,
+  fallSemester: fall2020Semester,
+  springSemester: spring2021Semester
+}
+
+export const juniorYear: Year = {
+  title: "Junior",
+  icon: faCrow,
+  fallSemester: fall2021Semester,
+  springSemester: spring2022Semester
+}
+
+export const seniorYear: Year = {
+  title: "Senior",
+  icon: faDove,
+  fallSemester: fall2022Semester,
+  springSemester: spring2023Semester
+}
+

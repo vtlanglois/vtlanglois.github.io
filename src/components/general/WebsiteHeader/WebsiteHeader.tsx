@@ -1,3 +1,8 @@
+import {
+  faFileCode,
+  faGraduationCap
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import {
   Collapse,
@@ -7,15 +12,14 @@ import {
   NavbarToggler,
   NavLink,
 } from "reactstrap";
-import { SelectEmoji } from "../EmojiSelector";
+import LogoIcon from "../LogoIcon/LogoIcon";
 import "./WebsiteHeader.css";
 
-const WebsiteHeader = () => {
+function WebsiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
-  const emoji = SelectEmoji();
   /**
           @TODO fixed weird visual on drag on mobile
          */
@@ -23,18 +27,29 @@ const WebsiteHeader = () => {
     <div>
       <Navbar className="banner" dark container="lg" expand="sm" fixed="top">
         <NavbarBrand className="brand-name" href="#/">
-          <b>{emoji}vincent langlois</b>
+          <LogoIcon />
+          <b className="brand-name">Vincent Langlois</b>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
-            {<NavLink className="brand-name" href="#/education">🎓education</NavLink>}
-            {<NavLink className="brand-name" href="#/projects">🎨projects</NavLink>}
+            {
+              <NavLink href="#/education">
+                <FontAwesomeIcon className="edu-icon" icon={faGraduationCap} />
+                <b className="brand-name">Education</b>
+              </NavLink>
+            }
+            {
+              <NavLink href="#/projects">
+                <FontAwesomeIcon className="project-icon" icon={faFileCode} />{" "}
+                <b className="brand-name">Projects</b>
+              </NavLink>
+            }
             {/* <NavLink href="#/contact">✉️contact</NavLink> */}
           </Nav>
         </Collapse>
       </Navbar>
     </div>
   );
-};
+}
 export default WebsiteHeader;

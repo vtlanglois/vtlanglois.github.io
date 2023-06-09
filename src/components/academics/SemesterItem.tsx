@@ -1,11 +1,14 @@
-import { ListGroup, ListGroupItem, Container, Row, Col } from "reactstrap";
-import TabHeader from "../ExperienceItem/TabHeader";
+import { Col, Container, ListGroup, ListGroupItem, Row } from "reactstrap";
+import TabHeader from "../about/ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";
 
-function SemesterItem({ title, classes }: Semester) {
+// @TODO: #14 figure out why spacing looks off on mobile
+
+// @TODO: #15 change arguments to props
+function SemesterItem(props: Semester) {
   return (
     <div>
-      <TabHeader title={title} removeUnderline={true} />
+      <TabHeader title={props.title}/>
       <ListGroup className="listgroup">
         <ListGroupItem className="listgroup nopadding">
           <Container>
@@ -22,9 +25,9 @@ function SemesterItem({ title, classes }: Semester) {
             </Row>
           </Container>
         </ListGroupItem>
-        {classes.map((c) => {
+        {props.classes.map((c) => {
           return (
-            <ListGroupItem className="listgroup nopadding">
+            <ListGroupItem className="listgroup">
               <Container>
                 <Row>
                   <Col>{c.number}</Col>
