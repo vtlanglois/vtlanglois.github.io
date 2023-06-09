@@ -27,7 +27,7 @@ function SemesterItem(props: Semester) {
         </ListGroupItem>
         {props.classes.map((c) => {
           return (
-            <ListGroupItem className="listgroup nopadding">
+            <ListGroupItem className="listgroup">
               <Container>
                 <Row>
                   <Col>{c.number}</Col>
