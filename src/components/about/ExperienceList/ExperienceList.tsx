@@ -1,10 +1,8 @@
 import {
-  faGraduationCap,
+  faFileCode,
   faMicrochip,
-  faPalette,
-  faSuitcase,
+  faSuitcase
 } from "@fortawesome/free-solid-svg-icons";
-import { Col, Row } from "reactstrap";
 import {
   pr_altas,
   pr_brainstorm,
@@ -13,11 +11,10 @@ import {
   wl_bcf,
   wl_lsec,
 } from "../DetailedExperiences";
-import ExperienceHeader from "../ExperienceItem/ExperienceHeader";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import TabHeader from "../ExperienceItem/TabHeader";
-import "./ExperienceList.css";
 import TechSkills from "../TechSkills";
+import "./ExperienceList.css";
 
 
 // @TODO: #13 add Resume and CV
@@ -29,7 +26,7 @@ function ExperienceList() {
       <ExperienceItem {...wl_lsec} />
       <ExperienceItem {...wl_bcf} />
 
-      <TabHeader icon={faPalette} removeUnderline={true} title="Selected Projects" />
+      <TabHeader icon={faFileCode} removeUnderline={true} title="Selected Projects" />
       <ExperienceItem {...pr_website} />
       <ExperienceItem {...pr_altas} />
       <ExperienceItem {...pr_cordiall} />
