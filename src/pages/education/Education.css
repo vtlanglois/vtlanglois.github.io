@@ -1,13 +1,3 @@
-.listgroup {
-  background-color: #295788;
-  color: white;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
-  /* why is this so much darker than the project card? */
-  padding: 0px;
-  text-align: left;
-  border-color: #295788;
-}
-
-.padding {
-  margin-bottom: 15px;
+.table-header {
+  border-color:red;
 }

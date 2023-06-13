@@ -1,4 +1,12 @@
-import { Col, Container, ListGroup, ListGroupItem, Row } from "reactstrap";
+import {
+  Card,
+  CardBody,
+  Col,
+  Container,
+  ListGroup,
+  ListGroupItem,
+  Row,
+} from "reactstrap";
 import TabHeader from "../about/ExperienceItem/TabHeader";
 import { Semester } from "./DegreeInfo";
 
@@ -8,53 +16,33 @@ import { Semester } from "./DegreeInfo";
 function SemesterItem(props: Semester) {
   return (
     <div className="padding">
-      <TabHeader title={props.title}/>
-      {/* <ListGroup className="listgroup">
-        <ListGroupItem className="listgroup nopadding">
-          <Container>
-            <Row>
-              <Col>
+      <TabHeader title={props.title} />
+      <Card className="App-card">
+        <CardBody>
+          <table>
+            <tr className="table-header">
+              <th>
                 <b>Course</b>
-              </Col>
-              <Col>
+              </th>
+              <th>
                 <b>Title</b>
-              </Col>
-              <Col>
+              </th>
+              <th>
                 <b>Grade</b>
-              </Col>
-            </Row>
-          </Container>
-        </ListGroupItem>
-        {props.classes.map((c) => {
-          return (
-            <ListGroupItem className="listgroup">
-              <Container>
-                <Row>
-                  <Col>{c.number}</Col>
-                  <Col>{c.title}</Col>
-                  <Col>{c.grade}</Col>
-                </Row>
-              </Container>
-            </ListGroupItem>
-          );
-        })}
-      </ListGroup> */}
-      <table>
-        <tr>
-          <td>Course</td>
-          <td>Title</td>
-          <td>Grade</td>
-        </tr>
-        {props.classes.map((c) => {
-          return (
-            <tr>
-              <td>{c.number}</td>
-              <td>{c.title}</td>
-              <td>{c.grade}</td>
+              </th>
             </tr>
-          )
-        })}
-      </table>
+            {props.classes.map((c) => {
+              return (
+                <tr>
+                  <td>{c.number}</td>
+                  <td>{c.title}</td>
+                  <td>{c.grade}</td>
+                </tr>
+              );
+            })}
+          </table>
+        </CardBody>
+      </Card>
     </div>
   );
 }
