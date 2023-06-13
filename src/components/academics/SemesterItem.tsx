@@ -34,7 +34,7 @@ function SemesterItem(props: Semester) {
             {props.classes.map((c) => {
               return (
                 <tr>
-                  <td>{c.number}</td>
+                  <td className="course">{c.number}</td>
                   <td>{c.title}</td>
                   <td>{c.grade}</td>
                 </tr>

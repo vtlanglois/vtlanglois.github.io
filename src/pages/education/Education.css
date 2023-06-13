@@ -1,5 +1,11 @@
 table {
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
+}
+
+td, th, tr {
+  text-align: left;
+  /* overflow: hidden; */
 }
 
