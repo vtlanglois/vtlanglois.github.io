@@ -2,6 +2,8 @@ import { ProjectCardInfo } from "./ProjectCard/ProjectCard";
 
 /**
  * Software Engineering
+ * 
+ * Prefix: sw_
  */
 
 export const sw_pybot: ProjectCardInfo = {
@@ -35,6 +37,8 @@ export const sw_gwd: ProjectCardInfo = {
 
 /**
  * UI/UX Projects
+ * 
+ * Prefix: ui_
  */
 export const ui_cordiall: ProjectCardInfo = {
     title: "Cordiall.gg",
@@ -59,6 +63,8 @@ export const ui_cardinal: ProjectCardInfo = {
 
 /**
  * Game Design & Development
+ * 
+ * Prefix: gd_
  */
 
 export const gd_flockofcats: ProjectCardInfo = {
@@ -77,6 +83,8 @@ export const gd_atlasm1: ProjectCardInfo = {
 
 /**
  * Arduino
+ * 
+ * Prefix: ar_
  */
 
 export const ar_legocontroller = {

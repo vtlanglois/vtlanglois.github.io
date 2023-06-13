@@ -3,7 +3,6 @@ import { Card, CardBody, CardHeader, CardText, CardTitle } from "reactstrap";
 import "./TabHeader.css"
 import "../../../App.css"
 
-/**@TODO #12 find a better way to do remove underline */
 function TabHeader(props: any) {
   return (
     <div>
