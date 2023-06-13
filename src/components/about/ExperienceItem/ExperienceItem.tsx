@@ -2,11 +2,12 @@ import { Card, CardBody } from "reactstrap";
 import { ExperienceDetails } from "../DetailedExperiences";
 import ExperienceHeader from "./ExperienceHeader";
 import "./ExperienceItem.css";
+import "../../../App.css"
 
 function ExperienceItem(props: ExperienceDetails) {
   return (
     <div>
-      <Card className="exp-card">
+      <Card className="App-card">
         <CardBody >
       <ExperienceHeader {...props} />
 

@@ -2,6 +2,7 @@ import { faFigma, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText } from "reactstrap";
 import "./ProjectCard.css";
+import "../../../App.css"
 
 export interface ProjectCardInfo {
     title: string,
@@ -24,7 +25,7 @@ function handleClick() {
 function ProjectCard(props: ProjectCardInfo) {
   return (
     <div>
-      <Card className="cardgroup">
+      <Card className="App-card">
         <CardHeader tag="h4"  onClick={handleClick}>
           <b>{props.title}</b>
         </CardHeader>
