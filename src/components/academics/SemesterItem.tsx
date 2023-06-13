@@ -7,7 +7,7 @@ import { Semester } from "./DegreeInfo";
 // @TODO: #15 change arguments to props
 function SemesterItem(props: Semester) {
   return (
-    <div>
+    <div className="padding">
       <TabHeader title={props.title}/>
       <ListGroup className="listgroup">
         <ListGroupItem className="listgroup nopadding">

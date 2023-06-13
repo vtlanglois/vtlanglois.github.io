@@ -15,7 +15,6 @@ function AcademicYear(props: Year) {
         title={props.springSemester.title}
         classes={props.springSemester.classes}
       />
-      <br />
     </div>
   );
 }
