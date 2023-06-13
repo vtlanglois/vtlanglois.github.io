@@ -16,11 +16,13 @@ import { Semester } from "./DegreeInfo";
 function SemesterItem(props: Semester) {
   return (
     <div className="padding">
-      <TabHeader title={props.title} />
       <Card className="App-card">
         <CardBody>
           <table>
-            <tr className="table-header">
+            <tr>
+              <th><b><i>{props.title}</i></b></th>
+            </tr>
+            <tr >
               <th>
                 <b>Course</b>
               </th>
