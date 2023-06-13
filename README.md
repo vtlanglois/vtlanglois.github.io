@@ -1,4 +1,4 @@
-# vtlanglo.github.io
+# [vtlanglo.github.io](vtlanglo.github.io)
 
 My personal website, built using Typescript and React. 
 
