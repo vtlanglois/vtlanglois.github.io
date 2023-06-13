@@ -1,10 +1,17 @@
-import { ProjectCardInfo } from "./ProjectCard/ProjectCard";
+
+export interface ProjectCardInfo {
+    title: string,
+    desc: string,
+    links: Array<string>,
+    topics: Array<string>
+}
 
 /**
  * Software Engineering
  * 
  * Prefix: sw_
  */
+
 
 export const sw_pybot: ProjectCardInfo = {
     title: "PyBot",

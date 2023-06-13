@@ -3,13 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText } from "reactstrap";
 import "./ProjectCard.css";
 import "../../../App.css"
+import {ProjectCardInfo } from "../DetailedProjects"
 
-export interface ProjectCardInfo {
-    title: string,
-    desc: string,
-    links: Array<string>,
-    topics: Array<string>
-}
+
 function printTopics(topics: string[]) {
     var topicList = "";
     topics.forEach((element: string) => {
