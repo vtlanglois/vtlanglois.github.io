@@ -9,3 +9,8 @@ td, th, tr {
   /* overflow: hidden; */
 }
 
+td {
+  border-top: 1px solid #17314d;
+}
+
+
