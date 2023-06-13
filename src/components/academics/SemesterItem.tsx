@@ -9,7 +9,7 @@ function SemesterItem(props: Semester) {
   return (
     <div className="padding">
       <TabHeader title={props.title}/>
-      <ListGroup className="listgroup">
+      {/* <ListGroup className="listgroup">
         <ListGroupItem className="listgroup nopadding">
           <Container>
             <Row>
@@ -38,7 +38,23 @@ function SemesterItem(props: Semester) {
             </ListGroupItem>
           );
         })}
-      </ListGroup>
+      </ListGroup> */}
+      <table>
+        <tr>
+          <td>Course</td>
+          <td>Title</td>
+          <td>Grade</td>
+        </tr>
+        {props.classes.map((c) => {
+          return (
+            <tr>
+              <td>{c.number}</td>
+              <td>{c.title}</td>
+              <td>{c.grade}</td>
+            </tr>
+          )
+        })}
+      </table>
     </div>
   );
 }
