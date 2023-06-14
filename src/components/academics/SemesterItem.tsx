@@ -1,13 +1,4 @@
-import {
-  Card,
-  CardBody,
-  Col,
-  Container,
-  ListGroup,
-  ListGroupItem,
-  Row,
-} from "reactstrap";
-import TabHeader from "../about/ExperienceItem/TabHeader";
+import { Card, CardBody } from "reactstrap";
 import { Semester } from "./DegreeInfo";
 
 // @TODO: #14 figure out why spacing looks off on mobile
@@ -20,9 +11,13 @@ function SemesterItem(props: Semester) {
         <CardBody>
           <table>
             <tr>
-              <th><b><i>{props.title}</i></b></th>
+              <th>
+                <b>
+                  <i>{props.title}</i>
+                </b>
+              </th>
             </tr>
-            <tr >
+            <tr>
               <th>
                 <b>Course</b>
               </th>
@@ -38,7 +33,7 @@ function SemesterItem(props: Semester) {
                 <tr>
                   <td>{c.number}</td>
                   <td>{c.title}</td>
-                  <td >{c.grade}</td>
+                  <td>{c.grade}</td>
                 </tr>
               );
             })}
