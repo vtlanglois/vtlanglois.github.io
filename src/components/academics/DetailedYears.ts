@@ -4,9 +4,9 @@ import { Semester, Year } from "./DegreeInfo";
 export const fall2019Semester: Semester = {
   title: "Fall 2019",
   classes: [
-    { title: "Intro to CS Honors", number: "CSCI-H 211", grade: "A" },
+    { title: "Intro to Computer Science Honors", number: "CSCI-H 211", grade: "A" },
     {
-      title: "Tech Leadership and Innovation",
+      title: "Tech Leadership and Innovation I",
       number: "INFO-Y 101",
       grade: "A-",
     },
@@ -95,7 +95,7 @@ export const spring2022Semester: Semester = {
   title: "Spring 2022",
   classes: [
     { title: "Game Development", number: "CSCI-B 453", grade: "A" },
-    { title: "Use and Usability", number: "INFO-I 246", grade: "A-" },
+    { title: "Use and Usability (UI/UX)", number: "INFO-I 246", grade: "A-" },
     { title: "Game Production I", number: "MSCH-G 300", grade: "A" },
     { title: "Game Art and Sound", number: "MSCH-G 320", grade: "A" },
     { title: "History of Video Games", number: "MSCH-C 215", grade: "A+" },
@@ -124,7 +124,7 @@ export const spring2023Semester: Semester = {
       number: "CSCI-P 436",
       grade: "B+",
     },
-    { title: "Educational Tech", number: "INFO-I 400", grade: "A+" },
+    { title: "Educational Technologies", number: "INFO-I 400", grade: "A+" },
     {
       title: "Prototyping with Arduino Tools",
       number: "INFO-I 341",
