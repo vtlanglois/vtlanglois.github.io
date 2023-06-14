@@ -41,8 +41,8 @@ export const spring2020Semester: Semester = {
 export const fall2020Semester: Semester = {
   title: "Fall 2020",
   classes: [
-    { title: "Data Structures", number: "CSCI-C 343", grade: "B+" },
-    { title: "Mobile App Development", number: "CSCI-C 323", grade: "A-" },
+    { title: "Data Structures % Algorithms", number: "CSCI-C 343", grade: "B+" },
+    { title: "Android Mobile App Development", number: "CSCI-C 323", grade: "A-" },
     { title: "Career Development for CS", number: "CSCI-Y 395", grade: "A" },
     { title: "Intro to Games", number: "MSCH-C 210", grade: "A+" },
     { title: "The Solar System", number: "AST-A 100", grade: "A-" },
@@ -84,7 +84,7 @@ export const fall2021Semester: Semester = {
   title: "Fall 2021",
   classes: [
     { title: "Software Engineering I", number: "CSCI-P 465", grade: "A" },
-    { title: "Intro to Algorithms", number: "CSCI-B 403", grade: "B" },
+    { title: "Intro to Algorithm Analysis", number: "CSCI-B 403", grade: "B" },
     { title: "Intro to Game Programming", number: "CSCI-C 292", grade: "A" },
     { title: "Game Design I", number: "MSCH-G 310", grade: "A" },
     { title: "Game Technology", number: "MSCH-C 220", grade: "A+" },

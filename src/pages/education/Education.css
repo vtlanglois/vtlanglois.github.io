@@ -1,6 +1,6 @@
 table {
   border-collapse: collapse;
-  table-layout: fixed;
+  /* table-layout: fixed; */
   width: 100%;
 }
 
@@ -13,4 +13,19 @@ td {
   border-top: 1px solid #17314d;
 }
 
+/*
+  Widths of each type of cell
+*/
+
+.title {
+  width: 70%;
+}
+
+.class-num {
+  width: 25%;
+}
+
+.grade {
+  width: 5%;
+}
 
