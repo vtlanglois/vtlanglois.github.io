@@ -41,7 +41,7 @@ export const spring2020Semester: Semester = {
 export const fall2020Semester: Semester = {
   title: "Fall 2020",
   classes: [
-    { title: "Data Structures % Algorithms", number: "CSCI-C 343", grade: "B+" },
+    { title: "Data Structures & Algorithms", number: "CSCI-C 343", grade: "B+" },
     { title: "Android Mobile App Development", number: "CSCI-C 323", grade: "A-" },
     { title: "Career Development for CS", number: "CSCI-Y 395", grade: "A" },
     { title: "Intro to Games", number: "MSCH-C 210", grade: "A+" },
