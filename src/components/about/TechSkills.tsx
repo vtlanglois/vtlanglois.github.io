@@ -10,18 +10,18 @@ function TechSkills() {
             <Col>
               <ul>
                 <li>
-                  <b>Languages: </b>Java, C/C++, PHP, Python, C#, R
+                  <b>Languages: </b>Java, C, PHP, Python, C#, R
                 </li>
                 <li>
-                  <b>Web &#38; Database: </b>TypeScript, React, XML, JSON,
-                  PostgresSQL, MySQL
+                  <b>Web Dev: </b>Node.js, React, TypeScript, JavaScript, HTML/CSS
+                  
                 </li>
               </ul>
             </Col>
             <Col>
               <ul>
                 <li>
-                  <b>Frameworks: </b>Android, Spring Boot
+                  <b>Database: </b> PostgresSQL, MySQL, MongoDB
                 </li>
                 <li>
                   <b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Unity, Godot

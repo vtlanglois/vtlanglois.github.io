@@ -24,30 +24,33 @@ export const wl_lsec: ExperienceDetails = {
   job: "Student Engagement & Outreach Intern",
   startMonth: "September",
   startYear: 2020,
-  endMonth: "Ongoing",
+  endMonth: "July",
+  endYear: 2023,
   details:
     [
-      "Collaborate with student-led committee to promote student engagement and success throughout Luddy by creating events and opportunities for students to network and get involved",
-      "Coordinate and administer events with 200+ students and participating faculty in attendance",
-      "Assist with student organizations for event planning and promotion",
-      "Leads student outreach division of the Luddy Student Engagement Committee",
-      "Design and develop educational and entertaining computer science lesson plans using block-based programming, virtual worlds, and physical robots",
-      "Train and guide volunteers on lesson materials and educational tools to ensure excellent performance at our events",
+      "Collaborated with a student-led committee to enhance student engagement and promote success throughout Luddy by organizing various events and opportunities for networking and involvement.",
+      "Coordinated and managed events with 200+ students and families in attendance.",
+      "Led the student outreach division of the Luddy Student Engagement.",
+      "Directed and managed Luddy Saturdays, a fun youth outreach program designed to introduce students to tech through block-based programming and encouragement from mentors.",
+      "Engaged Luddy students in community service by recruiting them to volunteer in outreach events across Monroe County.",
+      "Trained 15+ volunteers on lesson materials and educational tools to ensure excellent performance at our events.",
+      "Served and impacted the lives of 70+ students and families from 1st to 7th grade within the Bloomington community."
     ]
 }
 
 export const wl_bcf: ExperienceDetails = {
   title: "BCForward",
   location: "Carmel, IN",
-  job: "Software Engineering Intern",
+  job: "Software Engineering Intern, TechPoint Xtern",
   startMonth: "May",
   startYear: 2022,
   endMonth: "August",
   endYear: 2022,
   details: [
-    "Worked remotely in a 7-person team developing the Indiana Prosecutor Case Management System",
-    "Created quality-of-life features that reduced customer service requests for account-related issues by the hundreds",
-    "Developed features using a React frontend, PHP backend, and MySQL databases",
+    "Collaborated remotely with a 7-person team to develop the Indiana Prosecutor Case Management System website.",
+    "Engaged in professional development, civic engagement, and networking events as a TechPoint Xtern.",
+    "Implemented quality-of-life features that effectively reduced customer service requests by hundreds, enhancing overall user and developer experiences.",
+    "Utilized React/Node.js for frontend development, PHP for backend development, and MySQL databases for seamless integration."
   ]
 }
 
