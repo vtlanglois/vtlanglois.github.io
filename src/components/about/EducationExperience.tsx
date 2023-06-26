@@ -35,7 +35,7 @@ function EducationExperience() {
                       <b>Minor: </b>Game Design
                     </li>
                     <li>
-                      <b>GPA: </b>3.84/4.00
+                      <b>GPA: </b>3.77/4.00
                     </li>
                   </ul>
                 </Col>

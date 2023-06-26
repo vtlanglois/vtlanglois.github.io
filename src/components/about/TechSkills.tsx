@@ -24,7 +24,7 @@ function TechSkills() {
                   <b>Database: </b> PostgresSQL, MySQL, MongoDB
                 </li>
                 <li>
-                  <b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Unity, Godot
+                  <b>Misc: </b>Agile, Git, GitHub, JIRA, Unix, Arduino
                 </li>
               </ul>
             </Col>
