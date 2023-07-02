@@ -21,7 +21,7 @@ function handleClick() {
 function ProjectCard(props: ProjectCardInfo) {
   return (
     <div>
-      <Card className="App-card">
+      <Card className="App-card project-card">
         <CardHeader tag="h4"  onClick={handleClick}>
           <b>{props.title}</b>
         </CardHeader>

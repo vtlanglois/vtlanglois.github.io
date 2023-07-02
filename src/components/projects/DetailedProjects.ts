@@ -42,6 +42,8 @@ export const sw_gwd: ProjectCardInfo = {
 
 }
 
+export const swProjects = [sw_pybot, sw_website, sw_gwd]
+
 /**
  * UI/UX Projects
  * 
@@ -68,6 +70,8 @@ export const ui_cardinal: ProjectCardInfo = {
     topics: ["Prototyping, Education"]
 }
 
+export const uiProjects = [ui_cordiall, ui_websiteredesign];
+
 /**
  * Game Design & Development
  * 
@@ -87,6 +91,8 @@ export const gd_atlasm1: ProjectCardInfo = {
     links: ["https://startcmd.itch.io/atlas-m-1"],
     topics: ["Audio Design", "Playtesting"]
 }
+
+export const gdProjects = [gd_flockofcats, gd_atlasm1]
 
 /**
  * Arduino
@@ -110,7 +116,9 @@ export const ar_medflow = {
 
 export const ar_oledDemo = {
     title: "OLED Demo",
-    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. ",
+    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. Made for educators and hobbyists.",
     links: ["https://github.com/vtlanglois/OLED-Demo"],
     topics: ["Low-level Programming", "Arts", "Targeted Design"]
 }
+
+export const arProjects = [ar_oledDemo, ar_medflow, ar_legocontroller]
