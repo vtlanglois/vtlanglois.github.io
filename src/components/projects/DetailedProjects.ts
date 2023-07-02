@@ -116,7 +116,7 @@ export const ar_medflow = {
 
 export const ar_oledDemo = {
     title: "OLED Demo",
-    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. ",
+    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. Made for educators and hobbyists.",
     links: ["https://github.com/vtlanglois/OLED-Demo"],
     topics: ["Low-level Programming", "Arts", "Targeted Design"]
 }
