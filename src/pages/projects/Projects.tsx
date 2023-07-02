@@ -7,18 +7,24 @@ import {
 import { Container } from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import {
+  arProjects,
   ar_legocontroller,
   ar_medflow,
   ar_oledDemo,
+  gdProjects,
   gd_atlasm1,
   gd_flockofcats,
+  swProjects,
   sw_gwd,
   sw_pybot,
   sw_website,
+  uiProjects,
   ui_cordiall,
   ui_websiteredesign,
 } from "../../components/projects/DetailedProjects";
 import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
+import styles from "./Projects.module.css"
+
 function Projects() {
   return (
     <div>
@@ -26,21 +32,29 @@ function Projects() {
         <Container>
           <h1>Projects</h1>
           <TabHeader title="Software Engineering" icon={faCode} />
-          {/* <ProjectCard {...sw_xinu}/><br/> */}
-          <ProjectCard {...sw_pybot} />
-          <ProjectCard {...sw_website} />
-          <ProjectCard {...sw_gwd} />
+          <div className={styles.container}>
+            {swProjects.map((project) => {
+              return (<ProjectCard {...project} />)
+            })}
+          </div>
           <TabHeader title="UI/UX" icon={faBorderAll} />
-          <ProjectCard {...ui_cordiall} />
-          <ProjectCard {...ui_websiteredesign} />
-          {/* <ProjectCard {...ui_cardinal}/> */}
+          <div className={styles.container}>
+            {uiProjects.map((project) => {
+                return (<ProjectCard {...project} />)
+              })}
+          </div>
           <TabHeader title="Game Design & Development" icon={faGamepad} />
-          <ProjectCard {...gd_flockofcats} />
-          <ProjectCard {...gd_atlasm1} />
+          <div className={styles.container}>
+            {gdProjects.map((project) => {
+              return (<ProjectCard {...project} />)
+            })}
+          </div>
           <TabHeader title="Arduino" icon={faGear} />
-          <ProjectCard {...ar_oledDemo} />
-          <ProjectCard {...ar_medflow} />
-          <ProjectCard {...ar_legocontroller} />
+          <div className={styles.container}>
+            {arProjects.map((project) => {
+              return (<ProjectCard {...project} />)
+            })}
+          </div>
         </Container>
       </body>
     </div>
