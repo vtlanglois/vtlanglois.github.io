@@ -17,17 +17,3 @@
   border-color: #fa5c5c;
 }
 
-/* .project-card {
-  width: 50%;
-  /* Adjust width as needed to fit two cards per row */
-  /* For example, use 'width: 33.33%;' for three cards per row */
-  /* You can also use CSS Grid for more complex layouts */
-
-  /* Additional styles for the card } */
-
-/* Media query for mobile devices */
-/* @media (max-width: 768px) {
-  .project-card {
-    width: 100%;
-  }
-} */
