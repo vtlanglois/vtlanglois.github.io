@@ -7,23 +7,10 @@ import {
 import { Container } from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import {
-  arProjects,
-  ar_legocontroller,
-  ar_medflow,
-  ar_oledDemo,
-  gdProjects,
-  gd_atlasm1,
-  gd_flockofcats,
-  swProjects,
-  sw_gwd,
-  sw_pybot,
-  sw_website,
-  uiProjects,
-  ui_cordiall,
-  ui_websiteredesign,
+  arProjects, gdProjects, swProjects, uiProjects
 } from "../../components/projects/DetailedProjects";
 import ProjectCard from "../../components/projects/ProjectCard/ProjectCard";
-import styles from "./Projects.module.css"
+import styles from "./Projects.module.css";
 
 function Projects() {
   return (

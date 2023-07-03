@@ -121,4 +121,17 @@ export const ar_oledDemo = {
     topics: ["Low-level Programming", "Arts", "Targeted Design"]
 }
 
-export const arProjects = [ar_oledDemo, ar_medflow, ar_legocontroller]
+export const ar_RGBLEDDialSelector = {
+    title: "RGB LED Dial Selector",
+    desc: "An interactive educational experience built to demonstrate an Arduino's analog and PWD pins for a young audience. Built for developers and educators.",
+    links:["https://github.com/vtlanglois/RGB_LED_Dials"],
+    topics: ["Low-level Programming", "Electronics", "Education Outreach"]
+}
+
+export const ar_simpleDataLogger = {
+    title: "Light and Temperature Data Logger",
+    desc: "A simple light and temperature data logger. Log data, stores it, then analyses it. Work in Progress. ",
+    links: ["https://github.com/vtlanglois/simple_data_logger"],
+    topics: ["Data Collection", "Data Analysis", "Electronics"]
+}
+export const arProjects = [ar_oledDemo, ar_medflow, ar_legocontroller, ar_RGBLEDDialSelector, ar_simpleDataLogger]
