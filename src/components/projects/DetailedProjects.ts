@@ -116,14 +116,14 @@ export const ar_medflow = {
 
 export const ar_oledDemo = {
     title: "OLED Demo",
-    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. Made for educators and hobbyists.",
+    desc: "A showcase of the capabilities of an OLED Screen for Arduino devices. Demos for shapes, texts, and animation.",
     links: ["https://github.com/vtlanglois/OLED-Demo"],
     topics: ["Low-level Programming", "Arts", "Targeted Design"]
 }
 
 export const ar_RGBLEDDialSelector = {
     title: "RGB LED Dial Selector",
-    desc: "An interactive educational experience built to demonstrate an Arduino's analog and PWD pins for a young audience. Built for developers and educators.",
+    desc: "An interactive educational experience built to demonstrate an Arduino's analog and PWD pins for a young audience.",
     links:["https://github.com/vtlanglois/RGB_LED_Dials"],
     topics: ["Low-level Programming", "Electronics", "Education Outreach"]
 }
