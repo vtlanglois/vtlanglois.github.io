@@ -37,6 +37,12 @@ function Projects() {
               return (<ProjectCard {...project} />)
             })}
           </div>
+          <TabHeader title="Arduino" icon={faGear} />
+          <div className={styles.container}>
+            {arProjects.map((project) => {
+              return (<ProjectCard {...project} />)
+            })}
+          </div>
           <TabHeader title="UI/UX" icon={faBorderAll} />
           <div className={styles.container}>
             {uiProjects.map((project) => {
@@ -46,12 +52,6 @@ function Projects() {
           <TabHeader title="Game Design & Development" icon={faGamepad} />
           <div className={styles.container}>
             {gdProjects.map((project) => {
-              return (<ProjectCard {...project} />)
-            })}
-          </div>
-          <TabHeader title="Arduino" icon={faGear} />
-          <div className={styles.container}>
-            {arProjects.map((project) => {
               return (<ProjectCard {...project} />)
             })}
           </div>
