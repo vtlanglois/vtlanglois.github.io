@@ -36,7 +36,7 @@ export const sw_xinu: ProjectCardInfo = {
 
 export const sw_gwd: ProjectCardInfo = {
     title: "GWD Resource Repository",
-    desc: "A repository of HTML/CSS resources for future outreach events. Built to aid volunteers and give students ideas for their website projects",
+    desc: "A repository of HTML/CSS resources for future outreach events. Built to aid volunteers and give students ideas for their website projects.",
     links: ["https://github.com/vtlanglois/GWD"],
     topics: ["Web Design", "Educational Outreach"]
 
