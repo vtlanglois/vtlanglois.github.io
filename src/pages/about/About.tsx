@@ -41,20 +41,6 @@ function About() {
                   any topic that interests me, from Foley sound design to
                   mythology.
                 </p>
-                <p>
-                  I want to learn more about web design, so I decided to make my
-                  own website on Github Pages! This allows me to practice with
-                  Typescript and React through experimentation and learning from
-                  my mistakes. If you want a better idea of who I am, please go
-                  to my{" "}
-                  <a
-                    className="App-link"
-                    href="https://www.linkedin.com/in/vtlanglois/"
-                  >
-                    LinkedIn
-                  </a>{" "}
-                  page.
-                </p>
               </Row>
             </CardBody>
           </Card>
