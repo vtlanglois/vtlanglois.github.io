@@ -28,8 +28,8 @@ function ProjectCard(props: ProjectCardInfo) {
         <CardBody  onClick={handleClick}>
           <CardText> {props.desc}
           </CardText>
-          <CardText> 
-          <b>Topics: </b>{printTopics(props.topics)}
+          <CardText className="topics"> 
+          <b>Topics: </b><i>{printTopics(props.topics)}</i>
           </CardText>
           </CardBody>
           <CardFooter> 
