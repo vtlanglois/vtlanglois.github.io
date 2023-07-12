@@ -5,8 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   projectExperiences,
-  wl_bcf,
-  wl_lsec
+  workExperiences
 } from "../DetailedExperiences";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import TabHeader from "../ExperienceItem/TabHeader";
@@ -20,8 +19,11 @@ function ExperienceList() {
     <div>
 
       <TabHeader icon={faSuitcase} removeUnderline={true} title="Work & Leadership Experience" />
-      <ExperienceItem {...wl_lsec} />
-      <ExperienceItem {...wl_bcf} />
+      {workExperiences.map((w) => {
+        return (
+          <ExperienceItem {...w} />
+        )
+      })}
 
       <TabHeader icon={faFileCode} removeUnderline={true} title="Selected Projects" />
       {projectExperiences.map((p) => {

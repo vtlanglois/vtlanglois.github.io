@@ -54,6 +54,19 @@ const wl_bcf: ExperienceDetails = {
   ]
 }
 
+const wl_lilly: ExperienceDetails = {
+  title:"Eli Lilly & Company",
+  location:"Indianapolis, IN",
+  job:"Tech@Lilly Software Product Engineering, Web Developer",
+  startMonth:"July",
+  startYear: 2023,
+  endMonth: "Ongoing",
+  details: [
+    "Details pending."
+  ]
+}
+
+export const workExperiences = [wl_lilly, wl_bcf, wl_lsec]
 
 /* 
 SELECTED PROJECTS
