@@ -35,13 +35,11 @@ function WebsiteHeader() {
           <Nav className="ms-auto" navbar>
             {
               <NavLink href="#/education">
-                <FontAwesomeIcon className="edu-icon" icon={faGraduationCap} />
                 <b className="brand-name">Education</b>
               </NavLink>
             }
             {
               <NavLink href="#/projects">
-                <FontAwesomeIcon className="project-icon" icon={faFileCode} />
                 <b className="brand-name">Projects</b>
               </NavLink>
             }
