@@ -1,5 +1,14 @@
 import { faGraduationCap, faUser } from "@fortawesome/free-solid-svg-icons";
-import { Card, CardBody, Col, Container, Fade, Row } from "reactstrap";
+import {
+  Button,
+  ButtonToolbar,
+  Card,
+  CardBody,
+  Col,
+  Container,
+  Fade,
+  Row,
+} from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
 import "../../App.css";
@@ -41,6 +50,9 @@ function About() {
                   any topic that interests me, from Foley sound design to
                   mythology.
                 </p>
+                <ButtonToolbar>
+                  <Button>Download CV</Button>
+                </ButtonToolbar>
               </Row>
             </CardBody>
           </Card>

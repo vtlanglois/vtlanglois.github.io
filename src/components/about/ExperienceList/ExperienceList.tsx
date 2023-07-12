@@ -4,12 +4,9 @@ import {
   faSuitcase
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  pr_altas,
-  pr_brainstorm,
-  pr_cordiall,
-  pr_website,
+  projectExperiences,
   wl_bcf,
-  wl_lsec,
+  wl_lsec
 } from "../DetailedExperiences";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import TabHeader from "../ExperienceItem/TabHeader";
@@ -27,10 +24,11 @@ function ExperienceList() {
       <ExperienceItem {...wl_bcf} />
 
       <TabHeader icon={faFileCode} removeUnderline={true} title="Selected Projects" />
-      <ExperienceItem {...pr_website} />
-      <ExperienceItem {...pr_altas} />
-      <ExperienceItem {...pr_cordiall} />
-      <ExperienceItem {...pr_brainstorm} />
+      {projectExperiences.map((p) => {
+        return (
+          <ExperienceItem {...p} />
+        )
+      })}
 
       <TabHeader icon={faMicrochip} removeUnderline={true} title="Technical Skills" />
       <TechSkills />

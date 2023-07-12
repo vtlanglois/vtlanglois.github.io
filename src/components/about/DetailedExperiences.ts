@@ -18,7 +18,7 @@ Prefix: wl_
 */
 
 
-export const wl_lsec: ExperienceDetails = {
+const wl_lsec: ExperienceDetails = {
   title: "Luddy School of Informatics, Computing, and Engineering @ IU",
   location: "Bloomington, IN",
   job: "Student Engagement & Outreach Intern",
@@ -38,7 +38,7 @@ export const wl_lsec: ExperienceDetails = {
     ]
 }
 
-export const wl_bcf: ExperienceDetails = {
+const wl_bcf: ExperienceDetails = {
   title: "BCForward",
   location: "Carmel, IN",
   job: "Software Engineering Intern, TechPoint Xtern",
@@ -54,25 +54,26 @@ export const wl_bcf: ExperienceDetails = {
   ]
 }
 
+
 /* 
 SELECTED PROJECTS
 
 Prefix: pr_
 */
 
-export const pr_website: ExperienceDetails = {
+const pr_website: ExperienceDetails = {
   title: "Personal Website",
   startMonth: "September",
   startYear: 2022,
   endMonth: "Ongoing",
   details: [
-    "Working on a personal website to provide more information about myself beyond my LinkedIN profile",
-    "Serving as a way to learn more about web development and front-end programming",
-    "Developing using React, Typescript, and Reactstrap, hosted on Github Pages",
+    "Continuously developing a personal website to showcase my education, projects, and personal story.",
+    "Implemented a responsive design and key sections such as a project portfolio board and college semester summaries.",
+    "Utilized React/Node.js for efficient page loading and component structure and TypeScript for improved code quality."
   ]
 }
 
-export const pr_altas: ExperienceDetails = {
+const pr_altas: ExperienceDetails = {
   title: "ATLAS M-1",
   startMonth: "March",
   startYear: 2022,
@@ -85,20 +86,20 @@ export const pr_altas: ExperienceDetails = {
   ]
 }
 
-export const pr_cordiall: ExperienceDetails = {
+const pr_cordiall: ExperienceDetails = {
   title: "Cordiall.gg",
   startMonth: "February",
   startYear: 2022,
   endMonth: "May",
   endYear: 2022,
   details: [
-    "Created a framework for a website focused on providing information about accessibility options present in certain videos to aid disabled and competitive gamers and their needs",
-    "Led a 4-person team in designing the Figma prototype and ensuring the projects accessibility goals and deadlines were met",
-    "Conducted interviews and usability tests to understand the needs of our customers and test our design decisions",
+    "Designed a robust framework for a website dedicated to delivering comprehensive information on accessibility options available in specific videos, catering specifically to the requirements of disabled individuals and competitive gamers.",
+    "Led a team of four students in the design of the Figma prototype, effectively coordinating efforts to ensure the timely achievement of the project's accessibility objectives and deadlines.",
+    "Conducted in-depth interviews and rigorous usability tests to gain valuable insights into our target audience's needs, while also validating the efficacy of our design choices."
   ]
 }
 
-export const pr_brainstorm: ExperienceDetails = {
+const pr_brainstorm: ExperienceDetails = {
   title: "Brainstorm",
   startMonth: "September",
   startYear: 2021,
@@ -106,8 +107,10 @@ export const pr_brainstorm: ExperienceDetails = {
   endYear: 2021,
   job: "Fullstack Software Engineer",
   details: [
-    "Created a learning management system web application focused on increasing K-8th grade student engagement through gamified learning",
-    "Collaborated with 4-person team using Agile software development methodology over 5 two-week sprints",
-    "Developed using Java Spring Boot, React, and PostgreSQL",
+    "Developed a highly interactive web-based learning management system (LMS) application with a strong emphasis on gamified learning to enhance student engagement in grades K-8.",
+    "Collaborated with a 4-person student team, employing Agile software development methodology across five two-week sprints to ensure efficient project execution.",
+    "Utilized React/Node.js for frontend development, Java Spring Boot for backend development, and PostgreSQL databases for seamless integration."
   ]
 }
+
+export const projectExperiences = [pr_website, pr_cordiall, pr_brainstorm]
