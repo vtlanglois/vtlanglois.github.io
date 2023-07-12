@@ -14,6 +14,8 @@ import ExperienceList from "../../components/about/ExperienceList/ExperienceList
 import "../../App.css";
 import ExperienceHeader from "../../components/about/ExperienceItem/ExperienceHeader";
 import EducationExperience from "../../components/about/EducationExperience";
+import CV from "./vincent-langlois-cv.pdf"
+
 
 function About() {
   return (
@@ -51,7 +53,7 @@ function About() {
                   mythology.
                 </p>
                 <ButtonToolbar>
-                  <Button>Download CV</Button>
+                  <a href={CV} download="vincent-langlois-cv"><Button>Download CV</Button></a>
                 </ButtonToolbar>
               </Row>
             </CardBody>
