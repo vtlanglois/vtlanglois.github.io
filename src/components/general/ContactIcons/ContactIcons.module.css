@@ -3,28 +3,28 @@
   margin: 0 auto;
 }
 
-.bottom-text {
+.bottomText {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.social-media-icons-white {
+.icon {
   color: white;
   font-size: 2rem;
   transition: all 0.2s ease-in-out;
 }
 
-.fa-github:hover {
+.github:hover {
   color: #6e5494;
   /* transform: scale(1.001);  */
 }
 
-.fa-linkedin:hover {
+.linkedin:hover {
   color: #0072b1;
   /* transform: scale(1.001);  */
 }
 
-.fa-email:hover {
+.email:hover {
   color: #e18984;
   /* transform: scale(1.001);  */
 }

@@ -3,7 +3,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "reactstrap";
 import { GetDate, SelectSplash } from "../EmojiSelector";
-import "./ContactIcons.css";
+import style from "./ContactIcons.module.css"
 
 function ContactIcons() {
   const splashText = SelectSplash();
@@ -11,9 +11,9 @@ function ContactIcons() {
   return (
     <div>
       <Container>
-        <div className="singleCol d-flex justify-content-evenly">
+        <div className={`${style.singleCol} d-flex justify-content-evenly`}>
           <a
-            className="social-media-icons-white fa-linkedin"
+            className={`${style.icon} ${style.linkedin} `}
             href="https://www.linkedin.com/in/vtlanglois"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +21,7 @@ function ContactIcons() {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            className="social-media-icons-white fa-github"
+            className={`${style.icon} ${style.github} `}
             href="https://github.com/vtlanglois"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function ContactIcons() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            className="social-media-icons-white fa-email"
+            className={`${style.icon} ${style.email} `}
             href="https://github.com/vtlanglois"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ function ContactIcons() {
           </a>
         </div>
       </Container>
-      <div className="bottom-text d-flex justify-content-evenly">
+      <div className={`${style.bottomText} d-flex justify-content-evenly`}>
         vincent langlois - {splashText} - {currentYear}
       </div>
     </div>
