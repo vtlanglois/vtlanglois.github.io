@@ -59,7 +59,7 @@ function About() {
                   <a href={CV} download="vincent-langlois-cv">
                     <Button className={`${style.vlInfo} ${style.cvButton}`}>
                     <FontAwesomeIcon icon={faFile} />
-                    {" "}Download CV
+                    {" "}CV
                     </Button>
                   </a>
                   <a href="https://www.linkedin.com/in/vtlanglois/">
