@@ -1,7 +1,4 @@
-import {
-  faFileCode,
-  faGraduationCap
-} from "@fortawesome/free-solid-svg-icons";
+import { faFileCode, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import {
@@ -33,17 +30,12 @@ function WebsiteHeader() {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
-            {
               <NavLink href="#/education">
                 <b className="brand-name">Education</b>
               </NavLink>
-            }
-            {
               <NavLink href="#/projects">
                 <b className="brand-name">Projects</b>
               </NavLink>
-            }
-            {/* <NavLink href="#/contact">✉️contact</NavLink> */}
           </Nav>
         </Collapse>
       </Navbar>
