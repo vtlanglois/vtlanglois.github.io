@@ -28,14 +28,14 @@ function ContactIcons() {
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a
+          {/* <a
             className={`${style.icon} ${style.email} `}
             href="https://github.com/vtlanglois"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faEnvelope} />
-          </a>
+          </a> */}
         </div>
       </Container>
       <div className={`${style.bottomText} d-flex justify-content-evenly`}>
