@@ -1,6 +1,7 @@
 import { faGraduationCap, faUser } from "@fortawesome/free-solid-svg-icons";
 import {
   Button,
+  ButtonGroup,
   ButtonToolbar,
   Card,
   CardBody,
@@ -15,6 +16,7 @@ import "../../App.css";
 import ExperienceHeader from "../../components/about/ExperienceItem/ExperienceHeader";
 import EducationExperience from "../../components/about/EducationExperience";
 import CV from "./vincent-langlois-cv.pdf"
+import style from "./About.module.css"
 
 
 function About() {
@@ -52,9 +54,11 @@ function About() {
                   any topic that interests me, from Foley sound design to
                   mythology.
                 </p>
-                <ButtonToolbar>
-                  <a href={CV} download="vincent-langlois-cv"><Button>Download CV</Button></a>
-                </ButtonToolbar>
+                <span className={style.buttonGroup}>
+                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.cvButton}`}>Download CV</Button></a>
+                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.githubButton}`}>GitHub</Button></a>
+                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.linkedinButton}`}>LinkedIn</Button></a>
+                </span>
               </Row>
             </CardBody>
           </Card>
