@@ -56,8 +56,8 @@ function About() {
                 </p>
                 <span className={style.buttonGroup}>
                   <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.cvButton}`}>Download CV</Button></a>
-                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.githubButton}`}>GitHub</Button></a>
-                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.linkedinButton}`}>LinkedIn</Button></a>
+                  <a href="https://github.com/vtlanglois"><Button className={`${style.vlInfo} ${style.githubButton}`}>GitHub</Button></a>
+                  <a href="https://www.linkedin.com/in/vtlanglois/"><Button className={`${style.vlInfo} ${style.linkedinButton}`}>LinkedIn</Button></a>
                 </span>
               </Row>
             </CardBody>
