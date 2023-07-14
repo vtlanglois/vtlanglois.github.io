@@ -1,4 +1,4 @@
-import { faGraduationCap, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faGraduationCap, faUser } from "@fortawesome/free-solid-svg-icons";
 import {
   Button,
   ButtonGroup,
@@ -15,9 +15,10 @@ import ExperienceList from "../../components/about/ExperienceList/ExperienceList
 import "../../App.css";
 import ExperienceHeader from "../../components/about/ExperienceItem/ExperienceHeader";
 import EducationExperience from "../../components/about/EducationExperience";
-import CV from "./vincent-langlois-cv.pdf"
-import style from "./About.module.css"
-
+import CV from "./vincent-langlois-cv.pdf";
+import style from "./About.module.css";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function About() {
   return (
@@ -55,9 +56,26 @@ function About() {
                   mythology.
                 </p>
                 <span className={style.buttonGroup}>
-                  <a href={CV} download="vincent-langlois-cv"><Button className={`${style.vlInfo} ${style.cvButton}`}>Download CV</Button></a>
-                  <a href="https://github.com/vtlanglois"><Button className={`${style.vlInfo} ${style.githubButton}`}>GitHub</Button></a>
-                  <a href="https://www.linkedin.com/in/vtlanglois/"><Button className={`${style.vlInfo} ${style.linkedinButton}`}>LinkedIn</Button></a>
+                  <a href={CV} download="vincent-langlois-cv">
+                    <Button className={`${style.vlInfo} ${style.cvButton}`}>
+                    <FontAwesomeIcon icon={faFile} />
+                    {" "}Download CV
+                    </Button>
+                  </a>
+                  <a href="https://github.com/vtlanglois">
+                    <Button className={`${style.vlInfo} ${style.githubButton}`}>
+                      <FontAwesomeIcon icon={faGithub} />
+                      {" "}GitHub
+                    </Button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/vtlanglois/">
+                    <Button
+                      className={`${style.vlInfo} ${style.linkedinButton} `}
+                    >
+                      <FontAwesomeIcon icon={faLinkedin} />
+                      {" "}LinkedIn
+                    </Button>
+                  </a>
                 </span>
               </Row>
             </CardBody>
