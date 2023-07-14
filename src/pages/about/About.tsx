@@ -62,18 +62,18 @@ function About() {
                     {" "}Download CV
                     </Button>
                   </a>
-                  <a href="https://github.com/vtlanglois">
-                    <Button className={`${style.vlInfo} ${style.githubButton}`}>
-                      <FontAwesomeIcon icon={faGithub} />
-                      {" "}GitHub
-                    </Button>
-                  </a>
                   <a href="https://www.linkedin.com/in/vtlanglois/">
                     <Button
                       className={`${style.vlInfo} ${style.linkedinButton} `}
                     >
                       <FontAwesomeIcon icon={faLinkedin} />
                       {" "}LinkedIn
+                    </Button>
+                  </a>
+                  <a href="https://github.com/vtlanglois">
+                    <Button className={`${style.vlInfo} ${style.githubButton}`}>
+                      <FontAwesomeIcon icon={faGithub} />
+                      {" "}GitHub
                     </Button>
                   </a>
                 </span>
