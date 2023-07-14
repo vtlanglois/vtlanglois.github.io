@@ -6,17 +6,17 @@
   font-size: calc(5px + 2vmin);
 }
 
-.github-link {
+.github-link:hover {
   background-color: #6e5494;
   border-color: #6e5494;
 }
 
-.figma-link {
+.figma-link:hover {
   background-color: #1abcfe;
   border-color: #1abcfe;
 }
 
-.itch-link {
+.itch-link:hover {
   background-color: #fa5c5c;
   border-color: #fa5c5c;
 }
