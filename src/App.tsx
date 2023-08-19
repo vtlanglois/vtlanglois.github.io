@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./styles/App.css"
+import "./App.css"
 import ContactIcons from "./components/general/ContactIcons/ContactIcons";
 import WebsiteHeader from "./components/general/WebsiteHeader/WebsiteHeader";
 import About from "./pages/about/About";
