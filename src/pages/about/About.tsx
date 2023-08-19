@@ -1,19 +1,12 @@
-import { faFile, faGraduationCap, faUser } from "@fortawesome/free-solid-svg-icons";
 import {
-  Button,
-  ButtonGroup,
-  ButtonToolbar,
-  Card,
-  CardBody,
-  Col,
-  Container,
-  Fade,
-  Row,
-} from "reactstrap";
+  faFile,
+  faGraduationCap,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
+import { Button, Card, CardBody, Container, Fade, Row } from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
 import "../../App.css";
-import ExperienceHeader from "../../components/about/ExperienceItem/ExperienceHeader";
 import EducationExperience from "../../components/about/EducationExperience";
 import CV from "./vincent-langlois-cv.pdf";
 import style from "./About.module.css";
@@ -58,22 +51,19 @@ function About() {
                 <span className={style.buttonGroup}>
                   <a href={CV} download="vincent-langlois-cv">
                     <Button className={`${style.vlInfo} ${style.cvButton}`}>
-                    <FontAwesomeIcon icon={faFile} />
-                    {" "}CV
+                      <FontAwesomeIcon icon={faFile} /> CV
                     </Button>
                   </a>
                   <a href="https://www.linkedin.com/in/vtlanglois/">
                     <Button
                       className={`${style.vlInfo} ${style.linkedinButton} `}
                     >
-                      <FontAwesomeIcon icon={faLinkedin} />
-                      {" "}LinkedIn
+                      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                     </Button>
                   </a>
                   <a href="https://github.com/vtlanglois">
                     <Button className={`${style.vlInfo} ${style.githubButton}`}>
-                      <FontAwesomeIcon icon={faGithub} />
-                      {" "}GitHub
+                      <FontAwesomeIcon icon={faGithub} /> GitHub
                     </Button>
                   </a>
                 </span>

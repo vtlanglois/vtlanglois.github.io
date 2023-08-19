@@ -60,9 +60,10 @@ const wl_lilly: ExperienceDetails = {
   job:"Tech@Lilly Software Product Engineering, Web Developer",
   startMonth:"July",
   startYear: 2023,
-  endMonth: "Ongoing",
+  endMonth: "Present",
   details: [
-    "Details pending."
+    "Collaborating with cross-functional teams on the development of Lilly Direct, an online direct-to-consumer pharmacy.",
+    "Implementing front-end accessibility enhancements, extending the service’s usability to a broader audience."
   ]
 }
 
