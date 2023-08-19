@@ -2,7 +2,6 @@ import { faFigma, faGithub, faItchIo } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, ButtonToolbar, Card, CardBody, CardFooter, CardHeader, CardText } from "reactstrap";
 import "./ProjectCard.css";
-import "../../../App.css"
 import {ProjectCardInfo } from "../DetailedProjects"
 
 

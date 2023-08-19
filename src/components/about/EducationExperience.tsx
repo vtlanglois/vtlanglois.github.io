@@ -1,6 +1,5 @@
 import { Card, CardBody, Row, Col } from "reactstrap";
 import ExperienceHeader from "./ExperienceItem/ExperienceHeader";
-import "../../App.css"
 
 function EducationExperience() {
     

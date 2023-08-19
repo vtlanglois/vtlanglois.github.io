@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, CardBody, CardHeader, CardText, CardTitle } from "reactstrap";
 import "./TabHeader.css"
-import "../../../App.css"
 
 function TabHeader(props: any) {
   return (

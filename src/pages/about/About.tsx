@@ -6,7 +6,6 @@ import {
 import { Button, Card, CardBody, Container, Fade, Row } from "reactstrap";
 import TabHeader from "../../components/about/ExperienceItem/TabHeader";
 import ExperienceList from "../../components/about/ExperienceList/ExperienceList";
-import "../../App.css";
 import EducationExperience from "../../components/about/EducationExperience";
 import CV from "./vincent-langlois-cv.pdf";
 import style from "./About.module.css";

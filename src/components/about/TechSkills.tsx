@@ -1,5 +1,4 @@
 import { Card, CardBody, Row, Col } from "reactstrap";
-import "../../App.css"
 
 function TechSkills() {
   return (

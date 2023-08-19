@@ -1,5 +1,4 @@
 import { Container } from "reactstrap";
-import "../../App.css";
 import AcademicYear from "../../components/academics/AcademicYear";
 import {
   freshmanYear,
