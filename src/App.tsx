@@ -10,7 +10,7 @@ function App() {
           <h1>Header</h1>
         </div>
       </header>
-      <div className="container">
+      <section className="container">
         <div className="row">
           <div className="col-md-5 col-sm-12">
             <h1>Hi! 👋😄</h1>
@@ -37,11 +37,20 @@ function App() {
           </div>
           <div className="row">
             <div className="col">
-              <Button href="https://www.linkedin.com/in/vtlanglois/" label="LinkedIN" />
+              <div className="button-container">
+                <Button
+                  href="https://www.linkedin.com/in/vtlanglois/"
+                  label="LinkedIN"
+                />
+                <Button
+                  href="https://github.com/vtlanglois"
+                  label="GitHub"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <footer>
         <div className="container">
           <h1>Footer</h1>

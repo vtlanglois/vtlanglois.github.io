@@ -15,6 +15,16 @@ h1 {
     font-family: Futura;
 }
 
+section {
+    padding: 1vmin 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
 .link-button {
     display: inline-block;
     text-decoration: none;
