@@ -6,7 +6,7 @@ function App() {
     <div>
       <header>
         <div className="container">
-          <h1>Back to One</h1>
+          <h1>Header</h1>
         </div>
       </header>
       <div className="container">
@@ -40,10 +40,12 @@ function App() {
             </div>
           </div>
         </div>
-        <footer>
-          <h1></h1>
-        </footer>
       </div>
+      <footer>
+        <div className="container">
+          <h1>Footer</h1>
+        </div>
+      </footer>
     </div>
   );
 }
