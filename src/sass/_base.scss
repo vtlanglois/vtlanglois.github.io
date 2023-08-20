@@ -16,6 +16,14 @@ h1 {
     font-family: Futura;
 }
 
+// p {
+//     &::before {
+//         content: "";
+//         display: inline-block;
+//         width: 1em; /* Adjust the width to control the indentation */
+//       }
+// }
+
 section {
     padding: 1vmin 0;
     background-color: $background !important;

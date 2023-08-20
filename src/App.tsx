@@ -10,7 +10,7 @@ function App() {
     <div>
       <header>
         <div className="container">
-          <h3>Header</h3>
+          <h3>⭐️ Vincent Langlois</h3>
         </div>
       </header>
       <section className="main-content">

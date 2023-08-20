@@ -5,10 +5,7 @@ const Contact = () => {
     <div>
       <h2>Contact Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-        distinctio nobis perspiciatis nostrum itaque magnam reiciendis quisquam
-        tempore veritatis vero recusandae nisi mollitia eligendi, aliquam amet
-        cumque blanditiis est sit.
+        For professional inquiries or to connect, feel free to reach out to me on LinkedIN or Github.
       </p>
       <div className="button-container">
         <Button
