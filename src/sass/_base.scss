@@ -21,6 +21,7 @@ section {
     background-color: $background !important;
 }
 
+
 .button-container {
     display: flex;
     justify-content: flex-start;
@@ -42,11 +43,17 @@ section {
 }
 
 @media only screen and (max-width: 720px){
-    .intro-container {
-        text-align: center !important;
+    .main-content {
+        h1, h2 {
+            text-align: center !important;
+        }
     }
+    // .intro-container {
+    //     text-align: center !important;
+    // }
 
     .button-container {
         justify-content: space-around;
     }
+
 }

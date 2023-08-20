@@ -1,5 +1,5 @@
-import Button from "../Button";
-import CV from "../../vincent-langlois-cv.pdf"
+import Button from "../components/Button";
+import CV from "../vincent-langlois-cv.pdf"
 
 const About = () => {
   return (
