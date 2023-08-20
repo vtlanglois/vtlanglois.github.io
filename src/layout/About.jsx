@@ -9,7 +9,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-5 col-sm-12">
             <div className="intro-container">
-              <h1>Hi! 👋😄</h1>
+              <h1>Hi! <span className="waving-emoji">👋</span>😄</h1>
               <h1>I'm Vincent Langlois.</h1>
               <h2>I build things, often using</h2>
               <h2>
