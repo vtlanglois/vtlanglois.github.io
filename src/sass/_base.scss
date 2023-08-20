@@ -1,0 +1,24 @@
+html {
+    background-color: $background !important;
+}
+
+body {
+    background-color: $background;
+}
+
+header {
+    padding: 25px 0;
+    margin: 0 auto;
+    background-color: $header;
+}
+
+button {
+    background-color: $button;
+    padding: 1vmin;
+    border: 0;
+    border-radius: 15px;
+
+    &:hover {
+        background-color: $button-hover;
+    }
+}
