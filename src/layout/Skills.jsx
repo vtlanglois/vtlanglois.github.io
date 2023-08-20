@@ -1,9 +1,9 @@
-import React from "react";
+import SectionHeader from "../components/SectionHeader";
 
 const SkillsList = () => {
   return (
     <div>
-      <h2>Skills</h2>
+      <SectionHeader text={"Skills"} />
       <ul>
         <li>
           <b>Web Development</b> &rarr; React, TypeScript, JS, Next.JS, Node.JS,

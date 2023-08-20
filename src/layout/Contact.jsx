@@ -1,9 +1,10 @@
 import Button from "../components/Button";
+import SectionHeader from "../components/SectionHeader";
 
 const Contact = () => {
   return (
     <div>
-      <h2>Contact Me</h2>
+      <SectionHeader text={"Contact"} />
       <p>
         For professional inquiries or to connect, feel free to reach out to me on LinkedIN or Github.
       </p>

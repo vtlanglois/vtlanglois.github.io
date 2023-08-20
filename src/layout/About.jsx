@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import SectionHeader from "../components/SectionHeader";
 import CV from "../vincent-langlois-cv.pdf"
 
 const About = () => {
@@ -17,6 +18,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-7 col-sm-12">
+            <SectionHeader text={"About Me"} />
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
               error quaerat voluptate, pariatur magni hic mollitia debitis
