@@ -1,5 +1,6 @@
 html {
     background-color: $background !important;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -40,7 +41,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 720px){
     .intro-container {
         text-align: center !important;
     }
