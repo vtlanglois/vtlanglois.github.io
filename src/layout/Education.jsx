@@ -20,7 +20,7 @@ const Education = () => {
               <div className="col">
                 <i>
                   <h6>Bachelors of Science in Computer Science</h6>
-                  <h6>&#8627; Specialization in Software Engineering</h6>
+                  <h6 className="related-item">Specialization in Software Engineering</h6>
                   <h6>Minor in Game Design</h6>
                 </i>
               </div>

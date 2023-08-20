@@ -1,23 +1,24 @@
 html {
-    background-color: $background !important;
-    scroll-behavior: smooth;
+  background-color: $background !important;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: $background;
+  background-color: $background;
 }
 
-header, footer {
-    padding: 1vmin 0;
-    background-color: $header;
+header,
+footer {
+  padding: 1vmin 0;
+  background-color: $header;
 }
 
 h1 {
-    font-family: Futura;
+  font-family: Futura;
 }
 
 .section-header {
-    border-bottom: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 // p {
@@ -29,46 +30,55 @@ h1 {
 // }
 
 section {
-    padding: 1vmin 0;
-    background-color: $background !important;
+  padding: 1vmin 0;
+  background-color: $background !important;
 }
-
 
 .button-container {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
 
-    .link-button {
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        color: $foreground;
-        background-color: $button;
-        padding: 1vmax;
-        border: 0;
-        border-radius: 15px;
-        min-width: 100px;
-    
-        &:hover {
-            background-color: $button-hover;
-        }
+  .link-button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: $foreground;
+    background-color: $button;
+    padding: 1vmax;
+    border: 0;
+    border-radius: 15px;
+    min-width: 100px;
+
+    &:hover {
+      background-color: $button-hover;
     }
+  }
 }
 
-@media only screen and (max-width: 720px){
-    .main-content {
-        h1, h2 {
-            text-align: center !important;
-        }
-    }
-    // .intro-container {
-    //     text-align: center !important;
-    // }
+.related-item {
+  list-style-type: none;
+  &::before {
+    content: "↳";
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 0.5em;
+  }
+}
 
-    .button-container {
-        justify-content: space-evenly;
+@media only screen and (max-width: 720px) {
+  .main-content {
+    h1,
+    h2 {
+      text-align: center !important;
     }
+  }
+  // .intro-container {
+  //     text-align: center !important;
+  // }
 
+  .button-container {
+    justify-content: space-evenly;
+  }
 }
