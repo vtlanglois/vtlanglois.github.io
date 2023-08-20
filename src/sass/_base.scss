@@ -27,10 +27,6 @@ h5, h6 {
     font-weight: normal;
 }
 
-.section-header {
-  border-bottom: 5px solid black;
-}
-
 // p {
 //     &::before {
 //         content: "";
@@ -44,52 +40,10 @@ section {
   background-color: $background !important;
 }
 
-.button-container {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-
-  .link-button {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    color: $foreground;
-    background-color: $button;
-    padding: 1vmax;
-    border: 0;
-    border-radius: 15px;
-    min-width: 100px;
-    cursor: pointer;
-
-    &:hover {
-      background-color: $button-hover;
-    }
-  }
+b {
+  color: $foreground
 }
 
-.related-item {
-  list-style-type: none;
-  &::before {
-    content: "↳";
-    font-weight: bold;
-    font-style: normal;
-    margin-right: 0.5em;
-  }
-}
-
-.date-item {
-  &::before {
-    content: "🗓️";
-    margin-right: 0.5em;
-  }
-}
-
-.job-title {
-  &::before {
-    content: "💼";
-    margin-right: 0.5em;
-  }
-}
 
 // .about-header {
 //   &::before {

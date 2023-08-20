@@ -2,6 +2,10 @@
 @import "./variables";
 @import "./base";
 
+@import "./components/section-header";
+@import "./components/button.scss";
+
+@import "./layout/layout-items";
 @import "./layout/intro";
 
 code {

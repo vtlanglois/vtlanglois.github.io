@@ -1,0 +1,28 @@
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+
+  .link-button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: $foreground;
+    background-color: $button;
+    padding: 1vmax;
+    border: 0;
+    border-radius: 15px;
+    min-width: 100px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $button-hover;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .button-container {
+    justify-content: space-evenly;
+  }
+}
