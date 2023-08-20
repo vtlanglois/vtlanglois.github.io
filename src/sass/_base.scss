@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    padding: 25px 0;
+    padding: 1vmin 0;
     background-color: $header;
 }
 
@@ -15,9 +15,12 @@ h1 {
     font-family: Futura;
 }
 
-button {
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    color: $foreground;
     background-color: $button;
-    padding: 1vmin;
+    padding: 1vmax;
     border: 0;
     border-radius: 15px;
 

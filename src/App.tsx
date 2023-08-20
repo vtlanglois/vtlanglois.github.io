@@ -1,3 +1,4 @@
+import Button from "./components/Button";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./sass/App.scss";
 
@@ -36,7 +37,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col">
-              <button>Click Me</button>
+              <Button href="https://www.linkedin.com/in/vtlanglois/" label="LinkedIN" />
             </div>
           </div>
         </div>
