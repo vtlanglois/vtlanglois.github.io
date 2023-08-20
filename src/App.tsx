@@ -1,10 +1,10 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./sass/App.scss";
 import About from "./layout/About";
-import Button from "./components/Button";
 import SkillsList from "./layout/Skills";
 import Contact from "./layout/Contact";
 import Education from "./layout/Education";
+import Work from "./layout/Work";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <section className="main-content">
         <About />
        <Education />
+       <Work />
         <section>
           <div className="container">
             <div className="row">
