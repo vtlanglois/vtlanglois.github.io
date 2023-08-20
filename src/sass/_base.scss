@@ -11,6 +11,12 @@ header,
 footer {
   padding: 1vmin 0;
   background-color: $header;
+  h3 {
+    &::before {
+      content: "☁️";
+      margin-right: 0.5em;
+    }
+  }
 }
 
 h1 {
