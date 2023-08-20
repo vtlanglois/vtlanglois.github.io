@@ -4,8 +4,10 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="container ">
-      <h1>Back to One</h1>
+    <div className="container">
+      <header>
+        <h1>Back to One</h1>
+      </header>
       <div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit
@@ -32,6 +34,11 @@ function App() {
           </p>
         </div>
       </div>
+      <footer>
+        <h1>
+          End of One
+        </h1>
+      </footer>
     </div>
   );
 }
