@@ -4,7 +4,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="container App-body">
+    <div className="container ">
       <h1>Back to One</h1>
       <div>
         <p>
@@ -14,9 +14,8 @@ function App() {
           repellendus fugit?
         </p>
       </div>
-
       <div className="row">
-        <div className="col">
+        <div className="col-md-5 col-sm-12">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
             error quaerat voluptate, pariatur magni hic mollitia debitis officia
@@ -24,7 +23,7 @@ function App() {
             nemo.
           </p>
         </div>
-        <div className="col">
+        <div className="col-md-7 col-sm-12">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
             error quaerat voluptate, pariatur magni hic mollitia debitis officia
