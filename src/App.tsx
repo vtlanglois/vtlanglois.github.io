@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./App.scss";
+import "./sass/App.scss";
 
 function App() {
   return (
