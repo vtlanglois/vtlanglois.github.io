@@ -34,7 +34,7 @@ const About = () => {
             </p>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col-md-6 col-sm-12">
               <div className="button-container">
                 <Button href={CV} label="My CV" />
                 <Button
