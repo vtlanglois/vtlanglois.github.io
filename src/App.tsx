@@ -1,6 +1,7 @@
 import Button from "./components/Button";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./sass/App.scss";
+import CV from "./vincent-langlois-cv.pdf"
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
           <div className="row">
             <div className="col">
               <div className="button-container">
+                <Button 
+                  href={CV}
+                  label="My CV"
+                />
                 <Button
                   href="https://www.linkedin.com/in/vtlanglois/"
                   label="LinkedIN"
