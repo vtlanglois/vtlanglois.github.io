@@ -39,7 +39,7 @@ const About = () => {
                 <Button href={CV} label="My CV" />
                 <Button
                   href="https://www.linkedin.com/in/vtlanglois/"
-                  label="LinkedIN"
+                  label="LinkedIn"
                 />
                 <Button href="https://github.com/vtlanglois" label="GitHub" />
               </div>

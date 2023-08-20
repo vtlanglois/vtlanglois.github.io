@@ -6,12 +6,12 @@ const Contact = () => {
     <div>
       <SectionHeader text={"Contact"} />
       <p>
-        For professional inquiries or to connect, feel free to reach out to me on LinkedIN or Github.
+        For professional inquiries or to connect, feel free to reach out to me on LinkedIn or Github.
       </p>
       <div className="button-container">
         <Button
           href="https://www.linkedin.com/in/vtlanglois/"
-          label="LinkedIN"
+          label="LinkedIn"
         />
         <Button href="https://github.com/vtlanglois" label="GitHub" />
       </div>
