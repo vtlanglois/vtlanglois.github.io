@@ -6,13 +6,13 @@ const SkillsList = () => {
       <h2>Skills</h2>
       <ul>
         <li>
-          Web Development &rarr; React, TypeScript, JS, Next.JS, Node.JS,
+          <b>Web Development</b> &rarr; React, TypeScript, JS, Next.JS, Node.JS,
           HTML/CSS, SCSS
         </li>
-        <li>Database &rarr; SQL, MySQL, PostgresSQL, MongoDB</li>
-        <li>Programming Languages &rarr; Java, C, Python</li>
-        <li>Development Tools &rarr; Git, Github, JIRA, VSCode</li>
-        <li>Tech Misc. &rarr; Arduino, UNIX</li>
+        <li><b>Database</b> &rarr; SQL, MySQL, PostgresSQL, MongoDB</li>
+        <li><b>Programming Languages</b> &rarr; Java, C, Python</li>
+        <li><b>Development Tools</b> &rarr; Git, Github, JIRA, VSCode</li>
+        <li><b>Tech Misc.</b> &rarr; Arduino, UNIX</li>
       </ul>
     </div>
   );
