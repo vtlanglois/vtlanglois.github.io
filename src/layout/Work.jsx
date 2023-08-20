@@ -10,7 +10,9 @@ const Work = () => {
       end:"Present",
       details: [
         "Collaborating with cross-functional teams on the development of Lilly Direct, an online direct-to-consumer pharmacy.",
-        "Implementing front-end accessibility enhancements, extending the service’s usability to a broader audience.",
+        "Implementing front-end accessibility enhancements following A11y specifications, extending the service’s usability to a broader audience.",
+        "Utilizing React and Next.js for frontend development, creating dynamic and interactive user interfaces.",
+        "Styling applications with SCSS and Bootstrap to ensure responsive and visually appealing designs across the platform."
       ],
     },
     {
