@@ -14,7 +14,7 @@ const Education = () => {
               <h5><b>Indiana University</b>, Bloomington, Indiana</h5>
             </div>
             <div className="col-md-6 col-sm-6 text-sm-end">
-              <h6>Aug '23 - Present</h6>
+              <h6 className="date-item">Aug '19 - May '23</h6>
             </div>
             <div className="row">
               <div className="col">
