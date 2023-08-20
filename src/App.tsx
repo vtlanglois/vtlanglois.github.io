@@ -16,13 +16,13 @@ function App() {
       </header>
       <section className="main-content">
         <About />
-       <Education />
-       <Work />
+        <Education />
+        <Work />
         <section>
           <div className="container">
             <div className="row">
               <div className="col-md-7 col-sm-12">
-                <SkillsList/>
+                <SkillsList />
               </div>
               <div className="col-md-5 col-sm-12">
                 <Contact />

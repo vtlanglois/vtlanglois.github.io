@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
-import CV from "../vincent-langlois-cv.pdf"
+import CV from "../vincent-langlois-cv.pdf";
 
 const About = () => {
   return (
@@ -20,17 +20,17 @@ const About = () => {
           <div className="col-md-7 col-sm-12">
             <SectionHeader text={"About Me"} />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-              error quaerat voluptate, pariatur magni hic mollitia debitis
-              officia at asperiores vero magnam, rem distinctio itaque velit
-              quam sint quo nemo. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Dolores error quaerat voluptate, pariatur magni
-              hic mollitia debitis officia at asperiores vero magnam, rem
-              distinctio itaque velit quam sint quo nemo. Lorem ipsum dolor sit,
-              amet consectetur adipisicing elit. Dolores error quaerat
-              voluptate, pariatur magni hic mollitia debitis officia at
-              asperiores vero magnam, rem distinctio itaque velit quam sint quo
-              nemo.
+              I am an <b>Indiana University</b> graduate with a{" "}
+              <b>Bachelor of Science in Computer Science</b> specializing in{" "}
+              <b>Software Engineering</b>. I plan on building upon my love for
+              learning, my interest in technology, and my education to develop a
+              long-lasting software engineering career focused on building
+              software that can make the world better in any way possible.
+            </p>
+            <p>
+              In my free time, I enjoy playing video games, painting, cooking,
+              and building Lego models. I also enjoy learning about any topic
+              that interests me, from Foley sound design to mythology.
             </p>
           </div>
           <div className="row">
