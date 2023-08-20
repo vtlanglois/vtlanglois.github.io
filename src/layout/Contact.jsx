@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 const Contact = () => {
   return (
     <div>
-      <SectionHeader text={"Contact"} />
+      <SectionHeader className="contact-header" text={"Contact"} />
       <p>
         For professional inquiries or to connect, feel free to reach out to me on LinkedIn or Github.
       </p>

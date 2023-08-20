@@ -1,7 +1,7 @@
-const SectionHeader = ({text}) => {
+const SectionHeader = ({text, className}) => {
     return (
         <div>
-            <h2 className="section-header">{text}</h2>
+            <h2 className={`section-header ${className}`}>{text}</h2>
         </div>
     );
 }

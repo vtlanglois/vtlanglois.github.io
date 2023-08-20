@@ -18,7 +18,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-7 col-sm-12">
-            <SectionHeader text={"About Me"} />
+            <SectionHeader className="about-header" text={"About Me"} />
             <p>
               I am an <b>Indiana University</b> graduate with a{" "}
               <b>Bachelor of Science in Computer Science</b> specializing in{" "}

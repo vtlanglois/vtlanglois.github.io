@@ -78,6 +78,49 @@ section {
   }
 }
 
+.job-title {
+  &::before {
+    content: "💼";
+    margin-right: 0.5em;
+  }
+}
+
+.about-header {
+  &::before {
+    content: "ℹ️";
+    margin-right: 0.5em;
+  }
+}
+
+.education-header {
+  &::before {
+    content: "🎓";
+    margin-right: 0.5em;
+  }
+}
+
+.work-header {
+  &::before {
+    content: "🖥️";
+    margin-right: 0.5em;
+  }
+}
+
+.skills-header {
+  &::before {
+    content: "🛠️";
+    margin-right: 0.5em;
+  }
+}
+
+.contact-header {
+  &::before {
+    content: "💬";
+    margin-right: 0.5em;
+  }
+}
+
+
 @media only screen and (max-width: 720px) {
   .main-content {
     h1,

@@ -48,7 +48,7 @@ const Work = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <SectionHeader text={"Leadership & Work Experience"} />
+            <SectionHeader className="work-header" text={"Leadership & Work Experience"} />
           </div>
         </div>
         {workData.map((item) => {
@@ -63,7 +63,7 @@ const Work = () => {
             <div className="row">
               <div className="col">
                 <i>
-                  <h6>{item.job}</h6>
+                  <h6 className="job-title">{item.job}</h6>
                 </i>
               </div>
             </div>

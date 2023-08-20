@@ -6,7 +6,7 @@ const Education = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              <SectionHeader text={"Education"}/>
+              <SectionHeader className="education-header" text={"Education"}/>
             </div>
           </div>
           <div className="row">
