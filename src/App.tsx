@@ -33,7 +33,7 @@ function App() {
       </section>
       <footer>
         <div className="container">
-          <h3>Footer</h3>
+          <h5>Vincent Langlois - Personal Website V2.0 </h5>
         </div>
       </footer>
     </div>
