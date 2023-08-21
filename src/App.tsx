@@ -1,28 +1,40 @@
-import { Route, Routes } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import ContactIcons from "./components/general/ContactIcons/ContactIcons";
-import WebsiteHeader from "./components/general/WebsiteHeader/WebsiteHeader";
-import About from "./pages/about/About";
-import Education from "./pages/education/Education";
-import Projects from "./pages/projects/Projects";
+import "./sass/App.scss";
+import About from "./layout/About";
+import SkillsList from "./layout/Skills";
+import Contact from "./layout/Contact";
+import Education from "./layout/Education";
+import Work from "./layout/Work";
 
 function App() {
   return (
     <div>
-      {/*@TODO: #7 figure out why header CSS is not applying to WebsiteHeader*/}
-      <header className="App-header">
-        <WebsiteHeader />
+      <header>
+        <div className="container">
+          <h3>Vincent Langlois</h3>
+        </div>
       </header>
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/projects" element={<Projects />} />
-        {/*@TODO: #8 add a 404 page*/}
-      </Routes>
-      <footer className="App-header">
-        <ContactIcons />
+      <section className="main-content">
+        <About />
+        <Education />
+        <Work />
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-7 col-sm-12">
+                <SkillsList />
+              </div>
+              <div className="col-md-5 col-sm-12">
+                <Contact />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer>
+        <div className="container">
+          <h5>Vincent Langlois - Personal Website V2.0 </h5>
+        </div>
       </footer>
     </div>
   );

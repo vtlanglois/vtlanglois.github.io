@@ -1,0 +1,99 @@
+html {
+  background-color: $background !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $background;
+  font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+}
+
+header,
+footer {
+  padding: 1vmin 0;
+  background-color: $header;
+  h3 {
+    &::before {
+      content: "☁️";
+      margin-right: 0.5em;
+    }
+  }
+}
+
+h1 {
+  font-family: Futura, Arial, Helvetica, sans-serif;
+}
+
+h5, h6 {
+    font-weight: normal;
+}
+
+// p {
+//     &::before {
+//         content: "";
+//         display: inline-block;
+//         width: 1em; /* Adjust the width to control the indentation */
+//       }
+// }
+
+section {
+  padding: 1vmin 0;
+  background-color: $background !important;
+}
+
+b {
+  color: $foreground
+}
+
+
+// .about-header {
+//   &::before {
+//     content: "ℹ️";
+//     margin-right: 0.5em;
+//   }
+// }
+
+// .education-header {
+//   &::before {
+//     content: "🎓";
+//     margin-right: 0.5em;
+//   }
+// }
+
+// .work-header {
+//   &::before {
+//     content: "🖥️";
+//     margin-right: 0.5em;
+//   }
+// }
+
+// .skills-header {
+//   &::before {
+//     content: "🛠️";
+//     margin-right: 0.5em;
+//   }
+// }
+
+// .contact-header {
+//   &::before {
+//     content: "💬";
+//     margin-right: 0.5em;
+//   }
+// }
+
+
+@media only screen and (max-width: 720px) {
+  .main-content {
+    h1,
+    h2 {
+      text-align: center !important;
+    }
+  }
+  // .intro-container {
+  //     text-align: center !important;
+  // }
+
+  .button-container {
+    justify-content: space-evenly;
+  }
+}

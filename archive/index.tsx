@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
 import App from "./App";
-import "./sass/App.scss";
+import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
