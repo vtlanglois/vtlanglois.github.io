@@ -9,9 +9,14 @@ const About = () => {
         <div className="row">
           <div className="col-md-5 col-sm-12">
             <div className="intro-container">
-              <h1>Hi! <span className="waving-emoji">👋</span>😄</h1>
+              <h1>
+                Hi! <span className="waving-emoji">👋</span>😄
+              </h1>
               <h1>I'm Vincent Langlois.</h1>
               <h2>I build things, often using</h2>
+              <h2>
+                <code>{"<tags/>"}</code>, <code>{"functions()"}</code>,
+              </h2>
               <h2>
                 <code>{"[arrays,]"}</code> and <code>{"{...objects}"}</code>.
               </h2>
@@ -20,17 +25,22 @@ const About = () => {
           <div className="col-md-7 col-sm-12">
             <SectionHeader className="about-header" text={"About Me"} />
             <p>
-              I am an <b>Indiana University</b> graduate with a{" "}
-              <b>Bachelor of Science in Computer Science</b> specializing in{" "}
-              <b>Software Engineering</b>. I plan on building upon my love for
-              learning, my interest in technology, and my education to develop a
-              long-lasting software engineering career focused on building
-              software that can make the world better in any way possible.
+              I'm a recent graduate of <b>Indiana University Bloomington</b>,
+              where I spent my undergraduate years learning CS, teaching
+              programming, and helping others in any way I could. Currently, I
+              am a software developer for <b>Eli Lilly & Company</b> in
+              Indianapolis, Indiana.
             </p>
             <p>
-              In my free time, I enjoy playing video games, painting, cooking,
-              and building Lego models. I also enjoy learning about any topic
-              that interests me, from Foley sound design to mythology.
+              Even since I was a child, I've always been building and
+              programming <i>things</i>; LEGO sets, Minecraft worlds, websites,
+              games, and robots to name a few. This passion for creation led me
+              to pursue CS, where I could create things using magical words!
+            </p>
+            <p>
+              When I'm not coding or building things, I enjoy writing,
+              photography, cooking, and hanging out with folk. I also enjoy
+              learning more about the wonderful world we live in.
             </p>
           </div>
           <div className="row">
