@@ -25,7 +25,7 @@ const Education = () => {
                 <h6 className="related-item">
                   Specialization in Software Engineering
                 </h6>
-                <h6 className="degree-item"> Minor in Game Design</h6>
+                <h6> Minor in Game Design</h6>
                 <code>full transcript coming in later update</code>
               </i>
             </div>
