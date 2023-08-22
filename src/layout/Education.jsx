@@ -21,11 +21,11 @@ const Education = () => {
           <div className="row">
             <div className="col">
               <i>
-                <h6>Bachelors of Science in Computer Science</h6>
+                <h6 className="degree-item">Bachelors of Science in Computer Science</h6>
                 <h6 className="related-item">
                   Specialization in Software Engineering
                 </h6>
-                <h6>Minor in Game Design</h6>
+                <h6 className="degree-item"> Minor in Game Design</h6>
                 <code>full transcript coming in later update</code>
               </i>
             </div>
