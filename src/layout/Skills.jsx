@@ -6,13 +6,14 @@ const SkillsList = () => {
       category: "Web Development",
       items: [
         "React",
-        "TypeScript",
-        "JavaScript",
-        "Next.JS",
-        "Node.JS",
-        "HTML",
+        "Next.js",
+        "Node.js",
       ],
       subcategoryList: [
+        {
+          category: "Languages/Markup",
+          items: ["TypeScript", "JavaScript", "HTML/JSX"],
+        },
         {
           category: "Styling",
           items: ["CSS", "SCSS", "Bootstrap"],
