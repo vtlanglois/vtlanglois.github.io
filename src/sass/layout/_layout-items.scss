@@ -21,3 +21,10 @@
     margin-right: 0.5em;
   }
 }
+
+.degree-item {
+  &::before {
+    content: "📜";
+    margin-right: 0.5em;
+  }
+}
