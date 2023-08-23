@@ -4,7 +4,7 @@ import CV from "../vincent-langlois-cv.pdf";
 
 const About = () => {
   return (
-    <section>
+    <section className="about-section">
       <div className="container">
         <div className="row">
           <div className="col-md-5 col-sm-12">
