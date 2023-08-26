@@ -7,7 +7,7 @@
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    color: $foreground;
+    color: $foreground-alt;
     background-color: $button;
     padding: 1vmax;
     border: 0;
@@ -21,6 +21,7 @@
 
   .cv-button::before {
     content: url("../../../public/assets/file-earmark-person.svg");
+    color: $foreground-alt;
     display: inline;
     padding-right: 0.25em;
     vertical-align: middle;
