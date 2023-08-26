@@ -14,10 +14,33 @@
     border-radius: 15px;
     min-width: 100px;
     cursor: pointer;
-
     &:hover {
       background-color: $button-hover;
     }
+  }
+
+  .cv-button::before {
+    content: url("../../../public/assets/file-earmark-person.svg");
+    display: inline;
+    padding-right: 0.25em;
+    vertical-align: middle;
+    margin: auto;
+  }
+
+  .linkedin-button::before {
+    content: url("../../../public/assets/linkedin.svg");
+    display: inline;
+    padding-right: 0.25em;
+    vertical-align: middle;
+    margin: auto;
+  }
+
+  .github-button::before {
+    content: url("../../../public/assets/github.svg");
+    display: inline;
+    padding-right: 0.25em;
+    vertical-align: middle;
+    margin: auto;
   }
 }
 

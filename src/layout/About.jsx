@@ -46,12 +46,17 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <div className="button-container">
-                <Button href={CV} label="My CV" />
+                <Button className="cv-button" href={CV} label="My CV" />
                 <Button
+                  className="linkedin-button"
                   href="https://www.linkedin.com/in/vtlanglois/"
                   label="LinkedIn"
                 />
-                <Button href="https://github.com/vtlanglois" label="GitHub" />
+                <Button
+                  className="github-button"
+                  href="https://github.com/vtlanglois"
+                  label="GitHub"
+                />
               </div>
             </div>
           </div>

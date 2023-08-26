@@ -12,13 +12,18 @@ const Contact = () => {
         <code>project page/section coming in later update. all projects are available on GitHub.</code>
       </p>
       <div className="button-container">
-        <Button
-          href="https://www.linkedin.com/in/vtlanglois/"
-          label="LinkedIn"
-        />
-        <Button href="https://github.com/vtlanglois" label="GitHub" />
+          <Button
+            className="linkedin-button"
+            href="https://www.linkedin.com/in/vtlanglois/"
+            label="LinkedIn"
+          />
+          <Button
+            className="github-button"
+            href="https://github.com/vtlanglois"
+            label="GitHub"
+          />
+        </div>
       </div>
-    </div>
   );
 };
 
