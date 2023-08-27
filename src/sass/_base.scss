@@ -1,3 +1,7 @@
+* {
+  color: $foreground;
+}
+
 html {
   background-color: $background !important;
   scroll-behavior: smooth;
@@ -6,6 +10,10 @@ html {
 body {
   background-color: $background;
   font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+}
+
+code {
+  color: $accent;
 }
 
 u {
