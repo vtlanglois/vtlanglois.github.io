@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a96bafc.css",
+    "main.css": "/static/css/main.1c47c406.css",
     "main.js": "/static/js/main.cc1c61a7.js",
     "static/js/787.6e6b0bea.chunk.js": "/static/js/787.6e6b0bea.chunk.js",
     "static/media/vincent-langlois-cv.pdf": "/static/media/vincent-langlois-cv.36e995f9941c163ccf79.pdf",
@@ -8,12 +8,12 @@
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37af.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c4449.svg",
     "static/media/file-earmark-person.svg": "/static/media/file-earmark-person.89627b715557451f449b.svg",
-    "main.1a96bafc.css.map": "/static/css/main.1a96bafc.css.map",
+    "main.1c47c406.css.map": "/static/css/main.1c47c406.css.map",
     "main.cc1c61a7.js.map": "/static/js/main.cc1c61a7.js.map",
     "787.6e6b0bea.chunk.js.map": "/static/js/787.6e6b0bea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a96bafc.css",
+    "static/css/main.1c47c406.css",
     "static/js/main.cc1c61a7.js"
   ]
 }
