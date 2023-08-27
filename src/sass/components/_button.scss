@@ -8,9 +8,9 @@
     text-decoration: none;
     text-align: center;
     color: $foreground-alt;
-    background-color: $button;
+    background-color: $accent;
     padding: 1vmax;
-    border: 3px solid $button;
+    border: 3px solid $accent;
     border-radius: 15px;
     min-width: 100px;
     transition: background-color 0.15s, color 0.15s;
@@ -47,7 +47,7 @@
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: '720px') {
   .button-container {
     justify-content: space-evenly;
   }

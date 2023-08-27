@@ -8,11 +8,15 @@ body {
   font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
 }
 
+u {
+  text-decoration-color: $accent;
+}
+
 header,
 footer {
   padding: 1vmin 0;
   color: $foreground-alt;
-  background-color: $button;
+  background-color: $accent;
   h3 {
     &::before {
       content: "☁️";
