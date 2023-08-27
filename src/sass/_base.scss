@@ -11,7 +11,8 @@ body {
 header,
 footer {
   padding: 1vmin 0;
-  background-color: $header;
+  color: $foreground-alt;
+  background-color: $button;
   h3 {
     &::before {
       content: "☁️";
