@@ -25,10 +25,10 @@ const About = () => {
           <div className="col-md-7 col-sm-12">
             <SectionHeader className="about-header" text={"About Me"} />
             <p>
-              I'm a recent graduate of <b>Indiana University Bloomington</b>,
+              I'm a recent graduate of <b><u>Indiana University Bloomington</u></b>,
               where I spent my undergraduate years learning CS, teaching
               programming, and helping others in any way I could. Currently, I
-              am a software developer for <b>Eli Lilly & Company</b> in
+              am a software developer for <b><u>Eli Lilly & Company</u></b> in
               Indianapolis, Indiana.
             </p>
             <p>

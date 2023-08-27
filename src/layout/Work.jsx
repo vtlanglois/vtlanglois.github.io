@@ -57,7 +57,7 @@ const Work = () => {
           return (
             <div className="row">
             <div className="col-md-6 col-sm-6">
-              <h5><b>{item.company}</b>, {item.location}</h5>
+              <h5><b><u>{item.company}</u></b>, {item.location}</h5>
             </div>
             <div className="col-md-6 col-sm-6 text-sm-end">
               <h6 className="date-item">{`${item.start} - ${item.end}`}</h6>
