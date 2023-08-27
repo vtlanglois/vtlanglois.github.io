@@ -12,8 +12,8 @@ const About = () => {
               <h1>
                 Hi! <span className="waving-emoji">👋</span>😄
               </h1>
-              <h1>I'm Vincent Langlois.</h1>
-              <h2>I build things, often using</h2>
+              <h1>I'm <u>Vincent Langlois.</u></h1>
+              <h2>I build <i>things</i>, often using</h2>
               <h2>
                 <code>{"<tags/>"}</code>, <code>{"functions()"}</code>,
               </h2>
