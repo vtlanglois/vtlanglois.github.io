@@ -33,7 +33,7 @@ function App() {
       </section>
       <footer>
         <div className="container">
-          <h5>Vincent Langlois - Personal Website V2.0 </h5>
+          <h6>Vincent Langlois - Personal Website V2.0 </h6>
         </div>
       </footer>
     </div>

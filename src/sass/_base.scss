@@ -1,3 +1,7 @@
+* {
+  color: $foreground
+}
+
 html {
   background-color: $background !important;
   scroll-behavior: smooth;
@@ -20,13 +24,16 @@ u {
 header,
 footer {
   padding: 1vmin 0;
-  color: $foreground-alt;
   background-color: $accent;
   h3 {
+    color: $foreground-alt;
     &::before {
       content: "☁️";
       margin-right: 0.5em;
     }
+  }
+  h6 {
+    color: $foreground-alt;
   }
 }
 
@@ -110,17 +117,17 @@ b {
 
 
 @media only screen and (max-width: 720px) {
-  .main-content {
-    h1,
-    h2 {
-      text-align: center !important;
-    }
-  }
-  // .intro-container {
+  // .main-content {
+  //   h1,
+  //   h2 {
+  //     text-align: center !important;
+  //   }
+  // }
+  // // .intro-container {
   //     text-align: center !important;
   // }
 
   .button-container {
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
