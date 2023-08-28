@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.113549ec.css",
-    "main.js": "/static/js/main.90f77ccc.js",
+    "main.css": "/static/css/main.63204feb.css",
+    "main.js": "/static/js/main.5cb74aea.js",
     "static/js/787.6e6b0bea.chunk.js": "/static/js/787.6e6b0bea.chunk.js",
     "static/media/vincent-langlois-cv.pdf": "/static/media/vincent-langlois-cv.36e995f9941c163ccf79.pdf",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37af.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c4449.svg",
     "static/media/file-earmark-person.svg": "/static/media/file-earmark-person.89627b715557451f449b.svg",
-    "main.113549ec.css.map": "/static/css/main.113549ec.css.map",
-    "main.90f77ccc.js.map": "/static/js/main.90f77ccc.js.map",
+    "main.63204feb.css.map": "/static/css/main.63204feb.css.map",
+    "main.5cb74aea.js.map": "/static/js/main.5cb74aea.js.map",
     "787.6e6b0bea.chunk.js.map": "/static/js/787.6e6b0bea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.113549ec.css",
-    "static/js/main.90f77ccc.js"
+    "static/css/main.63204feb.css",
+    "static/js/main.5cb74aea.js"
   ]
 }
