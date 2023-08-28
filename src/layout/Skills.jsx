@@ -54,13 +54,13 @@ const SkillsList = () => {
           return (
             <>
               <li>
-                <b><u>{skill.category}</u></b> &rarr; {skill.items.join(", ")}
+                <b><u>{skill.category}</u></b> <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
               </li>
               {skill.subcategoryList && skill.subcategoryList.map((skill) => {
                 return (
                   <>
                     <li className="related-item">
-                      <b><u>{skill.category}</u></b> &rarr; {skill.items.join(", ")}
+                      <b><u>{skill.category}</u></b> <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
                     </li>
                   </>
                 );

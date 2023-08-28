@@ -1,5 +1,6 @@
 .related-item {
   list-style-type: none;
+  margin-left: 1em;
   &::before {
     content: "↳";
     font-weight: bold;
@@ -27,4 +28,8 @@
     content: "📜";
     margin-right: 0.5em;
   }
+}
+
+.arrow {
+  color: $accent;
 }

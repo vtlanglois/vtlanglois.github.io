@@ -12,7 +12,10 @@ const Education = () => {
         <div className="row">
           <div className="col-md-6 col-sm-6">
             <h5>
-              <b><u>Indiana University</u></b>, Bloomington, Indiana
+              <b>
+                <u>Indiana University</u>
+              </b>
+              , Bloomington, Indiana
             </h5>
           </div>
           <div className="col-md-6 col-sm-6 text-sm-end">
@@ -21,10 +24,10 @@ const Education = () => {
           <div className="row">
             <div className="col">
               <i>
-                <h6 className="degree-item">Bachelors of Science in Computer Science</h6>
-                <h6 className="related-item">
-                  Specialization in Software Engineering
+                <h6 className="degree-item">
+                  Bachelors of Science in Computer Science
                 </h6>
+                <h6>Specialization in Software Engineering</h6>
                 <h6> Minor in Game Design</h6>
                 <code>full transcript coming in later update</code>
               </i>
