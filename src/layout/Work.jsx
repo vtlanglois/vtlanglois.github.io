@@ -56,10 +56,10 @@ const Work = () => {
         {workData.map((item) => {
           return (
             <div className="row">
-            <div className="col-md-6 col-sm-6">
+            <div className="col-md-8 col-sm-8">
               <h5><b><u>{item.company}</u></b>, {item.location}</h5>
             </div>
-            <div className="col-md-6 col-sm-6 text-sm-end">
+            <div className="col-md-4 col-sm-4 text-sm-end">
               <h6 className="date-item">{`${item.start} - ${item.end}`}</h6>
             </div>
             <div className="row">
