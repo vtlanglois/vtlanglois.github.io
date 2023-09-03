@@ -1,39 +1,39 @@
 * {
-  color: $foreground
+  color: var(--foreground)
 }
 
 html {
-  background-color: $background !important;
+  background-color: var(--background) !important;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: $background;
+  background-color: var(--background);
   font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
 }
 
 code {
-  color: $accent;
+  color: var(--accent);
 }
 
 u {
-  text-decoration-color: $accent;
+  text-decoration-color: var(--accent);
   text-decoration-thickness: 2px;
 }
 
 header,
 footer {
   padding: 1vmin 0;
-  background-color: $accent;
+  background-color: var(--accent);
   h3 {
-    color: $foreground-alt;
+    color: var(--foreground-alt);
     &::before {
       content: "☁️";
       margin-right: 0.5em;
     }
   }
   h6 {
-    color: $foreground-alt;
+    color: var(--foreground-alt);
   }
 }
 
@@ -63,7 +63,7 @@ ul {
 
 ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: $accent; 
+  color: var(--accent); 
   font-weight: bold; 
   display: inline-block;
   width: 1em; 
@@ -72,11 +72,11 @@ ul li::before {
 
 section {
   padding: 1vmin 0;
-  background-color: $background !important;
+  background-color: var(--background)!important;
 }
 
 b {
-  color: $foreground
+  color: var(--foreground)
 }
 
 

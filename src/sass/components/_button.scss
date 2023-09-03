@@ -7,23 +7,22 @@
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    color: $foreground-alt;
-    background-color: $accent;
+    color: var(--foreground-alt);
+    background-color: var(--accent);
     padding: 1vmax;
-    border: 3px solid $accent;
+    border: 3px solid var(--accent);
     border-radius: 15px;
     min-width: 100px;
     transition: background-color 0.15s, color 0.15s;
     cursor: pointer;
     &:hover {
-      color: $foreground;
-      background-color: $background;
+      color: var(--foreground);
+      background-color: var(--background);
     }
   }
 
   .cv-button::before {
     content: url("../../../public/assets/file-earmark-person.svg");
-    color: $foreground-alt;
     display: inline;
     padding-right: 0.25em;
     vertical-align: middle;
