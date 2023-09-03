@@ -9,10 +9,12 @@ const Work = () => {
       start: "Jul '23",
       end:"Present",
       details: [
-        "Collaborating with cross-functional teams on the development of Lilly Direct, an online direct-to-consumer pharmacy.",
+        "Collaborating with cross-functional international teams on the development of Lilly Direct, an online direct-to-consumer pharmacy.",
+        "Developing software using clean code practices to elevate code readability, bolstering ongoing and future development initiatives.",
+        "Utilizing React and Next.js for front-end development, creating dynamic and interactive user interfaces with a focus on rapid requirement implementation.",
+        "Styling applications with SCSS and Bootstrap to ensure dynamic, responsive, and visually appealing design across the platform on multiple devices.",
         "Implementing front-end accessibility enhancements following A11y specifications, extending the service’s usability to a broader audience.",
-        "Utilizing React and Next.js for frontend development, creating dynamic and interactive user interfaces.",
-        "Styling applications with SCSS and Bootstrap to ensure responsive and visually appealing designs across the platform."
+        "Actively engaging in continuous education, such as pursuing online courses and participating in team-wide professional development discussions, to consistently enhance and expand my skill set as a junior software developer."
       ],
     },
     {
@@ -26,7 +28,7 @@ const Work = () => {
         "Engaged in professional development, civic engagement, and networking events as a TechPoint Xtern.",
         "Implemented quality-of-life features that effectively reduced customer service requests by hundreds, enhancing overall user and developer experiences.",
         "Utilized React/Node.js for frontend development, PHP for backend development, and MySQL databases for seamless integration."
-      ]
+      ],
     },
     {
       company: "Luddy School of Informatics, Computing, and Engineering",
@@ -42,7 +44,7 @@ const Work = () => {
         "Engaged Luddy students in community service by recruiting them to volunteer in outreach events across Monroe County.",
         "Trained 15+ volunteers on lesson materials and educational tools to ensure excellent performance at our events.",
         "Served and impacted the lives of 70+ students and families from 1st to 7th grade within the Bloomington community."
-      ]
+      ],
     },
   ];
   return (
