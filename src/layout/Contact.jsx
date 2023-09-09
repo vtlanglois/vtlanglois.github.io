@@ -1,3 +1,4 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
 
@@ -16,11 +17,13 @@ const Contact = () => {
             className="linkedin-button"
             href="https://www.linkedin.com/in/vtlanglois/"
             label="LinkedIn"
+            icon={faLinkedin}
           />
           <Button
             className="github-button"
             href="https://github.com/vtlanglois"
             label="GitHub"
+            icon={faGithub}
           />
         </div>
       </div>

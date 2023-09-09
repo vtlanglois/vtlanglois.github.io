@@ -1,3 +1,5 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
 import CV from "../vincent-langlois-cv.pdf";
@@ -12,8 +14,12 @@ const About = () => {
               <h1>
                 Hi! <span className="waving-emoji">👋</span>😄
               </h1>
-              <h1>I'm <u>Vincent Langlois.</u></h1>
-              <h2>I build <i>things</i>, often using</h2>
+              <h1>
+                I'm <u>Vincent Langlois.</u>
+              </h1>
+              <h2>
+                I build <i>things</i>, often using
+              </h2>
               <h2>
                 <code>{"<tags/>"}</code>, <code>{"functions()"}</code>,
               </h2>
@@ -25,11 +31,17 @@ const About = () => {
           <div className="col-md-7 col-sm-12">
             <SectionHeader className="about-header" text={"About Me"} />
             <p>
-              I'm a recent graduate of <b><u>Indiana University Bloomington</u></b>,
-              where I spent my undergraduate years learning CS, teaching
+              I'm a recent graduate of{" "}
+              <b>
+                <u>Indiana University Bloomington</u>
+              </b>
+              , where I spent my undergraduate years learning CS, teaching
               programming, and helping others in any way I could. Currently, I
-              am a software developer for <b><u>Eli Lilly & Company</u></b> in
-              Indianapolis, Indiana.
+              am a software developer for{" "}
+              <b>
+                <u>Eli Lilly & Company</u>
+              </b>{" "}
+              in Indianapolis, Indiana.
             </p>
             <p>
               Even since I was a child, I've always been building and
@@ -46,16 +58,16 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <div className="button-container">
-                <Button className="cv-button" href={CV} label="My CV" />
+                <Button href={CV} label="My CV" icon={faFile} />
                 <Button
-                  className="linkedin-button"
                   href="https://www.linkedin.com/in/vtlanglois/"
                   label="LinkedIn"
+                  icon={faLinkedin}
                 />
                 <Button
-                  className="github-button"
                   href="https://github.com/vtlanglois"
                   label="GitHub"
+                  icon={faGithub}
                 />
               </div>
             </div>

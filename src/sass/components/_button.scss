@@ -1,7 +1,7 @@
 .button-container {
   display: flex;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 0.5rem;
 
   .link-button {
     display: inline-block;
@@ -15,35 +15,26 @@
     min-width: 100px;
     transition: background-color 0.15s, color 0.15s;
     cursor: pointer;
+
+    .link-icon {
+      margin-right: 0.25rem;
+      path {
+        color: var(--foreground-alt);
+      }
+    }
+
     &:hover {
       color: var(--foreground);
       background-color: var(--background);
+
+      .link-icon {
+        path {
+          color: var(--foreground);
+        }
+      }
     }
   }
 
-  .cv-button::before {
-    content: url("../../../public/assets/file-earmark-person.svg");
-    display: inline;
-    padding-right: 0.25em;
-    vertical-align: middle;
-    margin: auto;
-  }
-
-  .linkedin-button::before {
-    content: url("../../../public/assets/linkedin.svg");
-    display: inline;
-    padding-right: 0.25em;
-    vertical-align: middle;
-    margin: auto;
-  }
-
-  .github-button::before {
-    content: url("../../../public/assets/github.svg");
-    display: inline;
-    padding-right: 0.25em;
-    vertical-align: middle;
-    margin: auto;
-  }
 }
 
 @media only screen and (max-width: '720px') {
