@@ -5,7 +5,7 @@ const Work = () => {
     {
       company: "Eli Lilly & Company",
       location: "Indianapolis, Indiana",
-      job: "Tech@Lilly Software Product Engineering, Software Developer",
+      job: "Software Developer, Tech@Lilly Software Product Engineering",
       start: "Jul '23",
       end:"Present",
       details: [
