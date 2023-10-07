@@ -19,7 +19,7 @@ const Work = () => {
     },
     {
       company: "BCForward",
-      location: "Carmel, IN",
+      location: "Carmel, Indiana",
       job: "Software Engineer Intern, TechPoint Xtern",
       start: "May '22",
       end: "Aug '22",
@@ -32,7 +32,7 @@ const Work = () => {
     },
     {
       company: "Luddy School of Informatics, Computing, and Engineering",
-      location: "Bloomington, IN",
+      location: "Bloomington, Indiana",
       job: "Student Engagement & Outreach Intern",
       start: "Sep '20",
       end: "Jul '23",
