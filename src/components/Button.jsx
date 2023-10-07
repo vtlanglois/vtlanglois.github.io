@@ -6,7 +6,7 @@ const Button = ({ href, label, icon}) => {
   return (
     <div className="">
       <a
-        className="link-button shadow-sm p-3"
+        className="link-button shadow-sm p-3 fw-bold text-center"
         tabIndex="0"
         href={href}
         target="_blank"

@@ -11,7 +11,11 @@ function App() {
     <div>
       <header>
         <div className="container">
-          <h3>Vincent Langlois</h3>
+          <div className="row py-3">
+            <div className="col-12">
+              <h4 className="mb-0">Vincent Langlois</h4>
+            </div>
+          </div>
         </div>
       </header>
       <section className="main-content">
@@ -33,7 +37,11 @@ function App() {
       </section>
       <footer>
         <div className="container">
-          <h6>Vincent Langlois - Personal Website V2.0 </h6>
+        <div className="row py-3">
+            <div className="col-12">
+              <h6 className="mb-0">Vincent Langlois - Personal Website 2.0</h6>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
