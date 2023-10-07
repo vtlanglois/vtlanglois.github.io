@@ -55,9 +55,10 @@ const About = () => {
               learning more about the wonderful world we live in.
             </p>
           </div>
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <div className="button-container">
+        </div>
+        <div className="row">
+            <div className="col-md-5 col-sm-12">
+              <div className="button-container d-flex justify-content-between">
                 <Button href={CV} label="My CV" icon={faFile} />
                 <Button
                   href="https://www.linkedin.com/in/vtlanglois/"
@@ -72,7 +73,6 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 .button-container {
-  display: flex;
-  justify-content: flex-start;
-  gap: 0.5rem;
+  // display: flex;
+  // justify-content: flex-start;
+  // gap: 0.5rem;
 
   .link-button {
     display: inline-block;
@@ -9,7 +9,7 @@
     text-align: center;
     color: var(--foreground-alt);
     background-color: var(--accent);
-    padding: 1vmax;
+    // padding: 1vmax;
     border: 3px solid var(--accent);
     border-radius: 15px;
     min-width: 100px;
@@ -37,8 +37,8 @@
 
 }
 
-@media only screen and (max-width: '720px') {
-  .button-container {
-    justify-content: space-evenly;
-  }
-}
+// @media only screen and (max-width: '720px') {
+//   .button-container {
+//     justify-content: space-evenly;
+//   }
+// }
