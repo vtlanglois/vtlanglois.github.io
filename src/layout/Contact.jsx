@@ -12,7 +12,7 @@ const Contact = () => {
       <p>
         <code>project page/section coming in later update. all projects are available on GitHub.</code>
       </p>
-      <div className="button-container d-flex justify-content-evenly">
+      <div className="button-container d-flex justify-content-lg-around justify-content-evenly">
           <Button
             className="linkedin-button"
             href="https://www.linkedin.com/in/vtlanglois/"

@@ -58,7 +58,7 @@ const About = () => {
         </div>
         <div className="row">
             <div className="col-md-5 col-sm-12">
-              <div className="button-container d-flex justify-content-evenly">
+              <div className="button-container d-flex justify-content-lg-between justify-content-evenly">
                 <Button href={CV} label="My CV" icon={faFile} />
                 <Button
                   href="https://www.linkedin.com/in/vtlanglois/"
