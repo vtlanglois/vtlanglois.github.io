@@ -49,13 +49,9 @@ h5, h6 {
     font-weight: normal;
 }
 
-// p {
-//     &::before {
-//         content: "";
-//         display: inline-block;
-//         width: 1em; /* Adjust the width to control the indentation */
-//       }
-// }
+p, li {
+  font-size: 1.15rem;
+}
 
 ul {
   list-style: none; 
