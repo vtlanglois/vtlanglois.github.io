@@ -1,18 +1,13 @@
 .button-container {
-  // display: flex;
-  // justify-content: flex-start;
-  // gap: 0.5rem;
-
   .link-button {
     display: inline-block;
     text-decoration: none;
     text-align: center;
     color: var(--foreground-alt);
     background-color: var(--accent);
-    // padding: 1vmax;
     border: 3px solid var(--accent);
     border-radius: 15px;
-    min-width: 100px;
+    min-width: 80px;
     transition: background-color 0.15s, color 0.15s;
     cursor: pointer;
 
@@ -34,11 +29,4 @@
       }
     }
   }
-
 }
-
-// @media only screen and (max-width: '720px') {
-//   .button-container {
-//     justify-content: space-evenly;
-//   }
-// }

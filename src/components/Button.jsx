@@ -4,7 +4,7 @@ import React from "react";
 
 const Button = ({ href, label, icon}) => {
   return (
-    <div className="align-self-center">
+    <div className="">
       <a
         className="link-button p-lg-3 p-1"
         tabIndex="0"
