@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: var(--background) !important;
+  // background-color: var(--background) !important;
   scroll-behavior: smooth;
 }
 
@@ -67,7 +67,7 @@ ul li::before {
 }
 
 section {
-  padding: 1vmin 0;
+  margin: 1vmin 0;
   background-color: var(--background)!important;
 }
 
