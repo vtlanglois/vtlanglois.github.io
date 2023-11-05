@@ -25,7 +25,7 @@ const Education = () => {
             <div className="col">
               <i>
                 <h6 className="degree-item">
-                  Bachelors of Science in Computer Science
+                  Bachelors of Science in Computer Science <u>with High Distinction</u>
                 </h6>
                 <h6>Specialization in Software Engineering</h6>
                 <h6> Minor in Game Design</h6>

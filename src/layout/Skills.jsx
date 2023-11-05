@@ -30,7 +30,7 @@ const SkillsList = () => {
     },
     {
       category: "Development Tools",
-      items: ["Git", "Github", "JIRA", "VSCode"],
+      items: ["Git", "GitHub", "JIRA", "VSCode", "Figma"],
     },
     {
       category: "Tech Misc.",
