@@ -18,7 +18,7 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="main-content">
+      <main className="main-content">
         <About />
         <Education />
         <Work />
@@ -34,7 +34,7 @@ function App() {
             </div>
           </div>
         </section>
-      </section>
+      </main>
       <footer>
         <div className="container">
         <div className="row py-3">
