@@ -49,7 +49,7 @@ const Work = () => {
   ];
   return (
     <section>
-      <div className="container">
+      <div className="container mb-lg-4">
         <div className="row">
           <div className="col">
             <SectionHeader className="work-header" text={"Leadership & Work Experience"} />
