@@ -41,7 +41,7 @@ function App() {
       </main>
       <footer>
         <div className="container">
-          <div className="row py-3">
+          <div className="row py-3 justify-content-center text-md-start text-center">
             <div className="col-md-6 col-sm-12">
               <h6 className="mb-0">Vincent Langlois - Personal Website 2.0</h6>
             </div>
@@ -54,7 +54,7 @@ function App() {
                 LinkedIn
               </a>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 col-sm-12">
                 <a
                   href="https://github.com/vtlanglois"
                   target="_blank"
