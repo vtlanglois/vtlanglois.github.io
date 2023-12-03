@@ -17,7 +17,9 @@ const Strengths = () => {
   ];
   return (
     <div>
-      <SectionHeader className={"strengths-header"} text={"Strengths"} />
+      <SectionHeader className={"strengths-header"}>
+        Strengths
+      </SectionHeader>
       {strengthsData.map((item) => {
         return (
         <p>

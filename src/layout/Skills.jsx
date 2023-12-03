@@ -40,7 +40,9 @@ const SkillsList = () => {
 
   return (
     <div>
-      <SectionHeader className={"skills-header"} text={"Skills"} />
+      <SectionHeader className={"skills-header"} >
+        Skills
+      </SectionHeader>
       <ul>
         {/* <li>
           <b>Web Development</b> &rarr; React, TypeScript, JS, Next.JS, Node.JS,

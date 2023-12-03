@@ -52,7 +52,9 @@ const Work = () => {
       <div className="container mb-lg-4">
         <div className="row">
           <div className="col">
-            <SectionHeader className="work-header" text={"Leadership & Work Experience"} />
+            <SectionHeader className="work-header">
+              Leadership & Work Experience
+            </SectionHeader>
           </div>
         </div>
         {workData.map((item) => {

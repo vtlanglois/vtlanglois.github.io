@@ -44,7 +44,9 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-7 col-sm-12">
-            <SectionHeader className="about-header" text={"About Me"} />
+            <SectionHeader className="about-header">
+              About Me
+            </SectionHeader>
             <p>
               I'm a recent graduate of{" "}
               <b>

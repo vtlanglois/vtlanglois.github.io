@@ -5,7 +5,9 @@ import SectionHeader from "../components/SectionHeader";
 const Contact = () => {
   return (
     <div>
-      <SectionHeader className="contact-header" text={"Contact & Projects"} />
+      <SectionHeader className="contact-header">
+        Contact & Projects
+      </SectionHeader>
       <p>
         For professional inquiries or to connect, feel free to reach out to me on LinkedIn.
       </p>

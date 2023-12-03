@@ -6,7 +6,9 @@ const Education = () => {
       <div className="container mb-lg-4">
         <div className="row">
           <div className="col">
-            <SectionHeader className="education-header" text={"Education"} />
+            <SectionHeader className="education-header">
+              Education
+            </SectionHeader>
           </div>
         </div>
         <div className="row">
