@@ -12,23 +12,26 @@ const Strengths = () => {
     },
     {
       strength: "Passionate",
-      desc: "Committed to staying current with industry trends, fostering a continuous learning mindset, and sharing acquired knowledge to contribute to a collaborative work environment."
-    }
+      desc: "Committed to staying current with industry trends, fostering a continuous learning mindset, and sharing acquired knowledge to contribute to a collaborative work environment.",
+    },
   ];
   return (
     <div>
       <SectionHeader className={"strengths-header"}>
+        <span className="me-2" role="img" aria-hidden="true">
+          🦾
+        </span>
         Strengths
       </SectionHeader>
       {strengthsData.map((item) => {
         return (
-        <p>
-          <b>
-            <u>{item.strength}</u>
-          </b>
-          : {item.desc}
-        </p>
-        )
+          <p>
+            <b>
+              <u>{item.strength}</u>
+            </b>
+            : {item.desc}
+          </p>
+        );
       })}
     </div>
   );

@@ -4,11 +4,7 @@ const SkillsList = () => {
   const skillsData = [
     {
       category: "Web Development",
-      items: [
-        "React",
-        "Next.js",
-        "Node.js",
-      ],
+      items: ["React", "Next.js", "Node.js"],
       subcategoryList: [
         {
           category: "Languages/Markup",
@@ -40,7 +36,10 @@ const SkillsList = () => {
 
   return (
     <div>
-      <SectionHeader className={"skills-header"} >
+      <SectionHeader className={"skills-header"}>
+        <span className="me-2" role="img" aria-hidden="true">
+          🛠️
+        </span>
         Skills
       </SectionHeader>
       <ul>
@@ -56,17 +55,25 @@ const SkillsList = () => {
           return (
             <>
               <li>
-                <b><u>{skill.category}</u></b> <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
+                <b>
+                  <u>{skill.category}</u>
+                </b>{" "}
+                <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
               </li>
-              {skill.subcategoryList && skill.subcategoryList.map((skill) => {
-                return (
-                  <>
-                    <li className="related-item">
-                      <b><u>{skill.category}</u></b> <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
-                    </li>
-                  </>
-                );
-              })}
+              {skill.subcategoryList &&
+                skill.subcategoryList.map((skill) => {
+                  return (
+                    <>
+                      <li className="related-item">
+                        <b>
+                          <u>{skill.category}</u>
+                        </b>{" "}
+                        <span className="arrow"> &rarr;</span>{" "}
+                        {skill.items.join(", ")}
+                      </li>
+                    </>
+                  );
+                })}
             </>
           );
         })}

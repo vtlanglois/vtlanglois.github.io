@@ -45,6 +45,9 @@ const About = () => {
           </div>
           <div className="col-md-7 col-sm-12">
             <SectionHeader className="about-header">
+              <span className="me-2" role="img" aria-hidden="true">
+                📖
+              </span>
               About Me
             </SectionHeader>
             <p>
@@ -74,22 +77,22 @@ const About = () => {
           </div>
         </div>
         <div className="row d-lg-none d-block gy-3">
-            <div className="col-12">
-              <div className="button-container d-flex justify-content-lg-between justify-content-evenly">
-                <Button href={CV} label="My CV" icon={faFile} />
-                <Button
-                  href="https://www.linkedin.com/in/vtlanglois/"
-                  label="LinkedIn"
-                  icon={faLinkedin}
-                />
-                <Button
-                  href="https://github.com/vtlanglois"
-                  label="GitHub"
-                  icon={faGithub}
-                />
-              </div>
+          <div className="col-12">
+            <div className="button-container d-flex justify-content-lg-between justify-content-evenly">
+              <Button href={CV} label="My CV" icon={faFile} />
+              <Button
+                href="https://www.linkedin.com/in/vtlanglois/"
+                label="LinkedIn"
+                icon={faLinkedin}
+              />
+              <Button
+                href="https://github.com/vtlanglois"
+                label="GitHub"
+                icon={faGithub}
+              />
             </div>
           </div>
+        </div>
       </div>
     </section>
   );

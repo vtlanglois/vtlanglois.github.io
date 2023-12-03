@@ -7,6 +7,9 @@ const Education = () => {
         <div className="row">
           <div className="col">
             <SectionHeader className="education-header">
+              <span className="me-2" role="img" aria-hidden="true">
+                🏫
+              </span>
               Education
             </SectionHeader>
           </div>
@@ -27,7 +30,8 @@ const Education = () => {
             <div className="col">
               <i>
                 <h6 className="degree-item">
-                  Bachelors of Science in Computer Science <u>with High Distinction</u>
+                  Bachelors of Science in Computer Science{" "}
+                  <u>with High Distinction</u>
                 </h6>
                 <h6>Specialization in Software Engineering</h6>
                 <h6> Minor in Game Design</h6>
