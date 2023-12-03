@@ -42,9 +42,27 @@ function App() {
       <footer>
         <div className="container">
           <div className="row py-3">
-            <div className="col-12">
+            <div className="col-md-6 col-sm-12">
               <h6 className="mb-0">Vincent Langlois - Personal Website 2.0</h6>
             </div>
+            <div className="col-md-1 col-sm-12 offset-lg-4">
+              <a
+                href="https://www.linkedin.com/in/vtlanglois/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div className="col-md-1">
+                <a
+                  href="https://github.com/vtlanglois"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
           </div>
         </div>
       </footer>
