@@ -68,7 +68,10 @@ const SkillsList = () => {
                         <b>
                           <u>{skill.category}</u>
                         </b>{" "}
-                        <span className="arrow"> &rarr;</span>{" "}
+                        <span className="arrow" role="img" aria-hidden="true">
+                          {" "}
+                          &rarr;
+                        </span>{" "}
                         {skill.items.join(", ")}
                       </li>
                     </>
