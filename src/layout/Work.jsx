@@ -9,7 +9,7 @@ const Work = () => {
       start: "Jul '23",
       end: "Present",
       details: [
-        "Collaborating with cross-functional international teams on the development of Lilly Direct, an online direct-to-consumer pharmacy progressive web app (PWA).",
+        "Collaborating with cross-functional international teams on the development of LillyDirect™, an online direct-to-consumer pharmacy progressive web app (PWA).",
         "Developing software using clean code practices to elevate code readability, bolstering ongoing and future development initiatives.",
         "Utilizing React and Next.js for front-end development, creating dynamic and interactive user interfaces with a focus on rapid requirement implementation, quick load times, and greatly improved SEO.",
         "Styling applications with SCSS and Bootstrap to ensure dynamic, responsive, and visually appealing design across the platform on multiple devices.",
