@@ -24,7 +24,7 @@ function App() {
         <Education />
         <Work />
         <section>
-          <div className="container mb-lg-4">
+          <div className="container mb-4">
             <div className="row">
               <div className="col-md-5 col-sm-12">
                 <SkillsList />

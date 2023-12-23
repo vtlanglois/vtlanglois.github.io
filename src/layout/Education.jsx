@@ -3,7 +3,7 @@ import SectionHeader from "../components/SectionHeader";
 const Education = () => {
   return (
     <section>
-      <div className="container mb-lg-4">
+      <div className="container mb-4">
         <div className="row">
           <div className="col">
             <SectionHeader className="education-header">
