@@ -56,9 +56,9 @@ const SkillsList = () => {
             <>
               <li className="mb-2">
                 <b>
-                  <u>{skill.category}</u>
+                  <u>{skill.category}</u>:
                 </b>{" "}
-                <span className="arrow"> &rarr;</span> {skill.items.join(", ")}
+                {skill.items.join(", ")}
               </li>
               {skill.subcategoryList &&
                 skill.subcategoryList.map((skill) => {
@@ -66,12 +66,8 @@ const SkillsList = () => {
                     <>
                       <li className="related-item mb-1">
                         <b>
-                          <u>{skill.category}</u>
+                          <u>{skill.category}</u>:
                         </b>{" "}
-                        <span className="arrow" role="img" aria-hidden="true">
-                          {" "}
-                          &rarr;
-                        </span>{" "}
                         {skill.items.join(", ")}
                       </li>
                     </>
