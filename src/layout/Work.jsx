@@ -62,26 +62,28 @@ const Work = () => {
         </div>
         {workData.map((item) => {
           return (
-            <div className="row mb-3">
-              <div className="col-md-8 col-sm-8">
-                <h5>
-                  <b>
-                    <u>{item.company}</u>
-                  </b>
-                  , {item.location}
-                </h5>
+            <>
+              <div className="row mb-1">
+                <div className="col-md-8 col-sm-8">
+                  <h5>
+                    <b>
+                      <u>{item.company}</u>
+                    </b>
+                    , {item.location}
+                  </h5>
+                </div>
+                <div className="col-md-4 col-sm-4 text-sm-end">
+                  <h6 className="date-item">{`${item.start} - ${item.end}`}</h6>
+                </div>
               </div>
-              <div className="col-md-4 col-sm-4 text-sm-end">
-                <h6 className="date-item">{`${item.start} - ${item.end}`}</h6>
-              </div>
-              <div className="row">
+              <div className="row mb-1">
                 <div className="col">
                   <i>
                     <h6 className="job-title">{item.job}</h6>
                   </i>
                 </div>
               </div>
-              <div className="row">
+              <div className="row mb-3">
                 <div className="col">
                   <ul>
                     {item.details.map((detail) => {
@@ -90,7 +92,7 @@ const Work = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </>
           );
         })}
       </div>
