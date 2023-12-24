@@ -62,7 +62,7 @@ const Work = () => {
         </div>
         {workData.map((item) => {
           return (
-            <div className="row">
+            <div className="row mb-3">
               <div className="col-md-8 col-sm-8">
                 <h5>
                   <b>
@@ -85,7 +85,7 @@ const Work = () => {
                 <div className="col">
                   <ul>
                     {item.details.map((detail) => {
-                      return <li>{detail}</li>;
+                      return <li className="mb-1">{detail}</li>;
                     })}
                   </ul>
                 </div>

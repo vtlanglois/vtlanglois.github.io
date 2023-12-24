@@ -54,7 +54,7 @@ const SkillsList = () => {
         {skillsData.map((skill) => {
           return (
             <>
-              <li>
+              <li className="mb-2">
                 <b>
                   <u>{skill.category}</u>
                 </b>{" "}
@@ -64,7 +64,7 @@ const SkillsList = () => {
                 skill.subcategoryList.map((skill) => {
                   return (
                     <>
-                      <li className="related-item">
+                      <li className="related-item mb-1">
                         <b>
                           <u>{skill.category}</u>
                         </b>{" "}
