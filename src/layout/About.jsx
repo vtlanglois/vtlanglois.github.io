@@ -21,7 +21,7 @@ const About = () => {
                 I build <i>things</i>, often using
               </h2>
               <h2>
-                <code>{"<tags/>"}</code>, <code>{"functions()"}</code>,
+                <code>{"<elements/>"}</code>, <code>{"functions()"}</code>,
               </h2>
               <h2>
                 <code>{"[arrays,]"}</code> and <code>{"{...objects}"}</code>.
