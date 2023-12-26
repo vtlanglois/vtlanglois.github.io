@@ -57,7 +57,7 @@ const About = () => {
               </b>
               , where I spent my undergraduate years learning CS, teaching
               programming, and helping others in any way I could. Currently, I
-              am a software developer for{" "}
+              am a software engineer for{" "}
               <b>
                 <u>Eli Lilly & Company</u>
               </b>{" "}
