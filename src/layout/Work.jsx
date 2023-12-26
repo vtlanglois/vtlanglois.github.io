@@ -65,21 +65,21 @@ const Work = () => {
             <>
               <div className="row mb-1">
                 <div className="col-md-8 col-sm-8">
-                  <h5>
+                  <h3 className="h5">
                     <b>
                       <u>{item.company}</u>
                     </b>
                     , {item.location}
-                  </h5>
+                  </h3>
                 </div>
                 <div className="col-md-4 col-sm-4 text-sm-end">
-                  <h6 className="date-item">{`${item.start} - ${item.end}`}</h6>
+                  <p className="h6 date-item">{`${item.start} - ${item.end}`}</p>
                 </div>
               </div>
               <div className="row mb-1">
                 <div className="col">
                   <i>
-                    <h6 className="job-title">{item.job}</h6>
+                    <h4 className="h6 job-title">{item.job}</h4>
                   </i>
                 </div>
               </div>
