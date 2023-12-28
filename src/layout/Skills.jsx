@@ -49,7 +49,7 @@ const SkillsList = () => {
         </span>
         Skills
       </SectionHeader>
-      <ul>
+      <ul className="list-unstyled">
         {/* <li>
           <b>Web Development</b> &rarr; React, TypeScript, JS, Next.JS, Node.JS,
           HTML/CSS, SCSS
