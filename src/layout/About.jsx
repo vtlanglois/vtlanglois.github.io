@@ -13,7 +13,9 @@ const About = () => {
           <div className="col-md-5 col-sm-12">
             <div className="intro-container">
               <h1>
-                Hi! <span className="waving-emoji">👋</span>😄
+                Hi!
+                <Emoji className="waving-emoji">👋</Emoji>
+                <Emoji>😄</Emoji>
                 <br />
                 I'm <u>Vincent Langlois.</u>
               </h1>
