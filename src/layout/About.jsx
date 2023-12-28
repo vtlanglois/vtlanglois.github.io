@@ -3,6 +3,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
 import CV from "../vincent-langlois-cv.pdf";
+import Emoji from "../components/Emoji";
 
 const About = () => {
   return (
