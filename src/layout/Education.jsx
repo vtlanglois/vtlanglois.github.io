@@ -24,19 +24,23 @@ const Education = () => {
             </h3>
           </div>
           <div className="col-md-6 col-sm-6 text-sm-end">
-            <p className="h6 date-item">Aug '19 - May '23</p>
+            <p className="h6">
+              <span className="me-2">🗓️</span>
+              Aug '19 - May '23
+            </p>
           </div>
           <div className="row">
             <div className="col">
-              <i>
-                <p className="h6 degree-item">
+              <p className="h6">
+                <span className="me-2">📜</span>
+                <i>
                   Bachelors of Science in Computer Science{" "}
                   <u>with High Distinction</u>
-                </p>
-                <p className="h6">Specialization in Software Engineering</p>
-                <p className="h6"> Minor in Game Design</p>
-                <code>full transcript coming in later update</code>
-              </i>
+                </i>
+              </p>
+              <p className="h6">Specialization in Software Engineering</p>
+              <p className="h6"> Minor in Game Design</p>
+              <code>full transcript coming in later update</code>
             </div>
           </div>
         </div>

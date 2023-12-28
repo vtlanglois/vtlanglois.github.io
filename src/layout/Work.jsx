@@ -73,14 +73,18 @@ const Work = () => {
                   </h3>
                 </div>
                 <div className="col-md-4 col-sm-4 text-sm-end">
-                  <p className="h6 date-item">{`${item.start} - ${item.end}`}</p>
+                  <p className="h6">
+                    <span className="me-2">🗓️</span>
+                    {`${item.start} - ${item.end}`}
+                  </p>
                 </div>
               </div>
               <div className="row mb-1">
                 <div className="col">
-                  <i>
-                    <h4 className="h6 job-title">{item.job}</h4>
-                  </i>
+                  <h4 className="h6">
+                    <span className="me-2">💼</span>
+                    <i>{item.job}</i>
+                  </h4>
                 </div>
               </div>
               <div className="row mb-3">
