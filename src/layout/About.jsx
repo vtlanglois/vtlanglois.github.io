@@ -14,17 +14,14 @@ const About = () => {
             <div className="intro-container">
               <h1>
                 Hi! <span className="waving-emoji">👋</span>😄
-              </h1>
-              <h1>
+                <br />
                 I'm <u>Vincent Langlois.</u>
               </h1>
               <h2>
                 I build <i>things</i>, often using
-              </h2>
-              <h2>
+                <br />
                 <code>{"<elements/>"}</code>, <code>{"functions()"}</code>,
-              </h2>
-              <h2>
+                <br />
                 <code>{"[arrays,]"}</code> and <code>{"{...objects}"}</code>.
               </h2>
             </div>
