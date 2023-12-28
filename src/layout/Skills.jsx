@@ -45,9 +45,7 @@ const SkillsList = () => {
   return (
     <div>
       <SectionHeader className={"skills-header"}>
-        <span className="me-2" role="img" aria-hidden="true">
-          🛠️
-        </span>
+        <Emoji>🛠️</Emoji>
         Skills
       </SectionHeader>
       <ul className="ps-0">

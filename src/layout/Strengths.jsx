@@ -22,9 +22,7 @@ const Strengths = () => {
   return (
     <div>
       <SectionHeader className={"strengths-header"}>
-        <span className="me-2" role="img" aria-hidden="true">
-          🦾
-        </span>
+        <Emoji>🦾</Emoji>
         Strengths
       </SectionHeader>
       {strengthsData.map((item) => {

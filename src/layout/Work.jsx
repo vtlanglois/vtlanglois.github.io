@@ -54,9 +54,7 @@ const Work = () => {
         <div className="row">
           <div className="col">
             <SectionHeader className="work-header">
-              <span className="me-2" role="img" aria-hidden="true">
-                🏢
-              </span>
+              <Emoji>🏢</Emoji>
               Leadership & Work Experience
             </SectionHeader>
           </div>

@@ -45,9 +45,7 @@ const About = () => {
           </div>
           <div className="col-md-7 col-sm-12">
             <SectionHeader className="about-header">
-              <span className="me-2" role="img" aria-hidden="true">
-                📖
-              </span>
+              <Emoji>📖</Emoji>
               About Me
             </SectionHeader>
             <p>

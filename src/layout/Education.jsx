@@ -8,9 +8,7 @@ const Education = () => {
         <div className="row">
           <div className="col">
             <SectionHeader className="education-header">
-              <span className="me-2" role="img" aria-hidden="true">
-                🏫
-              </span>
+              <Emoji>🏫</Emoji>
               Education
             </SectionHeader>
           </div>
