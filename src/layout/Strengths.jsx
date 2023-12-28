@@ -1,4 +1,5 @@
 import SectionHeader from "../components/SectionHeader";
+import Emoji from "../components/Emoji";
 
 const Strengths = () => {
   const strengthsData = [
