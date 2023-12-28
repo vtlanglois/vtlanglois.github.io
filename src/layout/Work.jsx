@@ -1,3 +1,4 @@
+import Emoji from "../components/Emoji";
 import SectionHeader from "../components/SectionHeader";
 
 const Work = () => {
@@ -74,7 +75,7 @@ const Work = () => {
                 </div>
                 <div className="col-md-4 col-sm-4 text-sm-end">
                   <p className="h6">
-                    <span className="me-2">🗓️</span>
+                    <Emoji>🗓️</Emoji>
                     {`${item.start} - ${item.end}`}
                   </p>
                 </div>
@@ -82,7 +83,7 @@ const Work = () => {
               <div className="row mb-1">
                 <div className="col">
                   <h4 className="h6">
-                    <span className="me-2">💼</span>
+                    <Emoji>💼</Emoji>
                     <i>{item.job}</i>
                   </h4>
                 </div>

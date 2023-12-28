@@ -1,3 +1,4 @@
+import Emoji from "../components/Emoji";
 import SectionHeader from "../components/SectionHeader";
 
 const Education = () => {
@@ -25,14 +26,14 @@ const Education = () => {
           </div>
           <div className="col-md-6 col-sm-6 text-sm-end">
             <p className="h6">
-              <span className="me-2">🗓️</span>
+              <Emoji>🗓️</Emoji>
               Aug '19 - May '23
             </p>
           </div>
           <div className="row">
             <div className="col">
               <p className="h6">
-                <span className="me-2">📜</span>
+                <Emoji>📜</Emoji>
                 <i>
                   Bachelors of Science in Computer Science{" "}
                   <u>with High Distinction</u>

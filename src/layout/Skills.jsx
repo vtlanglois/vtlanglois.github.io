@@ -55,23 +55,24 @@ const SkillsList = () => {
             <>
               <li className="mb-2 list-unstyled">
                 <b>
-                {skill.emoji} <u>{skill.category}</u>:
+                  <Emoji>{skill.emoji}</Emoji> <u>{skill.category}</u>:
                 </b>{" "}
                 {skill.items.join(", ")}
-                {skill.subcategoryList && 
-                <ul>
-                  {skill.subcategoryList.map((skill) => {
-                    return (
-                      <li className="mb-1">
-                        <b>
-                        {skill.emoji} <u>{skill.category}</u>:
-                        </b>{" "}
-                        {skill.items.join(", ")}
-                      </li>
-                    )
-                  })}
-                </ul>
-                }
+                {skill.subcategoryList && (
+                  <ul>
+                    {skill.subcategoryList.map((skill) => {
+                      return (
+                        <li className="mb-1">
+                          <b>
+                            <Emoji>{skill.emoji}</Emoji>
+                            <u>{skill.category}</u>:
+                          </b>{" "}
+                          {skill.items.join(", ")}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
               </li>
             </>
           );

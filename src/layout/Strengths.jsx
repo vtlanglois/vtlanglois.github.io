@@ -30,7 +30,7 @@ const Strengths = () => {
         return (
           <p>
             <b>
-              {item.emoji} <u>{item.strength}</u>
+              <Emoji>{item.emoji}</Emoji> <u>{item.strength}</u>
             </b>
             : {item.desc}
           </p>
