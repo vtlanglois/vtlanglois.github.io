@@ -6,8 +6,12 @@ const SkillsList = () => {
     {
       category: "Web Development",
       emoji: "🌐",
-      items: ["React", "Next.js", "Node.js"],
       subcategoryList: [
+        {
+          category: "Full-Stack Development",
+          emoji: "💻",
+          items: ["React", "Next.js", "Node.js"]
+        },
         {
           category: "Languages",
           emoji: "📝",
@@ -56,12 +60,12 @@ const SkillsList = () => {
                 <b>
                   <Emoji>{skill.emoji}</Emoji> <u>{skill.category}</u>:
                 </b>{" "}
-                {skill.items.join(", ")}
+                {skill.items && skill.items.join(", ")}
                 {skill.subcategoryList && (
-                  <ul>
+                  <ul className="mt-2">
                     {skill.subcategoryList.map((skill) => {
                       return (
-                        <li className="mb-1">
+                        <li className="mb-2">
                           <b>
                             <Emoji>{skill.emoji}</Emoji>
                             <u>{skill.category}</u>:
