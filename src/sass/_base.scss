@@ -25,7 +25,7 @@ header,
 footer {
   padding: 1vmin 0;
   background-color: var(--accent);
-  h4 {
+  p {
     color: var(--foreground-alt);
     &::before {
       content: "☁️";

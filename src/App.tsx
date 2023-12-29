@@ -14,7 +14,7 @@ function App() {
         <div className="container">
           <div className="row py-3">
             <div className="col-12">
-              <h4 className="mb-0">Vincent Langlois</h4>
+              <p className="mb-0">Vincent Langlois</p>
             </div>
           </div>
         </div>
