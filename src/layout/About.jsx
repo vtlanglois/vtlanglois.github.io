@@ -62,7 +62,7 @@ const About = () => {
               in Indianapolis, Indiana.
             </p>
             <p>
-              Even since I was a child, I've always been building and
+              Ever since I was a child, I've always been building and
               programming <i>things</i>; LEGO sets, Minecraft worlds, websites,
               games, and robots to name a few. This passion for creation led me
               to pursue CS, where I could create things using magical words!
