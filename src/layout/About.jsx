@@ -10,7 +10,7 @@ const About = () => {
     <section className="about-section">
       <div className="container mb-4">
         <div className="row">
-          <div className="col-md-5 col-sm-12">
+          <div className="col-md-5 col-sm-12 my-lg-0 my-3 text-md-start text-center">
             <div className="intro-container">
               <h1>
                 Hi!
