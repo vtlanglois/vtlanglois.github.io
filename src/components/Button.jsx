@@ -2,7 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const Button = ({ href, label, icon}) => {
+const Button = ({ href, label, icon }) => {
   return (
     <div className="">
       <a

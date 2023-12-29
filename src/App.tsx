@@ -55,14 +55,14 @@ function App() {
               </a>
             </div>
             <div className="col-md-1 col-sm-12">
-                <a
-                  href="https://github.com/vtlanglois"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </div>
+              <a
+                href="https://github.com/vtlanglois"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       </footer>

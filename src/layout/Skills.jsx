@@ -10,7 +10,7 @@ const SkillsList = () => {
         {
           category: "Full-Stack Development",
           emoji: "💻",
-          items: ["React", "Next.js", "Node.js"]
+          items: ["React", "Next.js", "Node.js"],
         },
         {
           category: "Languages",
@@ -59,8 +59,8 @@ const SkillsList = () => {
               <li className="mb-2 list-unstyled">
                 <b>
                   <Emoji>{skill.emoji}</Emoji> <u>{skill.category}</u>
-                </b>:{" "}
-                {skill.items && skill.items.join(", ")}
+                </b>
+                : {skill.items && skill.items.join(", ")}
                 {skill.subcategoryList && (
                   <ul className="mt-2">
                     {skill.subcategoryList.map((skill) => {
@@ -69,8 +69,8 @@ const SkillsList = () => {
                           <b>
                             <Emoji>{skill.emoji}</Emoji>
                             <u>{skill.category}</u>
-                          </b>:{" "}
-                          {skill.items.join(", ")}
+                          </b>
+                          : {skill.items.join(", ")}
                         </li>
                       );
                     })}
