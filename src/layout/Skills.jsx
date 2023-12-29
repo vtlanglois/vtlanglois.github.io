@@ -58,8 +58,8 @@ const SkillsList = () => {
             <>
               <li className="mb-2 list-unstyled">
                 <b>
-                  <Emoji>{skill.emoji}</Emoji> <u>{skill.category}</u>:
-                </b>{" "}
+                  <Emoji>{skill.emoji}</Emoji> <u>{skill.category}</u>
+                </b>:{" "}
                 {skill.items && skill.items.join(", ")}
                 {skill.subcategoryList && (
                   <ul className="mt-2">
@@ -68,8 +68,8 @@ const SkillsList = () => {
                         <li className="mb-2">
                           <b>
                             <Emoji>{skill.emoji}</Emoji>
-                            <u>{skill.category}</u>:
-                          </b>{" "}
+                            <u>{skill.category}</u>
+                          </b>:{" "}
                           {skill.items.join(", ")}
                         </li>
                       );
