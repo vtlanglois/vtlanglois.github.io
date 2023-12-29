@@ -27,10 +27,6 @@ footer {
   background-color: var(--accent);
   p {
     color: var(--foreground-alt);
-    &::before {
-      content: "☁️";
-      margin-right: 0.5em;
-    }
   }
   h6 {
     color: var(--foreground-alt);
