@@ -10,7 +10,7 @@ import Strengths from "./layout/Strengths";
 function App() {
   return (
     <div>
-      <header>
+      <header className="mb-md-4">
         <div className="container">
           <div className="row py-3">
             <div className="col-12">
