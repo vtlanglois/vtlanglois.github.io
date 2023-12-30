@@ -25,14 +25,14 @@ const SkillsList = () => {
       ],
     },
     {
-      category: "Database",
-      emoji: "💽",
-      items: ["SQL", "MySQL", "PostgresSQL", "MongoDB"],
-    },
-    {
       category: "Programming Languages",
       emoji: "📝",
       items: ["Java", "C", "Python"],
+    },
+    {
+      category: "Database",
+      emoji: "💽",
+      items: ["SQL", "MySQL", "PostgresSQL", "MongoDB"],
     },
     {
       category: "Development Tools",
