@@ -43,7 +43,7 @@ function App() {
         <div className="container">
           <div className="row py-3 justify-content-center text-md-start text-center">
             <div className="col-md-6 col-sm-12">
-              <h6 className="mb-0">Vincent Langlois - Personal Website 2.0</h6>
+              <p className="mb-0">Vincent Langlois - Personal Website 2.0</p>
             </div>
             <div className="col-md-1 col-sm-12 offset-lg-4">
               <a
