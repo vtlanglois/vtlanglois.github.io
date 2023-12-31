@@ -37,7 +37,7 @@ const SkillsList = () => {
     {
       category: "Development Tools",
       emoji: "🧰",
-      items: ["Git", "GitHub", "JIRA", "VSCode", "Figma", "ChatGPT", "GitHub Copilot"],
+      items: ["Git", "GitHub", "JIRA", "Visual Studio Code", "Figma", "ChatGPT", "GitHub Copilot"],
     },
     {
       category: "Tech Misc.",

@@ -12,9 +12,9 @@ const Work = () => {
       details: [
         "Collaborating with cross-functional international teams on the development of LillyDirect™, an online direct-to-consumer pharmacy progressive web app (PWA).",
         "Developing software using clean code practices to elevate code readability, bolstering ongoing and future development initiatives.",
-        "Utilizing React and Next.js for front-end development, creating dynamic and interactive user interfaces with a focus on rapid requirement implementation, quick load times, and greatly improved SEO.",
+        "Utilizing React and Next.js for front-end development, creating dynamic and interactive user interfaces with a focus on rapid requirement implementation, quick load times, and greatly improved search engine optimization (SEO).",
         "Styling applications with SCSS and Bootstrap to ensure dynamic, responsive, and visually appealing design across the platform on multiple devices.",
-        "Implementing front-end accessibility enhancements following WCAG specifications, extending the service’s usability to a broader audience.",
+        "Implementing front-end accessibility enhancements following the Web Content Accessibility Guidelines (WCAG), extending the service’s usability to a broader audience.",
         "Actively engaging in continuous education, such as pursuing online courses and participating in team-wide professional development discussions, to consistently enhance and expand my skill set.",
       ],
     },
