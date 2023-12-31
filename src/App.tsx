@@ -6,6 +6,7 @@ import Contact from "./layout/Contact";
 import Education from "./layout/Education";
 import Work from "./layout/Work";
 import Strengths from "./layout/Strengths";
+import Celebration from "./layout/Celebration";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </div>
       </header>
       <main className="main-content">
+        <Celebration />
         <About />
         <Education />
         <Work />
