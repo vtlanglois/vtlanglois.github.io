@@ -27,6 +27,11 @@ const holidays = {
     text: "Happy Earth Day!",
     endEmoji: "🌍",
   },
+  "1231": {
+    startEmoji: "🥂",
+    text: "Happy New Years Eve!",
+    endEmoji: "🍾",
+  }
 };
 
 const Celebration = () => {
