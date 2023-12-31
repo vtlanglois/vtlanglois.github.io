@@ -17,6 +17,11 @@ const holidays = {
     text: "Happy St. Patrick's Day!",
     endEmoji: "🍀",
   },
+  "3-19": {
+    startEmoji: "🌱",
+    text: "Happy First Day of Spring!",
+    endEmoji: "🌸",
+  },
   "4-1": {
     startEmoji: "🤡",
     text: "April Fools!!!",
@@ -27,12 +32,27 @@ const holidays = {
     text: "Happy Earth Day!",
     endEmoji: "🌍",
   },
+  "6-30": {
+    startEmoji: "☀️",
+    text: "Happy First Day of Summer!",
+    endEmoji: "😎",
+  },
+  "9-22": {
+    startEmoji: "🍂",
+    text: "Happy First Day of Fall!",
+    endEmoji: "🍁",
+  },
   "10-31": {
     startEmoji: "🎃",
     text: "Happy Halloween!",
     endEmoji: "👻",
   },
-  "10-31": {
+  "12-21": {
+    startEmoji: "☃️",
+    text: "Happy First Day of Winter!",
+    endEmoji: "❄️",
+  },
+  "12-25": {
     startEmoji: "🎄",
     text: "Merry Christmas!",
     endEmoji: "🎅",
