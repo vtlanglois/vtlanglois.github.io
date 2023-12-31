@@ -73,7 +73,7 @@ const Celebration = () => {
   if (holiday) {
     return (
       <section>
-        <div className="container my-lg-4">
+        <div className="container mt-3">
           <div className="row text-center">
             <div className="col-12">
               <CelebrationText
