@@ -2,10 +2,30 @@ import React from "react";
 import Emoji from "../components/Emoji";
 
 const holidays = {
-  "1230": {
+  "11": { 
     startEmoji: "🎆",
     text: "Happy New Years!",
     endEmoji: "🎇"
+  },
+  "214": {
+    startEmoji: "💘",
+    text: "Happy Valentines Day!",
+    endEmoji: "💝"
+  },
+  "317": {
+    startEmoji: "🍀",
+    text: "Happy St. Patrick's Day!",
+    endEmoji: "🍀"
+  },
+  "41": {
+    startEmoji: "🤡",
+    text: "April Fools!!!",
+    endEmoji: "🤡"
+  },
+  "422": {
+    startEmoji: "🌎",
+    text: "Happy Earth Day!",
+    endEmoji: "🌍"
   }
 };
 
