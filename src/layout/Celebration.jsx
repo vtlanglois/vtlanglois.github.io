@@ -2,43 +2,43 @@ import React from "react";
 import Emoji from "../components/Emoji";
 
 const holidays = {
-  "11": {
+  "1-1": {
     startEmoji: "🎆",
     text: "Happy New Years!",
     endEmoji: "🎇",
   },
-  "214": {
+  "2-14": {
     startEmoji: "💘",
     text: "Happy Valentines Day!",
     endEmoji: "💝",
   },
-  "317": {
+  "3-17": {
     startEmoji: "🍀",
     text: "Happy St. Patrick's Day!",
     endEmoji: "🍀",
   },
-  "41": {
+  "4-1": {
     startEmoji: "🤡",
     text: "April Fools!!!",
     endEmoji: "🤡",
   },
-  "422": {
+  "4-22": {
     startEmoji: "🌎",
     text: "Happy Earth Day!",
     endEmoji: "🌍",
   },
-  "1231": {
+  "12-31": {
     startEmoji: "🥂",
     text: "Happy New Years Eve!",
     endEmoji: "🍾",
-  }
+  },
 };
 
 const Celebration = () => {
   var currentDate = new Date();
   var currentMonth = currentDate.getMonth() + 1;
   var currentDay = currentDate.getDate();
-  var holidayKey = currentMonth.toString() + currentDay.toString();
+  var holidayKey = `${currentMonth}-${currentDay}`;
   var holiday = holidays[holidayKey];
   if (holiday) {
     return (
