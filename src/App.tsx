@@ -28,13 +28,13 @@ function App() {
         <section>
           <div className="container mb-4">
             <div className="row">
-              <div className="col-md-5 col-sm-12 mb-lg-0 mb-4">
+              <div className="col-md-6 col-sm-12 mb-lg-0 mb-4">
                 <SkillsList />
               </div>
               {/* <div className="col-md-5 col-sm-12">
                 <Contact />
               </div> */}
-              <div className="col-md-7 col-sm-12">
+              <div className="col-md-6 col-sm-12">
                 <Strengths />
               </div>
             </div>
