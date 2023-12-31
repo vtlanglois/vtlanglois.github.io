@@ -9,7 +9,7 @@ const holidays = {
   },
   "2-14": {
     startEmoji: "💘",
-    text: "Happy Valentines Day!",
+    text: "Happy Valentine's Day!",
     endEmoji: "💝",
   },
   "3-17": {
@@ -26,6 +26,16 @@ const holidays = {
     startEmoji: "🌎",
     text: "Happy Earth Day!",
     endEmoji: "🌍",
+  },
+  "10-31": {
+    startEmoji: "🎃",
+    text: "Happy Halloween!",
+    endEmoji: "👻",
+  },
+  "10-31": {
+    startEmoji: "🎄",
+    text: "Merry Christmas!",
+    endEmoji: "🎅",
   },
   "12-31": {
     startEmoji: "🥂",
