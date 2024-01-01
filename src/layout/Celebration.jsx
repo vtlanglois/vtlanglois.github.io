@@ -94,7 +94,7 @@ const Celebration = () => {
 
 const CelebrationText = ({ startEmoji, endEmoji, children }) => {
   return (
-    <p className="h1">
+    <p className="h2">
       <Emoji>{startEmoji}</Emoji>
       <b>
         <u>{children}</u>
