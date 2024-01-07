@@ -19,13 +19,13 @@ const About = () => {
                 <br />
                 I'm <u>Vincent Langlois.</u>
               </h1>
-              <h2>
+              <p className="h2">
                 I build <i>things</i>, often using
                 <br />
                 <code>{"<elements/>"}</code>, <code>{"functions()"}</code>,
                 <br />
                 <code>{"[arrays,]"}</code> and <code>{"{...objects}"}</code>.
-              </h2>
+              </p>
             </div>
             <div className="d-lg-block d-none">
               <div className="button-container d-flex justify-content-lg-between justify-content-evenly">
