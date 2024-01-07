@@ -25,7 +25,8 @@ const Education = () => {
           <div className="col-md-6 col-sm-6 text-sm-end">
             <p className="h6">
               <Emoji>🗓️</Emoji>
-              Aug '19 - May '23
+              <time datetime="2019-08">Aug '19</time> -{" "}
+              <time dateTime="2023-05">May '23</time>
             </p>
           </div>
           <div className="row">
