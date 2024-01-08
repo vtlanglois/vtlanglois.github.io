@@ -3,11 +3,11 @@ import SectionHeader from "../components/SectionHeader";
 
 const Education = () => {
   return (
-    <section>
+    <section aria-labelledby="education-header">
       <div className="container mb-4">
         <div className="row">
           <div className="col">
-            <SectionHeader className="education-header">
+            <SectionHeader id="education-header" className="education-header">
               <Emoji>🏫</Emoji>
               Education
             </SectionHeader>

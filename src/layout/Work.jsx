@@ -49,11 +49,11 @@ const Work = () => {
     },
   ];
   return (
-    <section>
+    <section aria-labelledby="work-header">
       <div className="container mb-4">
         <div className="row">
           <div className="col">
-            <SectionHeader className="work-header">
+            <SectionHeader id="work-header" className="work-header">
               <Emoji>🏢</Emoji>
               Leadership & Work Experience
             </SectionHeader>

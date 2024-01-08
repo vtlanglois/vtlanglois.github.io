@@ -25,7 +25,7 @@ function App() {
         <About />
         <Education />
         <Work />
-        <section>
+        <section aria-label="Technical Skills and Personal Strengths">
           <div className="container mb-4">
             <div className="row">
               <div className="col-md-6 col-sm-12 mb-lg-0 mb-4">

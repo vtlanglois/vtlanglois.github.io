@@ -7,7 +7,7 @@ import Emoji from "../components/Emoji";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" aria-label="Introduction">
       <div className="container mb-4">
         <div className="row">
           <div className="col-md-5 col-sm-12 my-md-0 my-3 text-md-start text-center">
