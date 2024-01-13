@@ -53,8 +53,8 @@ const About = () => {
               <b>
                 <u>Indiana University Bloomington</u>
               </b>
-              , where I spent my undergraduate years learning CS, teaching
-              programming, and helping others in any way I could. Currently, I
+              , where I spent my undergraduate years learning computer science and game design, teaching
+              programming to my local community, and helping others in any way I could. Currently, I
               am a software engineer for{" "}
               <b>
                 <u>Eli Lilly & Company</u>
@@ -64,8 +64,7 @@ const About = () => {
             <p>
               Ever since I was a child, I've always been building and
               programming <i>things</i>; LEGO sets, Minecraft worlds, websites,
-              games, and robots to name a few. This passion for creation led me
-              to pursue CS, where I could create things using magical words!
+              games, and robots to name a few. If there's something that I can build, I'll be there to build it!
             </p>
             <p>
               When I'm not coding or building things, I enjoy writing,
