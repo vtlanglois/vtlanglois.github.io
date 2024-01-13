@@ -11,7 +11,7 @@ const About = () => {
       <div className="container mb-4">
         <div className="row">
           <div className="col-md-5 col-sm-12 my-md-0 my-3 text-md-start text-center">
-            <div className="intro-container">
+            <div className="intro-container mb-4">
               <h1>
                 Hi!
                 <Emoji className="ms-1 waving-emoji">👋</Emoji>
