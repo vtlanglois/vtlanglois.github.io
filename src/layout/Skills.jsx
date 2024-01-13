@@ -20,7 +20,7 @@ const SkillsList = () => {
         {
           category: "Styling",
           emoji: "🎨",
-          items: ["CSS", "SCSS", "Bootstrap"],
+          items: ["CSS", "Sass", "Bootstrap"],
         },
       ],
     },
