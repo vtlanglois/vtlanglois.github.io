@@ -14,6 +14,8 @@ body {
 
 code {
   color: var(--accent);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
 }
 
 u {
@@ -51,19 +53,6 @@ p, li {
   line-height: 1.35;
 }
 
-// ul {
-//   list-style: none; 
-// }
-
-// ul li::before {
-//   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-//   color: var(--accent); 
-//   font-weight: bold; 
-//   display: inline-block;
-//   width: 1em; 
-//   margin-left: -1em;
-// }
-
 li::marker {
   color: var(--accent)
 }
@@ -78,53 +67,7 @@ b {
 }
 
 
-// .about-header {
-//   &::before {
-//     content: "ℹ️";
-//     margin-right: 0.5em;
-//   }
-// }
-
-// .education-header {
-//   &::before {
-//     content: "🎓";
-//     margin-right: 0.5em;
-//   }
-// }
-
-// .work-header {
-//   &::before {
-//     content: "🖥️";
-//     margin-right: 0.5em;
-//   }
-// }
-
-// .skills-header {
-//   &::before {
-//     content: "🛠️";
-//     margin-right: 0.5em;
-//   }
-// }
-
-// .contact-header {
-//   &::before {
-//     content: "💬";
-//     margin-right: 0.5em;
-//   }
-// }
-
-
 @media only screen and (max-width: 720px) {
-  // .main-content {
-  //   h1,
-  //   h2 {
-  //     text-align: center !important;
-  //   }
-  // }
-  // // .intro-container {
-  //     text-align: center !important;
-  // }
-
   .button-container {
     justify-content: space-around;
   }
