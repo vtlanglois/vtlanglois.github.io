@@ -27,7 +27,7 @@ const Strengths = () => {
       </SectionHeader>
       {strengthsData.map((item) => {
         return (
-          <p>
+          <p className="mb-4">
             <b>
               <Emoji>{item.emoji}</Emoji> <u>{item.strength}</u>
             </b>
