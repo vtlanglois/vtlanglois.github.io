@@ -8,7 +8,7 @@ const SkillsList = () => {
       emoji: "🌐",
       subcategoryList: [
         {
-          category: "Full-Stack Development",
+          category: "Full-Stack",
           emoji: "💻",
           items: ["React", "Next.js", "Node.js"],
         },
@@ -20,7 +20,12 @@ const SkillsList = () => {
         {
           category: "Styling",
           emoji: "🎨",
-          items: ["CSS", "Sass", "Bootstrap"],
+          items: ["CSS", "Sass", "Bootstrap", "TailwindCSS"],
+        },
+        {
+          category: "Accessibility",
+          emoji: "♿️",
+          items: ["WCAG", "ARIA"],
         },
       ],
     },
