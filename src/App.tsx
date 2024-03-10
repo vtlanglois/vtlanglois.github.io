@@ -1,12 +1,7 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./sass/App.scss";
-import About from "./layout/About";
-import SkillsList from "./layout/Skills";
-import Contact from "./layout/Contact";
-import Education from "./layout/Education";
-import Work from "./layout/Work";
-import Strengths from "./layout/Strengths";
-import Celebration from "./layout/Celebration";
+import Home from "./pages/Home";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -21,25 +16,10 @@ function App() {
         </div>
       </header>
       <main className="main-content">
-        <Celebration />
-        <About />
-        <Education />
-        <Work />
-        <section aria-label="Technical Skills and Personal Strengths">
-          <div className="container mb-4">
-            <div className="row">
-              <div className="col-md-6 col-sm-12 mb-lg-0 mb-4">
-                <SkillsList />
-              </div>
-              {/* <div className="col-md-5 col-sm-12">
-                <Contact />
-              </div> */}
-              <div className="col-md-6 col-sm-12">
-                <Strengths />
-              </div>
-            </div>
-          </div>
-        </section>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/test" element={<><p>TEST</p></>} />
+        </Routes>
       </main>
       <footer>
         <div className="container">
