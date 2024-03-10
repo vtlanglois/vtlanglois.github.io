@@ -3,13 +3,13 @@ import SectionHeader from '../components/SectionHeader';
 import SemesterTable from './SemesterTable';
 import Emoji from '../components/Emoji';
 
-const TranscriptYear = ({headerText}) => {
+const TranscriptYear = ({headerText, fallSemester, springSemester}) => {
   return (
     <section className='container'>
       <SectionHeader>{headerText} </SectionHeader>
       <div className="row">
-        <SemesterTable semester={[1,2,3]} headerText={<><Emoji>🍁</Emoji> Fall Semester</>}/>
-        <SemesterTable semester={[1,2,3]} headerText={<><Emoji>🌸</Emoji> Spring Semester</>}/>
+        <SemesterTable semester={fallSemester} headerText={<>Fall Semester</>}/>
+        <SemesterTable semester={springSemester} headerText={<>Spring Semester</>}/>
       </div>
     </section>
   );

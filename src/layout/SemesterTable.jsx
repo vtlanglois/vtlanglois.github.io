@@ -16,9 +16,9 @@ const SemesterTable = ({ semester, headerText }) => {
           {semester.map((item) => {
             return (
               <tr>
-                <td>AAA</td>
-                <td>AAA</td>
-                <td>AAA</td>
+                <td className="fw-bold w-50">{item.title}</td>
+                <td>{item.number}</td>
+                <td>{item.grade}</td>
               </tr>
             );
           })}
