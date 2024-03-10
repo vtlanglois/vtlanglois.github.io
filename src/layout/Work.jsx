@@ -102,10 +102,10 @@ const Work = () => {
               </div>
               <div className="row mb-1">
                 <div className="col">
-                  <h4 className="h6">
+                  <p className="h6">
                     <Emoji>💼</Emoji>
                     <i>{item.job}</i>
-                  </h4>
+                  </p>
                 </div>
               </div>
               <div className="row mb-3">

@@ -15,12 +15,12 @@ const Education = () => {
         </div>
         <div className="row">
           <div className="col-md-6 col-sm-6">
-            <h3 className="h5">
+            <p className="h5">
               <b>
                 <u>Indiana University</u>
               </b>
               , Bloomington, Indiana
-            </h3>
+            </p>
           </div>
           <div className="col-md-6 col-sm-6 text-sm-end">
             <p className="h6">
