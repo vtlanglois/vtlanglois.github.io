@@ -1,6 +1,7 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./sass/App.scss";
 import Home from "./pages/Home";
+import Transcript from "./pages/Transcript";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/test" element={<><p>TEST</p></>} />
+          <Route path="/transcript" element={<Transcript />} />
         </Routes>
       </main>
       <footer>
