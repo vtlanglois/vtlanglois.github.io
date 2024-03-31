@@ -38,7 +38,11 @@ const Work = () => {
       },
       details: [
         "Collaborated remotely with a 7-person team to develop the Indiana Prosecutor Case Management System website.",
-        "Engaged in professional development, civic engagement, and networking events as a TechPoint Xtern.",
+        <>
+          Engaged in professional development, civic engagement, and networking
+          events as a <a href="https://techpoint.org/xtern/">TechPoint Xtern</a>
+          .
+        </>,
         "Implemented quality-of-life features that effectively reduced customer service requests by hundreds, enhancing overall user and developer experiences.",
         "Utilized React/Node.js for frontend development, PHP for backend development, and MySQL databases for seamless integration.",
       ],
