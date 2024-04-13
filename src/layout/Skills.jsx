@@ -27,6 +27,11 @@ const SkillsList = () => {
           emoji: "♿️",
           items: ["WCAG", "ARIA"],
         },
+        {
+          category: "Testing",
+          emoji: "🧪",
+          items: ["Jest", "Chance"]
+        }
       ],
     },
     {
